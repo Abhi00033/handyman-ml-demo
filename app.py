@@ -1,43 +1,39 @@
 import streamlit as st
-import pandas as pd
 import time
 from PIL import Image
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="Handyman AI Vision + ML Estimator",
+    page_title="Leo — Star Handyman Project Coordinator",
     layout="wide",
-    page_icon="📸",
+    page_icon="🛠️",
     initial_sidebar_state="collapsed"
 )
 
-# --- RESPONSIVE CSS INJECTION ---
+# --- RESPONSIVE & MOBILE-FRIENDLY CSS ---
 st.markdown("""
 <style>
-    html, body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    }
     .block-container {
         padding-top: 1.5rem !important;
         padding-bottom: 3rem !important;
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-        max-width: 1200px !important;
+        max-width: 900px !important;
     }
-    .flow-card {
+    .chat-bubble-leo {
         background-color: var(--secondary-background-color);
-        border: 1px solid rgba(128, 128, 128, 0.2);
+        border: 1px solid rgba(128, 128, 128, 0.25);
+        border-radius: 12px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+    .quote-box {
+        background-color: var(--background-color);
+        border: 2px solid #ffaa00;
         border-radius: 12px;
         padding: 1.25rem;
-        margin-bottom: 1.25rem;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    }
-    [data-testid="stMetric"] {
-        background-color: var(--background-color);
-        border: 1px solid rgba(128, 128, 128, 0.2);
-        border-radius: 10px;
-        padding: 0.75rem 1rem !important;
-        text-align: center;
+        margin-top: 1rem;
+        font-family: monospace;
+        white-space: pre-wrap;
     }
     .stButton button {
         width: 100% !important;
@@ -45,201 +41,188 @@ st.markdown("""
         height: 3rem !important;
         font-weight: 600 !important;
     }
-    @media (max-width: 768px) {
-        [data-testid="column"] {
-            width: 100% !important;
-            flex: 1 1 100% !important;
-        }
-    }
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📸 Smart Service Intake & ML Estimator")
-st.caption("Flow: Image Upload → AI Vision Inspection → Intent Classification → Decision Tree → In-House ML Estimation")
+st.title("🛠️ Star Handyman — Leo Coordinator Demo")
+st.caption("Faithful recreation of Leo's 7-Stage Workflow, Master Task Times & Dynamic Scoping")
 
-col_left, col_right = st.columns([1.2, 1], gap="large")
+# --- MASTER TASK LIBRARY BASE TIMES (SECTION 4 REFERENCE) ---
+TASK_DATABASE = {
+    "Plumbing": {
+        "Kitchen faucet replacement": {"time": 45, "licensed": False, "diff": 2},
+        "Bathroom faucet replacement": {"time": 45, "licensed": False, "diff": 2},
+        "Kitchen sink P-trap replacement": {"time": 30, "licensed": False, "diff": 2},
+        "Toilet installation": {"time": 60, "licensed": False, "diff": 3},
+        "Toilet wax ring replacement": {"time": 45, "licensed": False, "diff": 3},
+    },
+    "Electrical": {
+        "Light fixture replacement": {"time": 35, "licensed": False, "diff": 3},
+        "Ceiling fan installation": {"time": 75, "licensed": False, "diff": 4},
+        "GFCI safety outlet replacement": {"time": 30, "licensed": False, "diff": 4},
+        "New 240V heavy outlet (Dryer/EV)": {"time": 90, "licensed": True, "diff": 6},
+    },
+    "Home Repairs": {
+        "TV mount installation": {"time": 60, "licensed": False, "diff": 3},
+        "Hide wires/cables behind drywall": {"time": 90, "licensed": False, "diff": 4},
+        "Drywall hole patch": {"time": 60, "licensed": False, "diff": 4},
+    }
+}
 
-with col_left:
-    # -------------------------------------------------------------
-    # STEP 1: CUSTOMER UPLOADS PHOTO
-    # -------------------------------------------------------------
-    st.markdown('<div class="flow-card">', unsafe_allow_html=True)
-    st.subheader("Step 1: Upload Job Site Photo")
-    uploaded_file = st.file_uploader("Upload an image of your wall, room, or appliance", type=["jpg", "jpeg", "png"])
-    
-    # State simulation for AI vision detection
-    detected_wall_state = "Dry & Solid"
-    detected_surface = "Drywall"
+# --- SESSION STATE INITIALIZATION ---
+if "step" not in st.session_state:
+    st.session_state.step = 1
+    st.session_state.answers = {}
 
-    if uploaded_file is not None:
-        img = Image.open(uploaded_file)
-        st.image(img, caption="Customer Uploaded Photo", use_container_width=True)
+# --- STAGE 1 & 2: GREETING, PHOTO INTAKE & GOAL ---
+st.markdown('<div class="chat-bubble-leo">', unsafe_allow_html=True)
+st.write("**Leo:** Hi! I'm Leo, your project coordinator at Star Handyman. I help figure out what needs to be done and connect you with the right Tasker for the job.")
+st.write("To get started, please upload a photo and describe what you'd like done.")
+st.markdown('</div>', unsafe_allow_html=True)
 
-        # Vision AI simulation toggle (to demonstrate both dry and wet scenarios to client)
-        st.markdown("**Simulated AI Vision Detection Result:**")
-        vision_sim = st.radio(
-            "AI Vision Inspection Output:",
-            ["Vision AI detects: Wall is Dry & Solid", "Vision AI detects: Wall has Wetness / Moisture Discoloration"]
-        )
-        if "Wetness" in vision_sim:
-            detected_wall_state = "Wet / Damp"
-            st.error("🤖 **AI Vision Inspection:** Detected dampness/dark patches on wall surface.")
-        else:
-            detected_wall_state = "Dry & Solid"
-            st.success("🤖 **AI Vision Inspection:** Surface detected as dry and structurally intact.")
+uploaded_file = st.file_uploader("Upload job photo:", type=["jpg", "jpeg", "png"])
+user_desc = st.text_input("Describe your project:", placeholder="e.g., My bathroom faucet is leaking and needs replacement")
+
+if uploaded_file and user_desc and st.session_state.step == 1:
+    if st.button("Submit Project Details", type="primary"):
+        st.session_state.step = 2
+        st.rerun()
+
+# --- STAGE 3: CLARIFICATION (ONE AT A TIME, NUMBERED) ---
+if st.session_state.step >= 2:
+    # Classify project category based on user prompt
+    desc_lower = user_desc.lower()
+    if "tv" in desc_lower or "mount" in desc_lower:
+        cat = "Home Repairs"
+        task_name = "TV mount installation"
+    elif "light" in desc_lower or "fan" in desc_lower or "outlet" in desc_lower:
+        cat = "Electrical"
+        task_name = "Ceiling fan installation"
     else:
-        st.info("💡 Please upload an image (or test with any sample image) to start the AI intake.")
+        cat = "Plumbing"
+        task_name = "Bathroom faucet replacement"
+
+    st.markdown("---")
+    st.markdown('<div class="chat-bubble-leo">', unsafe_allow_html=True)
+    st.write(f"**Leo:** Thanks for the photo and details. I can see the setup clearly.")
+    st.write(f"I have **4 quick questions** to prepare your accurate labour estimate.")
     st.markdown('</div>', unsafe_allow_html=True)
 
-    # -------------------------------------------------------------
-    # STEP 2 & 3: CUSTOMER DESCRIPTION & CATEGORY CLASSIFICATION
-    # -------------------------------------------------------------
-    st.markdown('<div class="flow-card">', unsafe_allow_html=True)
-    st.subheader("Step 2: What service do you need for this?")
-    
-    user_prompt = st.text_input(
-        "Describe what you want to get done:",
-        placeholder="e.g., Mount my 65 inch TV on this wall / Fix pipe leak under sink"
+    # QUESTION 1/4: THE GOAL (Rule 5: Ask goal first)
+    st.markdown('<div class="chat-bubble-leo">', unsafe_allow_html=True)
+    st.write("**Question 1/4:** Before diving into details, what is your primary goal with this project?")
+    q1_choice = st.radio(
+        "Choose an option:",
+        ["Full Replacement with new hardware", "Repair / Fix the existing one", "Complete Redo / Relocate"],
+        key="q1"
     )
-
-    selected_service = "TV Mount Fitting"
-    category = "Mounting Services"
-
-    if user_prompt:
-        # Keyword-based / NLP classifier mapping to 400+ catalog services
-        prompt_lower = user_prompt.lower()
-        if any(w in prompt_lower for w in ["tv", "mount", "bracket", "hang", "television"]):
-            selected_service = "TV Mount Fitting"
-            category = "Mounting Services"
-        elif any(w in prompt_lower for w in ["pipe", "sink", "leak", "plumb", "drain", "faucet"]):
-            selected_service = "Plumbing Leak & Fitting"
-            category = "Plumbing Services"
-        elif any(w in prompt_lower for w in ["paint", "hole", "crack", "patch", "repair"]):
-            selected_service = "Drywall Patch & Repair"
-            category = "Home Repairs"
-        else:
-            selected_service = "General Handyman Fitting"
-            category = "Home Improving"
-
-        st.success(f"🤖 **AI Classification:** Assigned to Category: **`{category}`** → Service: **`{selected_service}`**")
     st.markdown('</div>', unsafe_allow_html=True)
 
-    # -------------------------------------------------------------
-    # STEP 4: SERVICE SPECIFIC DECISION TREE QUESTIONS
-    # -------------------------------------------------------------
-    base_minutes = 45
-    base_price = 55
-    tech_level = "Standard Handyman"
-    tools = []
-
-    st.markdown('<div class="flow-card">', unsafe_allow_html=True)
-    st.subheader(f"Step 3: Questions for {selected_service}")
-
-    if selected_service == "TV Mount Fitting":
-        tv_size = st.select_slider("Select TV Screen Size (inches)", options=[32, 43, 50, 55, 65, 75, 85], value=55)
-        if tv_size >= 65:
-            base_minutes += 25
-            base_price += 30
-
-        # Incorporating the AI detected vision state into the questions
-        st.write(f"**Wall Condition (from AI Vision):** `{detected_wall_state}`")
-
-        if detected_wall_state == "Dry & Solid":
-            wall_material = st.radio("Wall Construction Type:", ["Drywall / Wood Studs", "Brick / Concrete"])
-            if "Brick" in wall_material:
-                base_minutes += 20
-                base_price += 25
-                tech_level = "Masonry Specialist"
-                tools.append("Hammer Drill & Masonry Anchors")
-
-            has_bracket = st.radio("Do you already have the mount bracket?", ["Yes, I have it", "No, technician must provide bracket"])
-            if "No" in has_bracket:
-                base_price += 40
-                tools.append("Universal Tilt Mount Kit")
-
-        else: # Wet / Damp Wall Scenario
-            st.warning("⚠️ **Safety Inspection Branch:** Since AI detected moisture, additional checks are required.")
-            base_minutes += 45
-            base_price += 60
-            tech_level = "Senior Structural Specialist"
-            tools.append("Moisture Detector & Chemical Wall Anchors")
-
-            active_leak = st.radio("Is this moisture from an active plumbing pipe inside this wall?", ["Yes, active leak", "No, surface condensation / weather seepage"])
-            if "Yes" in active_leak:
-                base_minutes += 30
-                base_price += 50
-                tools.append("Pipe Pressure Test Kit")
-
-    elif selected_service == "Plumbing Leak & Fitting":
-        base_minutes = 60
-        base_price = 70
-        leak_loc = st.radio("Leak Location:", ["Exposed Pipe Under Sink", "Concealed Inside Wall / Tile"])
-        if "Concealed" in leak_loc:
-            base_minutes += 60
-            base_price += 80
-            tech_level = "Master Plumber"
-            tools.append("Inspection Endoscope Camera")
-
+    # QUESTION 2/4: SURFACE / TECHNICAL CONDITION
+    st.markdown('<div class="chat-bubble-leo">', unsafe_allow_html=True)
+    st.write("**Question 2/4:** What is the condition of the working area?")
+    if cat == "Home Repairs":
+        q2_choice = st.radio(
+            "Wall structure type:",
+            ["Standard Drywall / Wood Studs (Dry & Solid)", "Solid Brick / Concrete Wall", "Wall has dampness / peeling paint"],
+            key="q2"
+        )
+    elif cat == "Plumbing":
+        q2_choice = st.radio(
+            "Water shut-off condition:",
+            ["Water is shut off / Valve turns smoothly", "Shut-off valve is stuck / leaking itself", "Main water shut-off required"],
+            key="q2"
+        )
     else:
-        base_minutes = 50
-        base_price = 60
-        tools.append("Standard Handyman Repair Kit")
-
-    st.markdown('</div>', unsafe_allow_html=True)
-    calc_button = st.button("⚡ Calculate Instant ML Estimate", type="primary")
-
-# --- RIGHT COLUMN: ML PREDICTION & DISPATCH ---
-with col_right:
-    st.markdown('<div class="flow-card">', unsafe_allow_html=True)
-    st.subheader("Step 4: Real-Time ML Engine Output")
-
-    if calc_button:
-        start_t = time.perf_counter()
-        time.sleep(0.01) # Simulate sub-second inference
-        latency = (time.perf_counter() - start_t) * 1000
-
-        st.success("✅ Estimation Generated by In-House Model")
-
-        m1, m2, m3 = st.columns(3)
-        m1.metric("Est. Duration", f"{base_minutes} mins")
-        m2.metric("Est. Price", f"${base_price}")
-        m3.metric("ML Latency", f"{latency:.1f} ms")
-
-        st.markdown("---")
-        st.markdown("**Technician Auto-Dispatch Profile:**")
-        st.write(f"• **Assigned Tier:** `{tech_level}`")
-        st.write(f"• **Auto-Assigned Equipment:** `{', '.join(tools) if tools else 'Standard Kit'}`")
-
-        st.markdown("---")
-        st.subheader("Step 5: Dynamic Slot Reservation")
-        st.caption(f"Locking calendar window for **{base_minutes} mins**:")
-
-        slot_end_hr = 10 + (base_minutes // 60)
-        slot_end_min = base_minutes % 60
-
-        slots = [
-            f"Tomorrow: 10:00 AM – {slot_end_hr}:{slot_end_min:02d} AM",
-            f"Tomorrow: 02:00 PM – {2 + base_minutes//60}:{base_minutes%60:02d} PM",
-            f"Friday: 11:30 AM – {11 + (30+base_minutes)//60}:{(30+base_minutes)%60:02d} AM"
-        ]
-        st.selectbox("Available Slots:", slots)
-
-        if st.button("Confirm & Reserve Slot"):
-            st.balloons()
-            st.success("Booking confirmed! Stored in Laravel MySQL database.")
-    else:
-        st.info("👈 Upload an image, type what you need, answer the branch questions, and click **Calculate**.")
-
+        q2_choice = st.radio(
+            "Wiring condition:",
+            ["Existing wiring is intact in junction box", "Fresh wire run required from circuit breaker"],
+            key="q2"
+        )
     st.markdown('</div>', unsafe_allow_html=True)
 
-# --- COMPARISON TABLE ---
-st.markdown("---")
-st.subheader("📋 Transition Architecture: Where AI Stops & ML Takes Over")
-st.markdown("""
-| Stage | Component Responsible | Why This Architecture Wins |
-|---|---|---|
-| **1. Image Inspection** | Multimodal Vision AI | Detects dampness, pipe layout, wall material from raw photos. |
-| **2. Intent & Category Mapping** | Fast Intent Classifier | Matches customer's description to 1 of 400+ services. |
-| **3. Scenario Questions** | Dynamic Decision Tree | Asks consistent, structured questions without hallucinations. |
-| **4. Time & Price Estimation** | **Trained ML Regressor (XGBoost)** | **Instant (<10ms), zero API fees, mathematical accuracy.** |
-""")
+    # QUESTION 3/4: STAGE 4 MATERIALS CHECK
+    st.markdown('<div class="chat-bubble-leo">', unsafe_allow_html=True)
+    st.write("**Question 3/4:** Do you already have the materials needed, or would you like the Tasker to bring them?")
+    q3_choice = st.radio(
+        "Materials responsibility:",
+        ["I already have the hardware / materials", "Tasker should supply standard materials"],
+        key="q3"
+    )
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    # QUESTION 4/4: STAGE 4.5 DISPOSAL CHECK
+    st.markdown('<div class="chat-bubble-leo">', unsafe_allow_html=True)
+    st.write("**Question 4/4:** Would you like the Tasker to handle the disposal of the old parts, or dispose of them yourself?")
+    q4_choice = st.radio(
+        "Disposal handling:",
+        ["Tasker should handle disposal", "I will dispose of old parts myself"],
+        key="q4"
+    )
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    # --- STAGE 5 & 6: CALCULATION ENGINE & QUOTE DELIVERY ---
+    if st.button("Generate Leo's Official Project Estimate", type="primary"):
+        # 1. Base Task Time
+        base_info = TASK_DATABASE[cat][task_name]
+        total_minutes = base_info["time"]
+        is_licensed = base_info["licensed"]
+
+        # 2. Material pickup buffer (Rule 7: +30 min if Tasker sources)
+        tasker_brings_materials = "Tasker should supply" in q3_choice
+        if tasker_brings_materials:
+            total_minutes += 30
+
+        # 3. Complexity buffer
+        if "Brick" in q2_choice or "stuck" in q2_choice or "Fresh wire" in q2_choice:
+            total_minutes += 30
+
+        # 4. Enforce 1-Hour Minimum (Rule 5)
+        if total_minutes < 60:
+            total_minutes = 60
+
+        # 5. Round Up to Nearest 15 Minutes (Rule 6)
+        remainder = total_minutes % 15
+        if remainder != 0:
+            total_minutes += (15 - remainder)
+
+        # 6. Format Display Time (Rule 4)
+        hrs = total_minutes // 60
+        mins = total_minutes % 60
+        time_str = f"{hrs} hour{'s' if hrs > 1 else ''}"
+        if mins > 0:
+            time_str += f" {mins} minutes"
+
+        tasker_type = "1 Licensed Trade Specialist" if is_licensed else "1 General Tasker"
+
+        # --- OFFICIAL STAGE 8 QUOTE TEMPLATE ---
+        quote_text = f"""PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST
+
+📋 Project Scope:
+Execute {task_name.lower()} according to verified specifications ({q1_choice.lower()}). 
+
+👷 Tasker Needed: {tasker_type}
+
+📦 Materials: {"Tasker will bring everything and confirm the details with you in the chatbox after you accept." if tasker_brings_materials else "No materials needed for this project."}
+
+⏱️ Labour Time: {time_str}
+
+This estimate covers labour only. Material details will be arranged with your Tasker in the chatbox, and material costs (with receipts) will be added upon project completion.
+
+{"Disposal is not included in this estimate. Please arrange the details with your Tasker in the chatbox." if "Tasker should handle" in q4_choice else "Disposal will be handled by the Client."}
+
+Do you accept this estimate?"""
+
+        st.markdown('<div class="quote-box">', unsafe_allow_html=True)
+        st.text(quote_text)
+        st.markdown('</div>', unsafe_allow_html=True)
+
+        col_acc1, col_acc2 = st.columns(2)
+        with col_acc1:
+            if st.button("Accept Estimate"):
+                st.balloons()
+                st.success("Perfect! We'll match you with the right Tasker(s) and connect you in the chatbox shortly.")
+        with col_acc2:
+            if st.button("Start Over"):
+                st.session_state.step = 1
+                st.rerun()
