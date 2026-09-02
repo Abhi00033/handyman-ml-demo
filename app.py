@@ -1,379 +1,575 @@
 import streamlit as st
-import time
+import re
 from PIL import Image
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="Leo | Star Handyman Coordinator",
+    page_title="Star Handyman | Project Coordinator Leo",
     layout="wide",
     page_icon="👷‍♂️",
     initial_sidebar_state="collapsed"
 )
 
-# --- MODERN DESIGN SYSTEM & RESPONSIVE CSS ---
+# Custom Styling (Mobile & Desktop Responsive, Zero Tag Leaks)
 st.markdown("""
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-    
-    html, body, [class*="css"] {
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    }
-
-    /* Container fluid constraints */
     .block-container {
         padding-top: 1.5rem !important;
         padding-bottom: 3rem !important;
-        max-width: 880px !important;
+        max-width: 860px !important;
     }
-
-    /* Top Brand Bar */
-    .brand-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    .header-banner {
         background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
         color: white;
-        padding: 1rem 1.25rem;
-        border-radius: 16px;
-        margin-bottom: 1.25rem;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        padding: 1.25rem 1.5rem;
+        border-radius: 12px;
+        margin-bottom: 1.5rem;
     }
-    .coordinator-info {
-        display: flex;
-        align-items: center;
-        gap: 12px;
+    .chat-bubble {
+        background-color: var(--secondary-background-color);
+        border: 1px solid rgba(128, 128, 128, 0.2);
+        border-left: 4px solid #3b82f6;
+        border-radius: 10px;
+        padding: 1.2rem;
+        margin-bottom: 1.2rem;
     }
-    .avatar-icon {
-        background: #3b82f6;
-        color: white;
-        font-size: 1.5rem;
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 2px 8px rgba(59,130,246,0.4);
-    }
-    .status-dot {
-        height: 10px;
-        width: 10px;
-        background-color: #22c55e;
-        border-radius: 50%;
-        display: inline-block;
-        margin-right: 5px;
-    }
-
-    /* Progress Stepper */
-    .step-badge {
-        background: rgba(59, 130, 246, 0.1);
+    .step-pill {
+        background: rgba(59, 130, 246, 0.12);
         color: #2563eb;
-        border: 1px solid rgba(59, 130, 246, 0.2);
-        padding: 4px 10px;
+        border: 1px solid rgba(59, 130, 246, 0.25);
+        padding: 3px 10px;
         border-radius: 20px;
         font-size: 0.8rem;
         font-weight: 600;
         display: inline-block;
-        margin-bottom: 8px;
+        margin-bottom: 6px;
     }
-
-    /* Chat Bubbles */
-    .bubble-leo {
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
-        border-left: 4px solid #3b82f6;
-        border-radius: 12px;
-        padding: 1.15rem 1.25rem;
-        margin-bottom: 1rem;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.02);
-    }
-    
-    @media (prefers-color-scheme: dark) {
-        .bubble-leo {
-            background: #1e293b;
-            border-color: #334155;
-            border-left: 4px solid #3b82f6;
-            color: #f1f5f9;
-        }
-    }
-
-    /* Interactive Quote Voucher */
-    .quote-ticket {
-        background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-        border: 2px solid #e2e8f0;
-        border-top: 6px solid #f59e0b;
-        border-radius: 16px;
-        padding: 1.5rem;
-        margin-top: 1.5rem;
-        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
-    }
-    @media (prefers-color-scheme: dark) {
-        .quote-ticket {
-            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
-            border-color: #334155;
-            border-top: 6px solid #f59e0b;
-            color: #f8fafc;
-        }
-    }
-
-    /* Stats Grid */
-    .stats-card {
-        background: var(--background-color);
-        border: 1px solid rgba(128, 128, 128, 0.2);
-        border-radius: 12px;
-        padding: 1rem;
-        text-align: center;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-    }
-
-    /* Touch & Mobile Specific Rules */
-    @media (max-width: 768px) {
-        .block-container {
-            padding-left: 0.75rem !important;
-            padding-right: 0.75rem !important;
-        }
-        .brand-header {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 8px;
-        }
-        .stButton button {
-            height: 3.2rem !important;
-            font-size: 1.05rem !important;
-        }
+    .stButton button {
+        width: 100% !important;
+        border-radius: 8px !important;
+        height: 3.2rem !important;
+        font-weight: 600 !important;
+        font-size: 1.05rem !important;
     }
 </style>
 """, unsafe_allow_html=True)
 
-# --- TOP BRAND / COORDINATOR HEADER ---
 st.markdown("""
-<div class="brand-header">
-    <div class="coordinator-info">
-        <div class="avatar-icon">👷‍♂️</div>
-        <div>
-            <div style="font-size: 1.15rem; font-weight: 700; letter-spacing: -0.01em;">Leo • Star Handyman</div>
-            <div style="font-size: 0.85rem; opacity: 0.85;">
-                <span class="status-dot"></span>Project Coordinator (Scoping & Dispatch)
-            </div>
-        </div>
-    </div>
-    <div style="font-size: 0.8rem; background: rgba(255,255,255,0.15); padding: 4px 10px; border-radius: 8px;">
-        Zero-LLM ML Engine
-    </div>
+<div class="header-banner">
+    <div style="font-size: 1.25rem; font-weight: 700;">👷‍♂️ Leo — Star Handyman Project Coordinator</div>
+    <div style="font-size: 0.88rem; opacity: 0.85;">Intelligent Project Scoping Engine • Zero Third-Party AI API Dependency</div>
 </div>
 """, unsafe_allow_html=True)
 
-# --- MASTER TASK LIBRARY (Section 4 Reference) ---
-TASK_DATABASE = {
-    "Plumbing": {
-        "Kitchen faucet replacement": {"time": 45, "licensed": False, "diff": 2},
-        "Bathroom faucet replacement": {"time": 45, "licensed": False, "diff": 2},
-        "Kitchen sink P-trap replacement": {"time": 30, "licensed": False, "diff": 2},
-        "Toilet installation": {"time": 60, "licensed": False, "diff": 3},
-        "Toilet wax ring replacement": {"time": 45, "licensed": False, "diff": 3},
+# --- MASTER CATALOG IMPLEMENTING SECTION 3 & 4 OF SYSTEM PROMPT ---
+MASTER_SERVICES = {
+    # 1. HOME REPAIRS [HR] (Section 4 Reference)
+    "tv_mount": {
+        "title": "TV Mount Installation",
+        "category": "Home Repairs [HR]",
+        "difficulty": 3,
+        "base_time": 60,
+        "tasker": "1 General Tasker",
+        "multi_visit": False,
+        "keywords": [r"\btv\b", r"\btelevision\b", r"\bmount\b", r"\bbracket\b", r"\bhang tv\b", r"\bscreen\b"],
+        "questions": [
+            {
+                "num": "Question 1/4",
+                "text": "What size is your TV, and what type of mount are you looking to use?",
+                "options": [
+                    "Under 55 inches (Standard fixed / tilt bracket)",
+                    "55 to 65 inches (Standard fixed / tilt bracket)",
+                    "65 to 85 inches (Heavy-duty or full-motion swivel arm)",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 15, 30, 15]
+            },
+            {
+                "num": "Question 2/4",
+                "text": "What is the wall construction where the TV will be mounted?",
+                "options": [
+                    "Standard drywall with wood studs (Dry & solid)",
+                    "Solid brick or concrete wall (Requires hammer drill & masonry anchors)",
+                    "Wall has dampness or peeling paint (Needs structural check)",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 20, 35, 15]
+            },
+            {
+                "num": "Question 3/4",
+                "text": "Do you already have the mount bracket and hardware kit ready on site?",
+                "options": [
+                    "Yes, I have the bracket and wall screws ready",
+                    "No, Tasker must supply heavy-duty mount bracket (+30 min pickup)",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 30, 15]
+            },
+            {
+                "num": "Question 4/4",
+                "text": "Would you like power and HDMI cables concealed inside the drywall?",
+                "options": [
+                    "No, external surface cable channel or visible cords are fine",
+                    "Yes, cut drywall pass-throughs and conceal wires inside wall (+30 min)",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 30, 15]
+            }
+        ]
     },
-    "Electrical": {
-        "Light fixture replacement": {"time": 35, "licensed": False, "diff": 3},
-        "Ceiling fan installation": {"time": 75, "licensed": False, "diff": 4},
-        "GFCI safety outlet replacement": {"time": 30, "licensed": False, "diff": 4},
-        "New 240V heavy outlet (Dryer/EV)": {"time": 90, "licensed": True, "diff": 6},
+
+    # 2. PLUMBING [PL] (Section 4 Reference)
+    "plumbing_faucet": {
+        "title": "Bathroom / Kitchen Faucet Replacement",
+        "category": "Plumbing [PL]",
+        "difficulty": 2,
+        "base_time": 45,
+        "tasker": "1 General Tasker",
+        "multi_visit": False,
+        "keywords": [
+            r"\btap\b", r"\bfaucet\b", r"\bshower\b", r"\bwashroom\b",
+            r"\bbathroom\b", r"\bleak\b", r"\bsink\b", r"\bwater\b",
+            r"\bdrain\b", r"\bpipe\b", r"\btoilet\b", r"\bflush\b", r"\bp-trap\b", r"\bclog\b"
+        ],
+        "questions": [
+            {
+                "num": "Question 1/4",
+                "text": "What is the primary goal for this plumbing fixture?",
+                "options": [
+                    "Full replacement with a new faucet / fixture",
+                    "Repair the existing fixture (replace cartridge or stop dripping)",
+                    "Replace both fixture and under-sink curved P-trap pipe",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 0, 25, 15]
+            },
+            {
+                "num": "Question 2/4",
+                "text": "How is the water shut-off valve behaving?",
+                "options": [
+                    "Turns smoothly and shuts off water completely",
+                    "Valve is stiff, stuck, or leaking itself (Needs replacement)",
+                    "No isolation valve; requires main home water line shut-off",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 25, 20, 15]
+            },
+            {
+                "num": "Question 3/4",
+                "text": "Do you already have the replacement fixture / parts purchased?",
+                "options": [
+                    "Yes, replacement fixture is on site and unboxed",
+                    "No, Tasker must source standard matching fixture (+30 min pickup)",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 30, 15]
+            },
+            {
+                "num": "Question 4/4",
+                "text": "Would you like the Tasker to dispose of the old parts?",
+                "options": [
+                    "Minimal disposal — Tasker will handle during cleanup",
+                    "Tasker handles disposal",
+                    "I will dispose of old parts myself",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 0, 0, 0]
+            }
+        ]
     },
-    "Home Repairs": {
-        "TV mount installation": {"time": 60, "licensed": False, "diff": 3},
-        "Hide wires/cables behind drywall": {"time": 90, "licensed": False, "diff": 4},
-        "Drywall hole patch": {"time": 60, "licensed": False, "diff": 4},
+
+    # 3. ELECTRICAL [EL] (Section 4 Reference)
+    "electrical_fan": {
+        "title": "Ceiling Fan / Light Fixture Installation",
+        "category": "Electrical [EL]",
+        "difficulty": 4,
+        "base_time": 60,
+        "tasker": "1 General Tasker",
+        "multi_visit": False,
+        "keywords": [
+            r"\bfan\b", r"\bceiling fan\b", r"\blight\b", r"\bchandelier\b",
+            r"\bfixture\b", r"\bbulb\b", r"\bswitch\b", r"\boutlet\b", r"\bwiring\b"
+        ],
+        "questions": [
+            {
+                "num": "Question 1/4",
+                "text": "Is this replacing an existing fixture, or a brand-new ceiling location?",
+                "options": [
+                    "Replacing an existing ceiling fan or light (Wires already in junction box)",
+                    "Brand-new location (Requires pulling fresh wiring from switch)",
+                    "Upgrading existing fan to include remote control receiver",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 45, 20, 20]
+            },
+            {
+                "num": "Question 2/4",
+                "text": "What is the ceiling height in this room?",
+                "options": [
+                    "Standard ceiling height (8 to 9 feet)",
+                    "High ceiling (10 to 14 feet, requires tall ladder)",
+                    "Vaulted or sloped ceiling",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 25, 25, 15]
+            },
+            {
+                "num": "Question 3/4",
+                "text": "Do you have the new fixture ready on site?",
+                "options": [
+                    "Yes, new fixture is on site and unboxed",
+                    "No, Tasker should supply standard unit (+30 min pickup)",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 30, 15]
+            },
+            {
+                "num": "Question 4/4",
+                "text": "Do you need disposal of the old fixture?",
+                "options": [
+                    "Tasker handles disposal",
+                    "I will dispose of old fixture myself",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 0, 0]
+            }
+        ]
+    },
+
+    # 4. HOME IMPROVEMENT [HI] (Section 4 Reference)
+    "drywall_patch": {
+        "title": "Drywall Patch & Hole Repair",
+        "category": "Home Improvement [HI]",
+        "difficulty": 4,
+        "base_time": 60,
+        "tasker": "1 General Tasker",
+        "multi_visit": True,  # Per Section 4 Master Library: Multi-visit Yes for compound drying
+        "keywords": [
+            r"\bdrywall\b", r"\bhole\b", r"\bpatch\b", r"\bcrack\b",
+            r"\bsheetrock\b", r"\bpaint\b", r"\bplaster\b"
+        ],
+        "questions": [
+            {
+                "num": "Question 1/4",
+                "text": "What size is the damaged section of the wall?",
+                "options": [
+                    "Small hole or door-handle dent (under 5 inches)",
+                    "Medium opening (6 to 12 inches, requires mesh/support backer)",
+                    "Large area (over 12 inches, requires sheetrock cutout)",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 25, 45, 20]
+            },
+            {
+                "num": "Question 2/4",
+                "text": "Is the damaged area completely dry, or is there moisture behind it?",
+                "options": [
+                    "Completely dry wall (Accidental impact or nail damage)",
+                    "Damp, soft, or water-stained area (Requires source leak check)",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 30, 15]
+            },
+            {
+                "num": "Question 3/4",
+                "text": "Do you have joint compound, mesh tape, and patch board ready?",
+                "options": [
+                    "I have compound and tape ready",
+                    "Tasker should supply patching compound, mesh, and board (+30 min pickup)",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 30, 15]
+            },
+            {
+                "num": "Question 4/4",
+                "text": "Would you like paint touch-up applied after the patch is sanded smooth?",
+                "options": [
+                    "Yes, match and paint over the patch (Client provides paint)",
+                    "No, leave smooth sanded patch ready for me to paint",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [20, 0, 10]
+            }
+        ]
+    },
+
+    # 5. CARPENTRY [CR] (Section 4 Reference)
+    "carpentry_doors": {
+        "title": "Door Adjustment, Locks & Cabinet Hardware",
+        "category": "Carpentry [CR]",
+        "difficulty": 2,
+        "base_time": 45,
+        "tasker": "1 General Tasker",
+        "multi_visit": False,
+        "keywords": [
+            r"\bdoor\b", r"\block\b", r"\bcabinet\b", r"\bshelf\b",
+            r"\bhinge\b", r"\bhandle\b", r"\bwood\b", r"\bfurniture\b"
+        ],
+        "questions": [
+            {
+                "num": "Question 1/4",
+                "text": "What is the primary scope of work for this item?",
+                "options": [
+                    "Realign, adjust, or tighten existing hardware / hinges",
+                    "Full hardware, lock, or door replacement with new piece",
+                    "Assemble flat-pack furniture",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 15, 30, 15]
+            },
+            {
+                "num": "Question 2/4",
+                "text": "What is the condition of the mounting wood or frame?",
+                "options": [
+                    "Standard wood in solid condition",
+                    "Damaged or stripped screw holes (Needs dowels / re-anchoring)",
+                    "Hardwood, masonry, or metal frame",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 20, 25, 15]
+            },
+            {
+                "num": "Question 3/4",
+                "text": "Do you have all replacement hardware ready on site?",
+                "options": [
+                    "Yes, all hardware and parts are ready",
+                    "Tasker should supply standard hardware / screws (+30 min pickup)",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 30, 15]
+            },
+            {
+                "num": "Question 4/4",
+                "text": "Do you need disposal of old parts?",
+                "options": [
+                    "Minimal disposal — Tasker will handle during cleanup",
+                    "Tasker handles disposal",
+                    "I will dispose of parts myself",
+                    "✏️ Type custom answer / Other details..."
+                ],
+                "impact": [0, 0, 0, 0]
+            }
+        ]
     }
 }
 
+# --- SERVICE CLASSIFIER: PRIORITIZES USER TEXT ---
+def classify_input(text: str, visual_tag: str):
+    clean_text = text.lower().strip()
+
+    # Match User Text First via Regex Word Boundaries
+    if clean_text:
+        for key, data in MASTER_SERVICES.items():
+            for pat in data["keywords"]:
+                if re.search(pat, clean_text):
+                    return key
+
+    # Match Image Tag if Text has no keywords
+    clean_vis = visual_tag.lower().strip()
+    if "tv" in clean_vis or "screen" in clean_vis:
+        return "tv_mount"
+    elif "plumbing" in clean_vis or "tap" in clean_vis or "shower" in clean_vis:
+        return "plumbing_faucet"
+    elif "fan" in clean_vis or "light" in clean_vis:
+        return "electrical_fan"
+    elif "drywall" in clean_vis or "wall" in clean_vis:
+        return "drywall_patch"
+    elif "door" in clean_vis or "cabinet" in clean_vis:
+        return "carpentry_doors"
+
+    # Default fallback
+    return "tv_mount"
+
 # --- SESSION STATE ---
 if "step" not in st.session_state:
-    st.session_state.step = 1
+    st.session_state.step = "intake"
+    st.session_state.user_desc = ""
+    st.session_state.detected_key = None
 
-# --- STAGE 1: INTAKE & PHOTO CAPTURE ---
-if st.session_state.step == 1:
+# ==========================================
+# STAGE 1: GREETING & INTAKE (Section 6, Stage 1)
+# ==========================================
+if st.session_state.step == "intake":
     st.markdown("""
-    <div class="bubble-leo">
-        <span class="step-badge">Stage 1: Intake</span>
+    <div class="chat-bubble">
+        <span class="step-pill">Stage 1: Greeting & Intake</span>
         <div style="font-size: 1.05rem; font-weight: 500; line-height: 1.5;">
             "Hi! I'm Leo, your project coordinator at Star Handyman. I help figure out what needs to be done and connect you with the right Tasker for the job."
         </div>
         <p style="margin-top: 8px; margin-bottom: 0; font-size: 0.9rem; opacity: 0.85;">
-            Send me a clear photo of the area and a quick note on what you need help with.
+            Please upload a photo of the area and tell me what you'd like done.
         </p>
     </div>
     """, unsafe_allow_html=True)
 
     c1, c2 = st.columns([1, 1], gap="medium")
+    detected_visual = ""
+
     with c1:
-        uploaded_file = st.file_uploader("📸 Upload project photo", type=["jpg", "jpeg", "png"])
+        uploaded_file = st.file_uploader("📸 Upload project photo (Optional):", type=["jpg", "jpeg", "png"])
         if uploaded_file:
             img = Image.open(uploaded_file)
             st.image(img, use_container_width=True)
-    with c2:
-        user_desc = st.text_area(
-            "📝 Tell me what's happening:",
-            placeholder="e.g., Faucet leaking under the bathroom sink / Need a 65-inch TV mounted on brick wall",
-            height=130
-        )
-        submit_btn = st.button("Start Scoping With Leo →", type="primary", use_container_width=True)
-        if submit_btn and user_desc:
-            st.session_state.user_desc = user_desc
-            st.session_state.step = 2
-            st.rerun()
 
-# --- STAGE 2: ADAPTIVE QUESTION SEQUENCE ---
-elif st.session_state.step == 2:
-    desc = st.session_state.user_desc.lower()
-    
-    # Classify Category
-    if "tv" in desc or "mount" in desc:
-        cat = "Home Repairs"
-        task_name = "TV mount installation"
-    elif "light" in desc or "fan" in desc or "outlet" in desc:
-        cat = "Electrical"
-        task_name = "Ceiling fan installation"
-    else:
-        cat = "Plumbing"
-        task_name = "Bathroom faucet replacement"
+            st.markdown("**Image Context:**")
+            detected_visual = st.selectbox(
+                "Verify area in photo:",
+                [
+                    "📺 Living Room Wall / TV Mount Area",
+                    "🚿 Bathroom / Kitchen Plumbing (Tap, Shower, Sink)",
+                    "💡 Ceiling Fan / Light Electrical Fixture",
+                    "🧱 Drywall Damage / Wall Hole",
+                    "🚪 Door / Cabinet / Wooden Fixture"
+                ],
+                label_visibility="collapsed"
+            )
+
+    with c2:
+        user_text = st.text_area(
+            "📝 Describe what you'd like done:",
+            placeholder="e.g., 'want to install tv', 'my shower tap is leaking', 'install ceiling fan', 'patch drywall hole'...",
+            height=140
+        )
+        submit = st.button("Start Scoping With Leo →", type="primary")
+
+        if submit:
+            if not user_text.strip() and not uploaded_file:
+                st.warning("Please upload a photo or type a short description of what you need done.")
+            else:
+                st.session_state.user_desc = user_text
+                st.session_state.detected_key = classify_input(user_text, detected_visual)
+                st.session_state.step = "questions"
+                st.rerun()
+
+# ==========================================
+# STAGE 2: CLARIFYING QUESTIONS (Section 6, Stage 3)
+# ==========================================
+elif st.session_state.step == "questions":
+    srv = MASTER_SERVICES[st.session_state.detected_key]
 
     st.markdown(f"""
-    <div class="bubble-leo">
-        <span class="step-badge">Identified: {cat} • {task_name}</span>
-        <div style="font-weight: 500; font-size: 1rem;">
-            "Thanks for the details! I have 4 clarifying questions so I can match the right Tasker and calculate your labour estimate accurately."
+    <div class="chat-bubble">
+        <span class="step-pill">Category: {srv['category']}</span>
+        <div style="font-size: 1.15rem; font-weight: 700;">{srv['title']}</div>
+        <div style="margin-top: 6px; font-size: 0.92rem; opacity: 0.9;">
+            "Thanks for the details! I have 4 clarifying questions to scope the work accurately. You can tap an option or type a custom answer."
         </div>
     </div>
     """, unsafe_allow_html=True)
 
-    # Question 1/4 (Goal First)
-    st.markdown("""
-    <div class="bubble-leo">
-        <span class="step-badge">Question 1/4</span>
-        <div style="font-weight: 600; margin-bottom: 8px;">What is your primary goal for this project?</div>
-    """, unsafe_allow_html=True)
-    q1 = st.radio("Goal:", ["Full Replacement with new hardware", "Repair / Fix existing fixture", "Complete Redo / Relocate"], label_visibility="collapsed")
-    st.markdown("</div>", unsafe_allow_html=True)
+    recorded_answers = []
+    added_mins = 0
 
-    # Question 2/4 (Physical Condition)
-    st.markdown("""
-    <div class="bubble-leo">
-        <span class="step-badge">Question 2/4</span>
-        <div style="font-weight: 600; margin-bottom: 8px;">What is the working area condition?</div>
-    """, unsafe_allow_html=True)
-    if cat == "Home Repairs":
-        q2 = st.radio("Condition:", ["Drywall with Wood Studs (Dry & Solid)", "Solid Brick or Concrete", "Wall is damp or soft"], label_visibility="collapsed")
-    elif cat == "Plumbing":
-        q2 = st.radio("Condition:", ["Shut-off valve turns smoothly", "Shut-off valve stuck / leaking", "Main line shut-off needed"], label_visibility="collapsed")
-    else:
-        q2 = st.radio("Condition:", ["Existing wires present in junction box", "Need new line pulled from panel"], label_visibility="collapsed")
-    st.markdown("</div>", unsafe_allow_html=True)
+    for idx, q in enumerate(srv["questions"]):
+        st.markdown(f"<span class='step-pill'>{q['num']}</span>", unsafe_allow_html=True)
+        st.markdown(f"**{q['text']}**")
 
-    # Question 3/4 (Materials Check)
-    st.markdown("""
-    <div class="bubble-leo">
-        <span class="step-badge">Question 3/4</span>
-        <div style="font-weight: 600; margin-bottom: 8px;">Do you have the hardware, or should the Tasker bring it?</div>
-    """, unsafe_allow_html=True)
-    q3 = st.radio("Materials:", ["I already have the hardware/materials", "Tasker should bring standard materials (+30 min pickup)"], label_visibility="collapsed")
-    st.markdown("</div>", unsafe_allow_html=True)
+        chosen_option = st.radio(
+            f"Select for {q['num']}:",
+            q["options"],
+            key=f"opt_{st.session_state.detected_key}_{idx}",
+            label_visibility="collapsed"
+        )
 
-    # Question 4/4 (Disposal Check)
-    st.markdown("""
-    <div class="bubble-leo">
-        <span class="step-badge">Question 4/4</span>
-        <div style="font-weight: 600; margin-bottom: 8px;">How should disposal of old parts be handled?</div>
-    """, unsafe_allow_html=True)
-    q4 = st.radio("Disposal:", ["Tasker should handle disposal", "I will dispose of old parts myself"], label_visibility="collapsed")
-    st.markdown("</div>", unsafe_allow_html=True)
+        final_answer_text = chosen_option
+        if "✏️ Type custom answer" in chosen_option:
+            custom_input = st.text_input(
+                f"Enter your specific details for {q['num']}:",
+                placeholder="Type your answer here...",
+                key=f"custom_{st.session_state.detected_key}_{idx}"
+            )
+            if custom_input.strip():
+                final_answer_text = custom_input.strip()
+            added_mins += 15
+        else:
+            opt_idx = q["options"].index(chosen_option)
+            added_mins += q["impact"][opt_idx]
 
-    st.markdown("<br>", unsafe_allow_html=True)
-    if st.button("Generate Verified Labour Estimate ⚡", type="primary", use_container_width=True):
-        st.session_state.q1 = q1
-        st.session_state.q2 = q2
-        st.session_state.q3 = q3
-        st.session_state.q4 = q4
-        st.session_state.cat = cat
-        st.session_state.task_name = task_name
-        st.session_state.step = 3
+        recorded_answers.append(final_answer_text)
+        st.write("")
+
+    st.markdown("---")
+    if st.button("Generate Verified Labour Estimate ⚡", type="primary"):
+        st.session_state.answers = recorded_answers
+        st.session_state.calculated_duration = srv["base_time"] + added_mins
+        st.session_state.step = "estimate"
         st.rerun()
 
-# --- STAGE 3: QUOTE TICKET & SCHEDULING ---
-elif st.session_state.step == 3:
-    cat = st.session_state.cat
-    task_name = st.session_state.task_name
-    q1 = st.session_state.q1
-    q2 = st.session_state.q2
-    q3 = st.session_state.q3
-    q4 = st.session_state.q4
+# ==========================================
+# STAGE 3: QUOTE DELIVERY (Section 8 Standard Template)
+# ==========================================
+elif st.session_state.step == "estimate":
+    srv = MASTER_SERVICES[st.session_state.detected_key]
+    tot_mins = st.session_state.calculated_duration
+    answers = st.session_state.answers
 
-    # Calculation logic (Master Task Library + Leo Operating Rules)
-    base_info = TASK_DATABASE[cat][task_name]
-    total_minutes = base_info["time"]
-    is_licensed = base_info["licensed"]
+    # Section 5, Rule 5: 1-Hour Minimum
+    if tot_mins < 60:
+        tot_mins = 60
 
-    # Material pickup buffer
-    tasker_brings_mat = "Tasker should bring" in q3
-    if tasker_brings_mat:
-        total_minutes += 30
+    # Section 5, Rule 6: Round Up to Nearest 15 Minutes
+    remainder = tot_mins % 15
+    if remainder != 0:
+        tot_mins += (15 - remainder)
 
-    # Complexity condition buffer
-    if any(k in q2 for k in ["Brick", "stuck", "new line"]):
-        total_minutes += 30
+    # Section 5, Rule 4: Quote Format
+    hrs = tot_mins // 60
+    mins = tot_mins % 60
+    if hrs >= 8:
+        duration_str = f"{hrs} hours"
+    elif hrs > 0 and mins > 0:
+        duration_str = f"{hrs} hour{'s' if hrs > 1 else ''} {mins} minutes"
+    elif hrs > 0:
+        duration_str = f"{hrs} hour{'s' if hrs > 1 else ''}"
+    else:
+        duration_str = f"{mins} minutes"
 
-    # Rule 5: 1-hour minimum
-    if total_minutes < 60:
-        total_minutes = 60
+    # Section 5, Rule 7: Materials check
+    tasker_sourcing_materials = any("Tasker" in a and "pickup" in a for a in answers)
+    
+    # Section 7: Disposal handling
+    tasker_handles_disposal = any("Tasker handles disposal" in a for a in answers)
+    is_minimal_disposal = any("Minimal disposal" in a for a in answers)
 
-    # Rule 6: Round up to nearest 15 mins
-    rem = total_minutes % 15
-    if rem != 0:
-        total_minutes += (15 - rem)
+    # Output Structured Quote (Section 8 Standard Single-Project Template)
+    st.markdown("### PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST")
+    st.markdown("---")
 
-    hrs = total_minutes // 60
-    mins = total_minutes % 60
-    time_str = f"{hrs} hr{'s' if hrs > 1 else ''}" + (f" {mins} mins" if mins > 0 else "")
+    st.markdown(f"**📋 Project Scope:**  \nExecute {srv['title'].lower()} according to verified specifications ({answers[0]}).")
+    st.markdown(f"**👷 Tasker Needed:** {srv['tasker']}")
 
-    tasker_type = "1 Licensed Trade Specialist" if is_licensed else "1 General Tasker"
+    if tasker_sourcing_materials:
+        st.markdown("**📦 Materials:** Tasker will bring everything and confirm the details with you in the chatbox after you accept.")
+    else:
+        st.markdown("**📦 Materials:** No materials needed for this project.")
 
-    # Modern Quote Voucher UI
-    st.markdown(f"""
-    <div class="quote-ticket">
-        <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid rgba(128,128,128,0.2); padding-bottom: 12px; margin-bottom: 16px;">
-            <span style="font-weight: 700; font-size: 1.1rem; letter-spacing: 0.05em; color: #f59e0b;">PROJECT LABOUR ESTIMATE</span>
-            <span style="font-size: 0.85rem; opacity: 0.7;">STAR HANDYMAN VERIFIED</span>
-        </div>
-        
-        <div style="margin-bottom: 12px;">
-            <div style="font-size: 0.85rem; font-weight: 600; opacity: 0.7;">PROJECT SCOPE</div>
-            <div style="font-size: 1rem; font-weight: 500;">Execute {task_name.lower()} according to verified specifications ({q1.lower()}).</div>
-        </div>
+    st.markdown(f"**⏱️ Labour Time:** **{duration_str}**")
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 16px 0;">
-            <div class="stats-card">
-                <div style="font-size: 0.75rem; font-weight: 600; opacity: 0.7;">ASSIGNED TASKER</div>
-                <div style="font-size: 0.95rem; font-weight: 700; color: #3b82f6;">{tasker_type}</div>
-            </div>
-            <div class="stats-card">
-                <div style="font-size: 0.75rem; font-weight: 600; opacity: 0.7;">QUOTED LABOUR TIME</div>
-                <div style="font-size: 0.95rem; font-weight: 700; color: #10b981;">{time_str}</div>
-            </div>
-        </div>
+    st.info("ℹ️ This estimate covers labour only. Material details will be arranged with your Tasker in the chatbox, and material costs (with receipts) will be added upon project completion.")
 
-        <div style="font-size: 0.85rem; line-height: 1.5; opacity: 0.85; border-top: 1px solid rgba(128,128,128,0.2); padding-top: 12px;">
-            • <b>Materials:</b> {'Tasker will bring everything and confirm details in the chatbox.' if tasker_brings_mat else 'No materials needed for this project.'}<br>
-            • <b>Disposal:</b> {'Disposal not included in labour estimate. Tasker arranges in chatbox.' if "Tasker" in q4 else 'Disposal handled by Client.'}<br>
-            • <i>This estimate covers labour only. Material receipts are billed upon job completion.</i>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+    # Section 5, Rule 9: Multi-Visit note
+    if srv["multi_visit"]:
+        st.warning("⚠️ *This project may require multiple visits due to curing and drying times. Your Tasker will arrange the schedule with you in the chatbox.*")
 
-    st.markdown("<br>", unsafe_allow_html=True)
-    c1, c2 = st.columns(2, gap="medium")
+    # Section 7: Disposal note (Skipped if minimal per Rule 11)
+    if not is_minimal_disposal:
+        if tasker_handles_disposal:
+            st.markdown("🗑️ *Disposal is not included in this estimate. Please arrange the details with your Tasker in the chatbox.*")
+        else:
+            st.markdown("🗑️ *Disposal will be handled by the Client.*")
+
+    st.markdown("---")
+    st.markdown("**Do you accept this estimate?**")
+
+    c1, c2 = st.columns(2)
     with c1:
-        if st.button("Accept Estimate & Book Slot", type="primary", use_container_width=True):
+        if st.button("Accept Estimate & Match Tasker", type="primary"):
             st.balloons()
-            st.success("🎉 Estimate Confirmed! We are pairing you with your Tasker now.")
+            # Section 6, Stage 7 Handoff
+            st.success("Perfect! We'll match you with the right Tasker(s) and connect you in the chatbox shortly. They'll already have the full picture — the photos, your preferences, and the scope — so you won't need to repeat anything. Thanks for choosing Star Handyman.")
     with c2:
-        if st.button("← Modify Project", use_container_width=True):
-            st.session_state.step = 1
+        if st.button("← Start Another Request"):
+            st.session_state.step = "intake"
+            st.session_state.user_desc = ""
+            st.session_state.detected_key = None
             st.rerun()
