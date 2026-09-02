@@ -415,7 +415,7 @@ if st.session_state.step == "intake":
         uploaded_file = st.file_uploader("📸 Upload job photo:", type=["jpg", "jpeg", "png"])
         if uploaded_file:
             img = Image.open(uploaded_file).convert("RGB")
-            st.image(img, use_container_width=True)
+            st.image(img, width="stretch")
 
             with st.spinner("Analyzing image pixels with in-house CLIP Vision ML..."):
                 detected_key, confidence, _ = analyze_image_with_ml(img)
