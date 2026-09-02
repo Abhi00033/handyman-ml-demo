@@ -1,3 +1,7 @@
 streamlit
+Pillow
+transformers
+torch
+torchvision
 pandas
 scikit-learn

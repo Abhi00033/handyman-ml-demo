@@ -1,16 +1,17 @@
 import streamlit as st
+import torch
 import re
 from PIL import Image
+from transformers import CLIPProcessor, CLIPModel
 
-# --- PAGE CONFIGURATION ---
+# --- PAGE SETUP ---
 st.set_page_config(
-    page_title="Star Handyman | Project Coordinator Leo",
+    page_title="Star Handyman | Leo Coordinator",
     layout="wide",
     page_icon="👷‍♂️",
     initial_sidebar_state="collapsed"
 )
 
-# Custom Styling (Mobile & Desktop Responsive, Zero Tag Leaks)
 st.markdown("""
 <style>
     .block-container {
@@ -57,13 +58,67 @@ st.markdown("""
 st.markdown("""
 <div class="header-banner">
     <div style="font-size: 1.25rem; font-weight: 700;">👷‍♂️ Leo — Star Handyman Project Coordinator</div>
-    <div style="font-size: 0.88rem; opacity: 0.85;">Intelligent Project Scoping Engine • Zero Third-Party AI API Dependency</div>
+    <div style="font-size: 0.88rem; opacity: 0.85;">Pure Local ML Vision & Intake • Zero External AI APIs</div>
 </div>
 """, unsafe_allow_html=True)
 
-# --- MASTER CATALOG IMPLEMENTING SECTION 3 & 4 OF SYSTEM PROMPT ---
+# --- 1. LOCAL ML VISION ENGINE (CLIP ZERO-SHOT MODEL) ---
+@st.cache_resource(show_spinner="Loading vision model into memory...")
+def load_clip_vision_model():
+    model_id = "openai/clip-vit-base-patch32"
+    model = CLIPModel.from_pretrained(model_id)
+    processor = CLIPProcessor.from_pretrained(model_id)
+    return model, processor
+
+def analyze_image_with_ml(image: Image.Image):
+    model, processor = load_clip_vision_model()
+    image.thumbnail((512, 512))
+
+    candidate_labels = [
+        "a photo of a bathroom faucet, washroom tap, or shower fixture",
+        "a photo of a television mounted on a wall or a flat tv screen",
+        "a photo of a ceiling fan or ceiling light fixture",
+        "a photo of a damaged wall, hole in drywall, or sheetrock crack",
+        "a photo of a wooden door, door handle, or cabinet hinges"
+    ]
+
+    service_map = {
+        0: "plumbing_faucet",
+        1: "tv_mount",
+        2: "electrical_fan",
+        3: "drywall_patch",
+        4: "carpentry_doors"
+    }
+
+    inputs = processor(text=candidate_labels, images=image, return_tensors="pt", padding=True)
+    with torch.no_grad():
+        outputs = model(**inputs)
+        logits = outputs.logits_per_image[0]
+        probs = logits.softmax(dim=-1).numpy()
+
+    best_idx = int(probs.argmax())
+    confidence = float(probs[best_idx])
+    return service_map[best_idx], confidence, candidate_labels[best_idx]
+
+# --- 2. TEXT INTENT FALLBACK ENGINE ---
+def classify_text_intent(text: str):
+    clean = text.lower().strip()
+    if not clean:
+        return None
+    patterns = {
+        "plumbing_faucet": [r"\btap\b", r"\bfaucet\b", r"\bshower\b", r"\bwashroom\b", r"\bleak\b", r"\bsink\b", r"\bpipe\b", r"\btoilet\b"],
+        "tv_mount": [r"\btv\b", r"\btelevision\b", r"\bmount\b", r"\bbracket\b", r"\bhang tv\b", r"\bscreen\b"],
+        "electrical_fan": [r"\bfan\b", r"\bceiling fan\b", r"\blight\b", r"\bchandelier\b", r"\bfixture\b", r"\bswitch\b", r"\bwiring\b"],
+        "drywall_patch": [r"\bdrywall\b", r"\bhole\b", r"\bpatch\b", r"\bcrack\b", r"\bsheetrock\b", r"\bpaint\b"],
+        "carpentry_doors": [r"\bdoor\b", r"\block\b", r"\bcabinet\b", r"\bhinge\b", r"\bhandle\b", r"\bwood\b", r"\bfurniture\b"]
+    }
+    for key, regexes in patterns.items():
+        if any(re.search(p, clean) for p in regexes):
+            return key
+    return None
+
+# --- 3. MASTER TASK LIBRARY (Section 4 Reference) ---
 MASTER_SERVICES = {
-    # 1. HOME REPAIRS [HR] (Section 4 Reference)
     "tv_mount": {
         "title": "TV Mount Installation",
         "category": "Home Repairs [HR]",
@@ -71,11 +126,10 @@ MASTER_SERVICES = {
         "base_time": 60,
         "tasker": "1 General Tasker",
         "multi_visit": False,
-        "keywords": [r"\btv\b", r"\btelevision\b", r"\bmount\b", r"\bbracket\b", r"\bhang tv\b", r"\bscreen\b"],
         "questions": [
             {
                 "num": "Question 1/4",
-                "text": "What size is your TV, and what type of mount are you looking to use?",
+                "text": "What size is your TV, and what type of mount bracket are you planning to use?",
                 "options": [
                     "Under 55 inches (Standard fixed / tilt bracket)",
                     "55 to 65 inches (Standard fixed / tilt bracket)",
@@ -90,7 +144,7 @@ MASTER_SERVICES = {
                 "options": [
                     "Standard drywall with wood studs (Dry & solid)",
                     "Solid brick or concrete wall (Requires hammer drill & masonry anchors)",
-                    "Wall has dampness or peeling paint (Needs structural check)",
+                    "Wall has dampness or peeling paint (Needs structural inspection)",
                     "✏️ Type custom answer / Other details..."
                 ],
                 "impact": [0, 20, 35, 15]
@@ -109,7 +163,7 @@ MASTER_SERVICES = {
                 "num": "Question 4/4",
                 "text": "Would you like power and HDMI cables concealed inside the drywall?",
                 "options": [
-                    "No, external surface cable channel or visible cords are fine",
+                    "No, external surface cable channel or hanging cords are fine",
                     "Yes, cut drywall pass-throughs and conceal wires inside wall (+30 min)",
                     "✏️ Type custom answer / Other details..."
                 ],
@@ -117,8 +171,6 @@ MASTER_SERVICES = {
             }
         ]
     },
-
-    # 2. PLUMBING [PL] (Section 4 Reference)
     "plumbing_faucet": {
         "title": "Bathroom / Kitchen Faucet Replacement",
         "category": "Plumbing [PL]",
@@ -126,26 +178,21 @@ MASTER_SERVICES = {
         "base_time": 45,
         "tasker": "1 General Tasker",
         "multi_visit": False,
-        "keywords": [
-            r"\btap\b", r"\bfaucet\b", r"\bshower\b", r"\bwashroom\b",
-            r"\bbathroom\b", r"\bleak\b", r"\bsink\b", r"\bwater\b",
-            r"\bdrain\b", r"\bpipe\b", r"\btoilet\b", r"\bflush\b", r"\bp-trap\b", r"\bclog\b"
-        ],
         "questions": [
             {
                 "num": "Question 1/4",
                 "text": "What is the primary goal for this plumbing fixture?",
                 "options": [
                     "Full replacement with a new faucet / fixture",
-                    "Repair the existing fixture (replace cartridge or stop dripping)",
-                    "Replace both fixture and under-sink curved P-trap pipe",
+                    "Repair existing fixture (replace cartridge or stop dripping)",
+                    "Replace both fixture and under-sink curved P-trap drainage pipe",
                     "✏️ Type custom answer / Other details..."
                 ],
                 "impact": [0, 0, 25, 15]
             },
             {
                 "num": "Question 2/4",
-                "text": "How is the water shut-off valve behaving?",
+                "text": "How is the water shut-off valve behaving under the sink?",
                 "options": [
                     "Turns smoothly and shuts off water completely",
                     "Valve is stiff, stuck, or leaking itself (Needs replacement)",
@@ -177,8 +224,6 @@ MASTER_SERVICES = {
             }
         ]
     },
-
-    # 3. ELECTRICAL [EL] (Section 4 Reference)
     "electrical_fan": {
         "title": "Ceiling Fan / Light Fixture Installation",
         "category": "Electrical [EL]",
@@ -186,10 +231,6 @@ MASTER_SERVICES = {
         "base_time": 60,
         "tasker": "1 General Tasker",
         "multi_visit": False,
-        "keywords": [
-            r"\bfan\b", r"\bceiling fan\b", r"\blight\b", r"\bchandelier\b",
-            r"\bfixture\b", r"\bbulb\b", r"\bswitch\b", r"\boutlet\b", r"\bwiring\b"
-        ],
         "questions": [
             {
                 "num": "Question 1/4",
@@ -235,27 +276,21 @@ MASTER_SERVICES = {
             }
         ]
     },
-
-    # 4. HOME IMPROVEMENT [HI] (Section 4 Reference)
     "drywall_patch": {
         "title": "Drywall Patch & Hole Repair",
         "category": "Home Improvement [HI]",
         "difficulty": 4,
         "base_time": 60,
         "tasker": "1 General Tasker",
-        "multi_visit": True,  # Per Section 4 Master Library: Multi-visit Yes for compound drying
-        "keywords": [
-            r"\bdrywall\b", r"\bhole\b", r"\bpatch\b", r"\bcrack\b",
-            r"\bsheetrock\b", r"\bpaint\b", r"\bplaster\b"
-        ],
+        "multi_visit": True,
         "questions": [
             {
                 "num": "Question 1/4",
                 "text": "What size is the damaged section of the wall?",
                 "options": [
                     "Small hole or door-handle dent (under 5 inches)",
-                    "Medium opening (6 to 12 inches, requires mesh/support backer)",
-                    "Large area (over 12 inches, requires sheetrock cutout)",
+                    "Medium opening (6 to 12 inches)",
+                    "Large area (over 12 inches)",
                     "✏️ Type custom answer / Other details..."
                 ],
                 "impact": [0, 25, 45, 20]
@@ -292,8 +327,6 @@ MASTER_SERVICES = {
             }
         ]
     },
-
-    # 5. CARPENTRY [CR] (Section 4 Reference)
     "carpentry_doors": {
         "title": "Door Adjustment, Locks & Cabinet Hardware",
         "category": "Carpentry [CR]",
@@ -301,10 +334,6 @@ MASTER_SERVICES = {
         "base_time": 45,
         "tasker": "1 General Tasker",
         "multi_visit": False,
-        "keywords": [
-            r"\bdoor\b", r"\block\b", r"\bcabinet\b", r"\bshelf\b",
-            r"\bhinge\b", r"\bhandle\b", r"\bwood\b", r"\bfurniture\b"
-        ],
         "questions": [
             {
                 "num": "Question 1/4",
@@ -353,41 +382,17 @@ MASTER_SERVICES = {
     }
 }
 
-# --- SERVICE CLASSIFIER: PRIORITIZES USER TEXT ---
-def classify_input(text: str, visual_tag: str):
-    clean_text = text.lower().strip()
-
-    # Match User Text First via Regex Word Boundaries
-    if clean_text:
-        for key, data in MASTER_SERVICES.items():
-            for pat in data["keywords"]:
-                if re.search(pat, clean_text):
-                    return key
-
-    # Match Image Tag if Text has no keywords
-    clean_vis = visual_tag.lower().strip()
-    if "tv" in clean_vis or "screen" in clean_vis:
-        return "tv_mount"
-    elif "plumbing" in clean_vis or "tap" in clean_vis or "shower" in clean_vis:
-        return "plumbing_faucet"
-    elif "fan" in clean_vis or "light" in clean_vis:
-        return "electrical_fan"
-    elif "drywall" in clean_vis or "wall" in clean_vis:
-        return "drywall_patch"
-    elif "door" in clean_vis or "cabinet" in clean_vis:
-        return "carpentry_doors"
-
-    # Default fallback
-    return "tv_mount"
-
-# --- SESSION STATE ---
+# --- STATE MANAGEMENT ---
 if "step" not in st.session_state:
     st.session_state.step = "intake"
-    st.session_state.user_desc = ""
     st.session_state.detected_key = None
+    st.session_state.vision_confidence = None
+    st.session_state.current_q_idx = 0
+    st.session_state.answers = []
+    st.session_state.cumulative_extra_mins = 0
 
 # ==========================================
-# STAGE 1: GREETING & INTAKE (Section 6, Stage 1)
+# STAGE 1: INTAKE WITH ML VISION & TEXT PARSER
 # ==========================================
 if st.session_state.step == "intake":
     st.markdown("""
@@ -397,106 +402,129 @@ if st.session_state.step == "intake":
             "Hi! I'm Leo, your project coordinator at Star Handyman. I help figure out what needs to be done and connect you with the right Tasker for the job."
         </div>
         <p style="margin-top: 8px; margin-bottom: 0; font-size: 0.9rem; opacity: 0.85;">
-            Please upload a photo of the area and tell me what you'd like done.
+            Upload your photo or describe what you need done. Our local ML model handles pixel inspection automatically.
         </p>
     </div>
     """, unsafe_allow_html=True)
 
-    c1, c2 = st.columns([1, 1], gap="medium")
-    detected_visual = ""
+    c1, c2 = st.columns([1.1, 1], gap="medium")
+    detected_key = None
+    confidence = 0.0
 
     with c1:
-        uploaded_file = st.file_uploader("📸 Upload project photo (Optional):", type=["jpg", "jpeg", "png"])
+        uploaded_file = st.file_uploader("📸 Upload job photo:", type=["jpg", "jpeg", "png"])
         if uploaded_file:
-            img = Image.open(uploaded_file)
+            img = Image.open(uploaded_file).convert("RGB")
             st.image(img, use_container_width=True)
 
-            st.markdown("**Image Context:**")
-            detected_visual = st.selectbox(
-                "Verify area in photo:",
-                [
-                    "📺 Living Room Wall / TV Mount Area",
-                    "🚿 Bathroom / Kitchen Plumbing (Tap, Shower, Sink)",
-                    "💡 Ceiling Fan / Light Electrical Fixture",
-                    "🧱 Drywall Damage / Wall Hole",
-                    "🚪 Door / Cabinet / Wooden Fixture"
-                ],
-                label_visibility="collapsed"
-            )
+            with st.spinner("Analyzing image pixels with in-house CLIP Vision ML..."):
+                detected_key, confidence, _ = analyze_image_with_ml(img)
+            
+            st.success(f"🤖 **Vision ML Identification:** `{MASTER_SERVICES[detected_key]['title']}` ({confidence*100:.1f}% confidence)")
 
     with c2:
         user_text = st.text_area(
-            "📝 Describe what you'd like done:",
-            placeholder="e.g., 'want to install tv', 'my shower tap is leaking', 'install ceiling fan', 'patch drywall hole'...",
+            "📝 Job Description / Notes:",
+            placeholder="e.g., 'need help installing ceiling fan', 'bathroom tap leaking', 'mount 65 inch tv' (or leave blank if photo is uploaded)...",
             height=140
         )
         submit = st.button("Start Scoping With Leo →", type="primary")
 
         if submit:
-            if not user_text.strip() and not uploaded_file:
-                st.warning("Please upload a photo or type a short description of what you need done.")
+            if not uploaded_file and not user_text.strip():
+                st.warning("Please upload a photo or type a short note about the task.")
             else:
-                st.session_state.user_desc = user_text
-                st.session_state.detected_key = classify_input(user_text, detected_visual)
+                text_key = classify_text_intent(user_text)
+
+                if text_key:
+                    st.session_state.detected_key = text_key
+                elif detected_key:
+                    st.session_state.detected_key = detected_key
+                    st.session_state.vision_confidence = confidence
+                else:
+                    st.session_state.detected_key = "tv_mount"
+
+                # Reset sequential question state
+                st.session_state.current_q_idx = 0
+                st.session_state.answers = []
+                st.session_state.cumulative_extra_mins = 0
                 st.session_state.step = "questions"
                 st.rerun()
 
 # ==========================================
-# STAGE 2: CLARIFYING QUESTIONS (Section 6, Stage 3)
+# STAGE 2: SEQUENTIAL QUESTIONS (ONE BY ONE)
 # ==========================================
 elif st.session_state.step == "questions":
     srv = MASTER_SERVICES[st.session_state.detected_key]
+    total_q = len(srv["questions"])
+    curr_idx = st.session_state.current_q_idx
+    q = srv["questions"][curr_idx]
 
+    # Service & Context Header
     st.markdown(f"""
     <div class="chat-bubble">
-        <span class="step-pill">Category: {srv['category']}</span>
+        <span class="step-pill">Verified Category: {srv['category']}</span>
         <div style="font-size: 1.15rem; font-weight: 700;">{srv['title']}</div>
         <div style="margin-top: 6px; font-size: 0.92rem; opacity: 0.9;">
-            "Thanks for the details! I have 4 clarifying questions to scope the work accurately. You can tap an option or type a custom answer."
+            "Thanks for the details! I have a few clarifying questions to scope the work accurately. Let's take them one by one."
         </div>
     </div>
     """, unsafe_allow_html=True)
 
-    recorded_answers = []
-    added_mins = 0
-
-    for idx, q in enumerate(srv["questions"]):
-        st.markdown(f"<span class='step-pill'>{q['num']}</span>", unsafe_allow_html=True)
-        st.markdown(f"**{q['text']}**")
-
-        chosen_option = st.radio(
-            f"Select for {q['num']}:",
-            q["options"],
-            key=f"opt_{st.session_state.detected_key}_{idx}",
-            label_visibility="collapsed"
-        )
-
-        final_answer_text = chosen_option
-        if "✏️ Type custom answer" in chosen_option:
-            custom_input = st.text_input(
-                f"Enter your specific details for {q['num']}:",
-                placeholder="Type your answer here...",
-                key=f"custom_{st.session_state.detected_key}_{idx}"
-            )
-            if custom_input.strip():
-                final_answer_text = custom_input.strip()
-            added_mins += 15
-        else:
-            opt_idx = q["options"].index(chosen_option)
-            added_mins += q["impact"][opt_idx]
-
-        recorded_answers.append(final_answer_text)
-        st.write("")
+    # Show past answered questions in conversation flow
+    if st.session_state.answers:
+        for past_idx, past_ans in enumerate(st.session_state.answers):
+            past_q = srv["questions"][past_idx]
+            st.markdown(f"<span style='color: #64748b; font-size: 0.85rem;'>✔ {past_q['num']}: {past_q['text']}</span>", unsafe_allow_html=True)
+            st.markdown(f"<div style='background: rgba(100, 116, 139, 0.08); padding: 8px 12px; border-radius: 8px; margin-bottom: 10px; font-size: 0.9rem;'>💬 <strong>You:</strong> {past_ans}</div>", unsafe_allow_html=True)
 
     st.markdown("---")
-    if st.button("Generate Verified Labour Estimate ⚡", type="primary"):
-        st.session_state.answers = recorded_answers
-        st.session_state.calculated_duration = srv["base_time"] + added_mins
-        st.session_state.step = "estimate"
+
+    # Present Current Active Question
+    st.markdown(f"<span class='step-pill'>{q['num']}</span>", unsafe_allow_html=True)
+    st.markdown(f"### {q['text']}")
+
+    chosen_option = st.radio(
+        f"Select an option for {q['num']}:",
+        q["options"],
+        key=f"active_opt_{st.session_state.detected_key}_{curr_idx}",
+        label_visibility="collapsed"
+    )
+
+    custom_input = ""
+    if "✏️ Type custom answer" in chosen_option:
+        custom_input = st.text_input(
+            f"Enter specific details for {q['num']}:",
+            placeholder="Type your details here...",
+            key=f"active_custom_{st.session_state.detected_key}_{curr_idx}"
+        )
+
+    st.write("")
+    is_last_question = (curr_idx == total_q - 1)
+    btn_label = "Generate Verified Labour Estimate ⚡" if is_last_question else "Next Question →"
+
+    if st.button(btn_label, type="primary"):
+        # Resolve user's answer text and duration delta
+        final_answer = custom_input.strip() if ("✏️ Type custom answer" in chosen_option and custom_input.strip()) else chosen_option
+        
+        if "✏️ Type custom answer" in chosen_option:
+            added_time = 15
+        else:
+            opt_idx = q["options"].index(chosen_option)
+            added_time = q["impact"][opt_idx]
+
+        st.session_state.answers.append(final_answer)
+        st.session_state.cumulative_extra_mins += added_time
+
+        if is_last_question:
+            st.session_state.calculated_duration = srv["base_time"] + st.session_state.cumulative_extra_mins
+            st.session_state.step = "estimate"
+        else:
+            st.session_state.current_q_idx += 1
         st.rerun()
 
 # ==========================================
-# STAGE 3: QUOTE DELIVERY (Section 8 Standard Template)
+# STAGE 3: QUOTE DELIVERY (Standard Single-Project Template)
 # ==========================================
 elif st.session_state.step == "estimate":
     srv = MASTER_SERVICES[st.session_state.detected_key]
@@ -524,14 +552,13 @@ elif st.session_state.step == "estimate":
     else:
         duration_str = f"{mins} minutes"
 
-    # Section 5, Rule 7: Materials check
+    # Section 5, Rule 7: Materials check (+30 min)
     tasker_sourcing_materials = any("Tasker" in a and "pickup" in a for a in answers)
-    
+
     # Section 7: Disposal handling
     tasker_handles_disposal = any("Tasker handles disposal" in a for a in answers)
     is_minimal_disposal = any("Minimal disposal" in a for a in answers)
 
-    # Output Structured Quote (Section 8 Standard Single-Project Template)
     st.markdown("### PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST")
     st.markdown("---")
 
@@ -565,11 +592,13 @@ elif st.session_state.step == "estimate":
     with c1:
         if st.button("Accept Estimate & Match Tasker", type="primary"):
             st.balloons()
-            # Section 6, Stage 7 Handoff
             st.success("Perfect! We'll match you with the right Tasker(s) and connect you in the chatbox shortly. They'll already have the full picture — the photos, your preferences, and the scope — so you won't need to repeat anything. Thanks for choosing Star Handyman.")
     with c2:
         if st.button("← Start Another Request"):
             st.session_state.step = "intake"
-            st.session_state.user_desc = ""
             st.session_state.detected_key = None
+            st.session_state.vision_confidence = None
+            st.session_state.current_q_idx = 0
+            st.session_state.answers = []
+            st.session_state.cumulative_extra_mins = 0
             st.rerun()
