@@ -583,7 +583,7 @@ elif st.session_state.step == "estimate":
         if tasker_handles_disposal:
             st.markdown("🗑️ *Disposal is not included in this estimate. Please arrange the details with your Tasker in the chatbox.*")
         else:
-            st.markdown("🗑️ *Disposal will be handled by the Client.*")
+            st.markdown("🗑️ *Disposal will be handled by the Client Side.*")
 
     st.markdown("---")
     st.markdown("**Do you accept this estimate?**")
