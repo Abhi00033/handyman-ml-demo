@@ -1,0 +1,11 @@
+﻿source_category,distinct_question_candidates,total_candidate_pairs,questions_with_review_flags,manual_review_pairs,verified_pairs
+(missing),4,4,0,0,0
+Appliance Services,5,5,0,0,0
+Carpentry,49,49,1,1,0
+Electrical,43,43,2,2,0
+HVAC,17,17,5,5,0
+Home Improvement,28,29,0,0,0
+Home Improving,100,101,7,7,0
+Home Repairs,176,189,2,2,0
+Home Service,95,97,2,2,0
+Plumbing,270,320,1,1,0

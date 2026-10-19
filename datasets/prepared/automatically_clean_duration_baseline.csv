@@ -1,0 +1,8 @@
+category_id,detected_category,sample_count,average_hours,median_hours,p75_hours,p90_hours,minimum_hours,maximum_hours,data_quality,estimate_source
+1.0,Plumbing,66,1.3393939393939396,1.25,1.5,1.5,1.0,4.0,preliminary_category_baseline,live_db_historical_quoted_hours
+3.0,Home Repairs,19,1.1263157894736842,1.0,1.275,1.3399999999999999,1.0,1.5,preliminary_category_baseline,live_db_historical_quoted_hours
+4.0,Electrical,9,3.111111111111111,1.0,1.5,10.0,1.0,10.0,preliminary_category_baseline,live_db_historical_quoted_hours
+5.0,Carpentry,11,5.0,2.5,3.0,3.5,1.0,32.0,preliminary_category_baseline,live_db_historical_quoted_hours
+7.0,HVAC,3,1.0999999999999999,1.0,1.15,1.24,1.0,1.3,low_data_manual_review,live_db_historical_quoted_hours
+17.0,Home Improvement,30,3.9366666666666665,3.5,4.0,4.650000000000002,1.3,16.0,preliminary_category_baseline,live_db_historical_quoted_hours
+19.0,Mounting,14,1.1821428571428572,1.0,1.45,1.5,1.0,1.5,preliminary_category_baseline,live_db_historical_quoted_hours

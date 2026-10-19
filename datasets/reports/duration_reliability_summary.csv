@@ -1,0 +1,2 @@
+input_file,rows_before_numeric_range_filter,valid_duration_rows,excluded_invalid_or_out_of_range_rows,category_groups,global_median_hours,global_p75_hours,global_p90_hours,quotes_8h_or_more,quotes_16h_or_more,important_note
+D:\ML Practice project\handyman_ml_service\datasets\prepared\automatically_clean_duration_dataset.csv,164,164,0,7,1.3,2.125,3.5,6,3,Outlier counts are diagnostic only; no historical quote was deleted or capped.

@@ -1,0 +1,147 @@
+﻿D:\ML Practice project\handyman_ml_service\scripts\data\build_clean_duration_baseline.py:7: SOURCE = ROOT / "datasets" / "prepared" / "clean_duration_dataset.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_clean_duration_baseline.py:8: OUTPUT = (
+D:\ML Practice project\handyman_ml_service\scripts\data\build_clean_duration_baseline.py:10: / "clean_duration_baseline_by_category.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_clean_duration_baseline.py:27: df = pd.read_csv(SOURCE)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_clean_duration_baseline.py:100: OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_clean_duration_baseline.py:101: baseline.to_csv(OUTPUT, index=False)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_clean_duration_baseline.py:105: print(f"\nSaved: {OUTPUT}")
+D:\ML Practice project\handyman_ml_service\scripts\data\build_clean_duration_baseline.py:108: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:11: / "refined_question_answer_candidates.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:18: / "question_answer_review_dispositions.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:21: OUTPUT_DIR = BASE_DIR / "datasets" / "prepared"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:24: ELIGIBLE_FILE = OUTPUT_DIR / "unverified_qa_candidates.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:25: MANUAL_REVIEW_FILE = OUTPUT_DIR / "qa_manual_review.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:26: EXCLUDED_FILE = OUTPUT_DIR / "qa_excluded_from_job_scope.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:27: SUMMARY_FILE = REPORT_DIR / "controlled_qa_dataset_summary.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:30: def read_csv(path):
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:56: candidates, candidate_fields = read_csv(CANDIDATES_FILE)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:57: dispositions, disposition_fields = read_csv(DISPOSITIONS_FILE)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:107: output_row = {
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:113: output_row["verified_for_training"] = "False"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:119: excluded.append(output_row)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:123: output_row["review_disposition"] = "manual_review"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:124: output_row["disposition_reason"] = disposition.get(
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:127: manual_review.append(output_row)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:130: output_row["review_disposition"] = "unreviewed_candidate"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:131: output_row["disposition_reason"] = (
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:134: eligible.append(output_row)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:147: output_fields = list(dict.fromkeys(
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:151: write_csv(ELIGIBLE_FILE, eligible, output_fields)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:152: write_csv(MANUAL_REVIEW_FILE, manual_review, output_fields)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:153: write_csv(EXCLUDED_FILE, excluded, output_fields)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:200: "WARNING: Output counts do not reconcile with the input count."
+D:\ML Practice project\handyman_ml_service\scripts\data\build_controlled_qa_dataset.py:206: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:14: IMAGE_MANIFEST = DATASET_DIR / "image_download_manifest.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:15: IMAGE_VALIDATION = DATASET_DIR / "image_validation_report.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:16: QUOTE_AUDIT = DATASET_DIR / "quote_label_audit.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:18: OUTPUT_FILE = PREPARED_DIR / "job_level_dataset.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:19: SUMMARY_FILE = REPORT_DIR / "job_level_dataset_summary.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:56: def read_csv(path):
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:116: manifest = read_csv(IMAGE_MANIFEST)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:117: validation = read_csv(IMAGE_VALIDATION)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:118: audit = read_csv(QUOTE_AUDIT)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:167: output_rows = []
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:257: output_rows.append({
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:346: if len({row["session_id"] for row in output_rows}) != len(output_rows):
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:349: columns = list(output_rows[0].keys()) if output_rows else []
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:351: with OUTPUT_FILE.open(
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:356: writer.writerows(output_rows)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:373: print("Sessions exported:", len(output_rows))
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:376: sum(row["has_validated_images"] for row in output_rows),
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:382: for row in output_rows
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:389: for row in output_rows
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:397: print("\nDataset:", OUTPUT_FILE)
+D:\ML Practice project\handyman_ml_service\scripts\data\build_job_dataset.py:407: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\download_s3_images.py:51: MANIFEST_FILE = DATASET_DIR / "image_download_manifest.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\download_s3_images.py:152: print("Output:", IMAGE_DIR)
+D:\ML Practice project\handyman_ml_service\scripts\data\download_s3_images.py:229: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\duration_estimator.py:9: / "clean_duration_baseline_by_category.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\duration_estimator.py:37: df = pd.read_csv(BASELINE_FILE)
+D:\ML Practice project\handyman_ml_service\scripts\data\duration_estimator.py:177: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\duration_estimator_service.py:23: datasets/prepared/automatically_clean_duration_baseline.csv
+D:\ML Practice project\handyman_ml_service\scripts\data\duration_estimator_service.py:32: / "automatically_clean_duration_baseline.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\duration_estimator_service.py:353: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:13: / "job_scope_records.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:16: OUTPUT_DIR = BASE_DIR / "datasets" / "prepared"
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:19: OUTPUT_FILE = OUTPUT_DIR / "structured_job_details.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:20: SUMMARY_FILE = REPORT_DIR / "job_detail_extraction_summary.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:354: OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:363: output_rows = []
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:491: output_rows.append({
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:553: fieldnames = list(output_rows[0].keys()) if output_rows else [
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:570: with OUTPUT_FILE.open(
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:577: writer.writerows(output_rows)
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:603: print("\nOutput files:")
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:604: print("Structured details:", OUTPUT_FILE)
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_job_details.py:614: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_question_answer_pairs.py:20: PAIRS_FILE = PREPARED_DIR / "question_answer_pairs.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_question_answer_pairs.py:21: SUMMARY_FILE = REPORTS_DIR / "question_answer_extraction_summary.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_question_answer_pairs.py:111: if item_type in ("text", "input_text", "output_text"):
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_question_answer_pairs.py:632: # OUTPUT FILES
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_question_answer_pairs.py:764: print("\nOutput files:")
+D:\ML Practice project\handyman_ml_service\scripts\data\extract_question_answer_pairs.py:773: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:13: IMAGE_MANIFEST_FILE = DATASET_DIR / "image_download_manifest.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:15: CONVERSATION_OUTPUT = (
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:16: PREPARED_DIR / "conversation_training_pairs.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:19: SCOPE_OUTPUT = PREPARED_DIR / "job_scope_records.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:21: SUMMARY_OUTPUT = (
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:22: REPORTS_DIR / "job_scope_extraction_summary.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:71: "output_text",
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:592: SCOPE_OUTPUT,
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:598: CONVERSATION_OUTPUT,
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:639: SUMMARY_OUTPUT,
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:672: print("Job scope records:", SCOPE_OUTPUT)
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:673: print("Conversation pairs:", CONVERSATION_OUTPUT)
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:674: print("Extraction summary:", SUMMARY_OUTPUT)
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_conversation_dataset.py:690: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:10: QUOTE_AUDIT = DATASET_DIR / "quote_label_audit.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:11: IMAGE_MANIFEST = DATASET_DIR / "image_download_manifest.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:12: IMAGE_VALIDATION = DATASET_DIR / "image_validation_report.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:14: OUTPUT_ALL = DATASET_DIR / "training_candidates.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:15: OUTPUT_REVIEW = DATASET_DIR / "training_candidates_for_review.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:18: def read_csv(path):
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:44: quotes = read_csv(QUOTE_AUDIT)
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:45: manifest = read_csv(IMAGE_MANIFEST)
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:46: validation = read_csv(IMAGE_VALIDATION)
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:59: output_rows = []
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:146: output_rows.append(row)
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:174: (OUTPUT_ALL, output_rows),
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:175: (OUTPUT_REVIEW, review_rows),
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:185: print("Rows matched to quote sessions:", len(output_rows))
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:200: print("\nAll matched image records:", OUTPUT_ALL)
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:201: print("Full quote review candidates:", OUTPUT_REVIEW)
+D:\ML Practice project\handyman_ml_service\scripts\data\prepare_training_dataset.py:206: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\quote_readiness.py:40: Assess readiness using estimator output and available scope details.
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:16: MAPPING_REPORT = REPORTS / "automatic_category_mapping_report.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:17: CLEAN_DATASET = PREPARED / "automatically_clean_duration_dataset.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:18: BASELINE_FILE = PREPARED / "automatically_clean_duration_baseline.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:19: EXCLUSION_REPORT = REPORTS / "automatic_duration_exclusions.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:20: SUMMARY_REPORT = REPORTS / "automatic_duration_pipeline_summary.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:280: output_rows = []
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:388: output_rows.append({
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:414: report = pd.DataFrame(output_rows)
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:415: report.to_csv(MAPPING_REPORT, index=False)
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:418: excluded.to_csv(EXCLUSION_REPORT, index=False)
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:425: clean.to_csv(CLEAN_DATASET, index=False)
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:452: baseline.to_csv(BASELINE_FILE, index=False)
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:479: summary.to_csv(SUMMARY_REPORT, index=False)
+D:\ML Practice project\handyman_ml_service\scripts\data\rebuild_duration_pipeline.py:498: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:13: OUTPUT_DIR = BASE_DIR / "datasets" / "prepared"
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:16: OUTPUT_FILE = OUTPUT_DIR / "refined_question_answer_candidates.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:17: REVIEW_FILE = REPORT_DIR / "refined_question_answer_review.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:18: NON_ANSWER_FILE = REPORT_DIR / "refined_question_answer_non_answers.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:19: SUMMARY_FILE = REPORT_DIR / "refined_question_answer_summary.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:144: "text", "input_text", "output_text"
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:317: separate non-answer output instead of the Q&A candidate dataset.
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:391: OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:454: write_csv(OUTPUT_FILE, candidate_rows, fields)
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:491: print("\nCandidate dataset:", OUTPUT_FILE)
+D:\ML Practice project\handyman_ml_service\scripts\data\refine_question_answer_pairs.py:502: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\validate_downloaded_dataset.py:12: MANIFEST_FILE = DATASET_DIR / "image_download_manifest.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\validate_downloaded_dataset.py:13: REPORT_FILE = DATASET_DIR / "image_validation_report.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\validate_downloaded_dataset.py:174: if __name__ == "__main__":
+D:\ML Practice project\handyman_ml_service\scripts\data\verify_s3_images.py:26: OUTPUT_DIR = PROJECT_ROOT / "datasets" / "s3_verified_images"
+D:\ML Practice project\handyman_ml_service\scripts\data\verify_s3_images.py:27: OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+D:\ML Practice project\handyman_ml_service\scripts\data\verify_s3_images.py:29: MANIFEST_PATH = PROJECT_ROOT / "datasets" / "s3_verification_manifest.csv"
+D:\ML Practice project\handyman_ml_service\scripts\data\verify_s3_images.py:129: destination = OUTPUT_DIR / f"image_{image_id}{extension}"
+D:\ML Practice project\handyman_ml_service\scripts\data\verify_s3_images.py:188: print(f"Downloaded images: {OUTPUT_DIR.resolve()}")

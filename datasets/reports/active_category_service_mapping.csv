@@ -1,0 +1,365 @@
+﻿id_service,name_service,slug_service,category_id,price,duration_minutes,description_service,service_type,min_charge,visit_charge,included_items,exclusions,category_join_id,id_category,name_category,slug_category,description_category,is_active,deleted_at,category_mapping_status
+1,Hourly Based Job,,,,60,"Labour Only,
+
+- Each Hours: $95",one-time,,,,,,,,,,,,unmatched_or_missing_category
+2,Washroom Fitting,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+3,Parking Receipt,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+4,TV Mount - Concrete,,,,60,"2nd TV + $80
+3rd TV + $70 + 0.5 Specialist",one-time,,,,,,,,,,,,unmatched_or_missing_category
+5,Frame TV - Samsung,,,,60,Cable hiding behind the drywall + $80 +0.5 sp,one-time,,,,,,,,,,,,unmatched_or_missing_category
+6,TV Mount - Drywall,,,,60,"2nd + $80
+3rd +$70 + 0.5 specialist",one-time,,,,,,,,,,,,unmatched_or_missing_category
+7,Door Knob Replacement - With existing holes,,,,60,"Labour Only
+- Remove old door knob
+- Install new door knob
+- Ensure the new door knob works effectively",one-time,,,,,,,,,,,,unmatched_or_missing_category
+8,Light Fixture Replacement - Electrical,,,,60,Every additional + $75+ 1 hrs sp(up to 4),one-time,,,,,,,,,,,,unmatched_or_missing_category
+9,Door Knob Replacement - With no holes,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+10,Sink Detached - Single sink,,,,60,"Labour/Material:
+- Clean off old sink glue,
+- Apply new sink glue,
+- Reinstall the sink properly,
+- Apply Caulking / sealant around edges,
+- Make sure P-trap/drain operational.",one-time,,,,,,,,,,,,unmatched_or_missing_category
+11,Sink Detached - Double sink,,,,60,"Labour/Material:
+- Clean off old sink glue,
+- Apply new sink glue,
+- Reinstall the sink properly,
+- Apply Caulking / sealant around edges,
+- Make sure P-trap/drain operational.",one-time,,,,,,,,,,,,unmatched_or_missing_category
+12,Door Installation without holes - Slab only,,,,60,- Painting +$75,one-time,,,,,,,,,,,,unmatched_or_missing_category
+13,Shower Door Seal Side/Bottom,,,,60,"Labour Only:
+- Remove old strip,
+- Cut / Install new one,
+- Test for proper seal and fit.",one-time,,,,,,,,,,,,unmatched_or_missing_category
+14,Mirror Hung Washroom,,,,60,Every additional +$50 + 0.5 hr sp,one-time,,,,,,,,,,,,unmatched_or_missing_category
+15,Caulking Countertop,,,,60,"Labour Only:
+- Remove old caulking,
+- Apply anti-mold treatment,
+- Apply new caulking.
+Note: No water use on the countertop 8 hours before and 6 hours after.",one-time,,,,,,,,,,,,unmatched_or_missing_category
+16,Caulking Bathtub,,,,60,"Labour Only:
+- Remove old caulking,
+- Apply anti-mold treatment,
+- Apply new caulking.
+Note: No shower before 8h and after 6h.",one-time,,,,,,,,,,,,unmatched_or_missing_category
+17,Caulking Shower,,,,60,"Labour Only:
+- Remove old caulking,
+- Apply anti-mold treatment,
+- Apply new caulking.",one-time,,,,,,,,,,,,unmatched_or_missing_category
+18,Toilet Bidet Installation - Plumbing,,,,60,"Labour Only:
+- Install and align new bidet
+- Test spray function",one-time,,,,,,,,,,,,unmatched_or_missing_category
+19,Caulking Sink,,,,60,"Labour Only:
+- Remove old caulking
+- Apply anti-mold treatment
+- Apply new caulking",one-time,,,,,,,,,,,,unmatched_or_missing_category
+20,Shelf Mounting,,,,60,"Labour Only
+Up to 2 shelves
+More pricing tiers apply",one-time,,,,,,,,,,,,unmatched_or_missing_category
+21,Toilet Flush Mechanism - Plumbing,,,,60,"Labour Only:
+- Remove old mechanism
+- Install new mechanism
+- Test flush",one-time,,,,,,,,,,,,unmatched_or_missing_category
+22,Shower Catridge - Plumbing,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+23,TV Cable Hiding Behind the Wall,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+24,Shower Diverter - Plumbing,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+25,Dishwasher Bracket Resecure,,,,60,"Labour Only:
+- Resecure bracket
+- Level dishwasher",one-time,,,,,,,,,,,,unmatched_or_missing_category
+26,Toilet Installation - Plumbing,,,,60,"Labour Only:
+- Install toilet
+- Seal & test
+Note: Disposal extra",one-time,,,,,,,,,,,,unmatched_or_missing_category
+27,Transition Board Replacement,,,,60,"Labour Only:
+- Replace or install board
+Note: up to 8ft",one-time,,,,,,,,,,,,unmatched_or_missing_category
+28,Door Installation with holes - Slab only,,,,60,- painting + $75,one-time,,,,,,,,,,,,unmatched_or_missing_category
+29,Door and Frame Installation with holes - Slab only,,,,60,- Painting +$75,one-time,,,,,,,,,,,,unmatched_or_missing_category
+30,Door and Frame Installation without holes,,,,60,- Painting + $75,one-time,,,,,,,,,,,,unmatched_or_missing_category
+31,Toilet Paper Holder Mount,,,,60,"Labour Only:
+- Insert anchors / mount;
+- Secure tightly.",one-time,,,,,,,,,,,,unmatched_or_missing_category
+32,Electrical Switch/Outlet Replacement,,,,60,Every additional +$40 +1 hr sp (up to 6),one-time,,,,,,,,,,,,unmatched_or_missing_category
+33,Shower Door Hinge Adjustment,,,,60,"Labour Only:
+- Remove door
+- Replace hinges
+- Test operation",one-time,,,,,,,,,,,,unmatched_or_missing_category
+34,Toilet Towel Rack Installation,,,,60,"Labour Only:
+- Install towel rack
+- Ensure stability",one-time,,,,,,,,,,,,unmatched_or_missing_category
+35,Smoke Detector Replacement/Battery Change,,,,60,"Labour Only:
+- Replace battery or unit
+- Ensure working",one-time,,,,,,,,,,,,unmatched_or_missing_category
+36,Thermostat Replacement - HVAC,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+37,House Main door doesn't close,,,,60,"Labour Only:
+- Adjust hinges
+- Fix alignment",one-time,,,,,,,,,,,,unmatched_or_missing_category
+38,Bathroom Fan Replacement,,,,60,"Labour Only:
+- Remove old fan
+- Install new fan
+- Test airflow",one-time,,,,,,,,,,,,unmatched_or_missing_category
+39,Drain Unclog - Plumbing,,,,60,Every additional + $40 + 1hr sp,one-time,,,,,,,,,,,,unmatched_or_missing_category
+40,Dishwasher Installation - Appliance,,,,60,"Labour Only:
+- Install dishwasher
+- Connect utilities
+- Test run",one-time,,,,,,,,,,,,unmatched_or_missing_category
+41,Faucet Tightening,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+42,Bathroom Ceiling Paint - Condo,,,,60,"Labour Only:
+- Paint ceiling",one-time,,,,,,,,,,,,unmatched_or_missing_category
+43,Faucet Installation- Bathroom,,,,60,"Labour Only:
+- Install faucet
+- Ensure water flow",one-time,,,,,,,,,,,,unmatched_or_missing_category
+44,Faucet Installation - Kitchen,,,,60,Every additional +$70,one-time,,,,,,,,,,,,unmatched_or_missing_category
+45,Wire Shelf Resecure,,,,60,"Labour Only:
+- Reinstall shelf
+- Secure anchors",one-time,,,,,,,,,,,,unmatched_or_missing_category
+46,Window Crank Replacement,,,,60,"Labour Only:
+- Replace crank
+- Test function",one-time,,,,,,,,,,,,unmatched_or_missing_category
+47,Transition Board - Flooring,,,,60,"Labour Only:
+- Install board
+- Secure properly",one-time,,,,,,,,,,,,unmatched_or_missing_category
+48,Shower Head Replacement,,,,60,"Labour Only:
+- Replace shower head",one-time,,,,,,,,,,,,unmatched_or_missing_category
+49,Grab Bar Mount,,,,60,Additional pricing applies,one-time,,,,,,,,,,,,unmatched_or_missing_category
+50,Bathtub Reglazing,,,,60,"Labour Only:
+- Strip old paint
+- Apply new coating",one-time,,,,,,,,,,,,unmatched_or_missing_category
+51,Door Adjustment - Closing Issue,,,,60,Adjust hinges or sand door,one-time,,,,,,,,,,,,unmatched_or_missing_category
+52,Mail Box Mount,,,,60,Additional pricing applies,one-time,,,,,,,,,,,,unmatched_or_missing_category
+53,Stairs Step - Exterior,,,,60,Labour Only,one-time,,,,,,,,,,,,unmatched_or_missing_category
+54,Material Expenses,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+55,Projects,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+56,Same Day,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+57,Within 48 hr,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+58,Mirror Closet Door Installation - Regular,,,,60,"Labour Only:
+- Install sliding mirror door",one-time,,,,,,,,,,,,unmatched_or_missing_category
+59,Closet Door Bottom Rail - Replacement,,,,60,"Labour Only:
+- Replace rail
+- Ensure smooth sliding",one-time,,,,,,,,,,,,unmatched_or_missing_category
+60,Wall Paint,,,,60,"Labour Only:
+- Patch
+- Sand
+- Paint wall",one-time,,,,,,,,,,,,unmatched_or_missing_category
+61,Site Visit,,,,60,Inspection and quotation preparation,one-time,,,,,,,,,,,,unmatched_or_missing_category
+62,TV Removal,,,,60,"Labour Only:
+- Remove TV safely",one-time,,,,,,,,,,,,unmatched_or_missing_category
+63,Curtain Rod Installation,,,,60,Every additional $45,one-time,,,,,,,,,,,,unmatched_or_missing_category
+64,Toilet Seat Replacement,,,,60,"Labour Only:
+- Replace seat
+- Ensure fit",one-time,,,,,,,,,,,,unmatched_or_missing_category
+65,Weather Strip - Door,,,,60,"Labour Only:
+- Replace weather strip
+- Ensure seal",one-time,,,,,,,,,,,,unmatched_or_missing_category
+66,House Number installation,,,,60,Install number signage,one-time,,,,,,,,,,,,unmatched_or_missing_category
+67,Bathroom Grout Cleaning - Bathtub/Shower,,,,60,"Labour Only:
+- Clean grout
+- Apply treatment",one-time,,,,,,,,,,,,unmatched_or_missing_category
+68,Bathroom Regrout - Bathtub/Shower,,,,60,Remove and apply new grout,one-time,,,,,,,,,,,,unmatched_or_missing_category
+69,Bathroom Grout,,,,60,New grout application,one-time,,,,,,,,,,,,unmatched_or_missing_category
+70,Material Receipt,,,,60,Provide receipt for materials,one-time,,,,,,,,,,,,unmatched_or_missing_category
+71,Toilet Clog - Plumbing,,,,60,"Labour Only:
+- Remove blockage
+- Test flow",one-time,,,,,,,,,,,,unmatched_or_missing_category
+72,Parking,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+73,Appliance Repair,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+74,Screen Door - Mesh Replacement,,,,60,"Labour Only:
+- Replace mesh",one-time,,,,,,,,,,,,unmatched_or_missing_category
+75,Screen Door Replacement,,,,60,"Labour Only:
+- Replace door",one-time,,,,,,,,,,,,unmatched_or_missing_category
+76,Locksmith,,,,60,Call specialist,one-time,,,,,,,,,,,,unmatched_or_missing_category
+77,Electrical,,,,60,Handled by electrician,one-time,,,,,,,,,,,,unmatched_or_missing_category
+78,Plumbing,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+79,Demolition,,,,60,Handled by contractor,one-time,,,,,,,,,,,,unmatched_or_missing_category
+80,Disposal,,,,60,Handled externally,one-time,,,,,,,,,,,,unmatched_or_missing_category
+81,Fence,,,,60,Per ft pricing applies,one-time,,,,,,,,,,,,unmatched_or_missing_category
+82,Blind installation,,,,60,Labour only,one-time,,,,,,,,,,,,unmatched_or_missing_category
+83,Flooring,,,,60,Labour only pricing per sq ft,one-time,,,,,,,,,,,,unmatched_or_missing_category
+84,Fire Alarm Replacement,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+85,Furniture Assembly,,,,60,$95/hr service,one-time,,,,,,,,,,,,unmatched_or_missing_category
+86,Scope,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+87,Fence Post,,,,60,Install fence posts,one-time,,,,,,,,,,,,unmatched_or_missing_category
+88,Snow Plow,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+89,Tile Installation,,,,60,Handled by specialist,one-time,,,,,,,,,,,,unmatched_or_missing_category
+90,Dimmer Switch - Electrical,,,,60,Handled by electrician,one-time,,,,,,,,,,,,unmatched_or_missing_category
+91,Closet Door Allignment,,,,60,"Labour Only:
+- Align door",one-time,,,,,,,,,,,,unmatched_or_missing_category
+92,Faucet Aerator Replacement,,,,60,"Labour Only:
+- Replace aerator",one-time,,,,,,,,,,,,unmatched_or_missing_category
+93,Closet Hinges Replacement/fix,,,,60,"Labour Only:
+- Replace hinges",one-time,,,,,,,,,,,,unmatched_or_missing_category
+94,Pot Lights Installation - Electrical,,,,60,Handled by electrician,one-time,,,,,,,,,,,,unmatched_or_missing_category
+95,Washer/Dryer Disconnect,,,,60,"Labour Only:
+- Disconnect safely",one-time,,,,,,,,,,,,unmatched_or_missing_category
+96,HVAC,,,,60,Handled by HVAC expert,one-time,,,,,,,,,,,,unmatched_or_missing_category
+97,Exterior Flood Light,,,,60,"Labour Only:
+- Install light",one-time,,,,,,,,,,,,unmatched_or_missing_category
+98,Light Fixture Cover,,,,60,"Labour Only:
+- Install cover",one-time,,,,,,,,,,,,unmatched_or_missing_category
+99,Drywall Patch,,,,60,"Labour Only:
+- Patch and paint",one-time,,,,,,,,,,,,unmatched_or_missing_category
+100,Door Bell Replacement - wired,,,,60,"Labour Only:
+- Replace doorbell",one-time,,,,,,,,,,,,unmatched_or_missing_category
+101,Urinal P-trap Replacement,,,,60,"Labour Only:
+- Replace P-trap",one-time,,,,,,,,,,,,unmatched_or_missing_category
+102,Plumbing - Leak,,,,60,"Labour Only:
+- Fix leak",one-time,,,,,,,,,,,,unmatched_or_missing_category
+103,Baseboard Installation(new) - with Paint,,,,60,Install and paint baseboards,one-time,,,,,,,,,,,,unmatched_or_missing_category
+104,Baseboard Installation(new) - without paint,,,,60,Install baseboards,one-time,,,,,,,,,,,,unmatched_or_missing_category
+105,Microwave Installation - Appliance,,,,60,"Labour Only:
+- Install microwave",one-time,,,,,,,,,,,,unmatched_or_missing_category
+106,Stovetop Replacement - Appliance,,,,60,Handled by specialist,one-time,,,,,,,,,,,,unmatched_or_missing_category
+107,Keypad Door Knob Replace,,,,60,"Labour Only:
+- Replace keypad knob",one-time,,,,,,,,,,,,unmatched_or_missing_category
+108,Microwave Handle Replacement,,,,60,"Labour Only:
+- Replace handle",one-time,,,,,,,,,,,,unmatched_or_missing_category
+109,New Keypad Knob Installation - Door,,,,60,"Labour Only:
+- Install keypad",one-time,,,,,,,,,,,,unmatched_or_missing_category
+110,Washer and Dryer Installation,,,,60,"Labour Only:
+- Install washer/dryer",one-time,,,,,,,,,,,,unmatched_or_missing_category
+111,Add On,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+112,P-Trap - Kitchen - Plumbing,,,,60,"Labour Only:
+- Replace P-trap",one-time,,,,,,,,,,,,unmatched_or_missing_category
+113,Mounting,,,,60,Standard mounting pricing,one-time,,,,,,,,,,,,unmatched_or_missing_category
+114,Carpentry,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+115,Truck,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+116,Appliance Installation,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+117,Appliance,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+118,Additional Expense,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+119,Baby Gates Installation - HM,,,,60,Additional pricing applies,one-time,,,,,,,,,,,,unmatched_or_missing_category
+120,Additional Scope,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+121,Toilet Handle,,,,60,"Labour Only:
+- Replace handle",one-time,,,,,,,,,,,,unmatched_or_missing_category
+122,Range Hood - Appliance,,,,60,Handled by specialist,one-time,,,,,,,,,,,,unmatched_or_missing_category
+123,Kitchen Sink Caulking,,,,60,"Labour Only:
+- Apply caulking",one-time,,,,,,,,,,,,unmatched_or_missing_category
+124,Deck - Carpentry,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+125,Closet Door - Carpentry,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+126,Light Bulb - Electrical,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+127,Mount,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+128,Exterior,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+129,Paint,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+130,Bathroom,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+131,Railing,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+132,Mirror Installation,,,,60,"Labour Only:
+- Install mirror securely",one-time,,,,,,,,,,,,unmatched_or_missing_category
+133,Drawer- Carpentry,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+134,Kitchen,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+135,Window,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+136,Interlock,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+137,Powerwash,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+138,Door,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+139,Vanity,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+140,Cancellation Fee,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+141,Storage,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+142,Dismantling,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+143,Stain - Carpentry,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+144,Awning Installation,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+145,Hanging pictures,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+146,Window AC,,,,60,"Labour Only:
+- Install AC",one-time,,,,,,,,,,,,unmatched_or_missing_category
+147,Shower,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+148,Moving,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+149,Wire Glass,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+150,Sink Unclog,,,,60,"Labour Only:
+- Remove blockage",one-time,,,,,,,,,,,,unmatched_or_missing_category
+151,Wallpaper Installtion,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+152,Storm Door Installation,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+153,Popcorn Ceiling,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+154,Painting,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+155,Screen Door,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+156,Roof,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+157,AC Installation,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+158,Toilet Flapper - Plumbing,,,,60,"Labour Only:
+- Replace flapper",one-time,,,,,,,,,,,,unmatched_or_missing_category
+159,Bathroom Sink Basin Replacement,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+160,Missing Payment,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+161,Glass,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+162,Gardening,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+163,Sliding Door,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+164,Kitchen Gasket Replacement- Plumbing,,,,60,"Labour Only:
+- Replace gasket",one-time,,,,,,,,,,,,unmatched_or_missing_category
+165,Cleaning - Gutters/Eavestroughs,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+166,Toilet Gasket replacement- Plumbing,,,,60,"Labour Only:
+- Replace gasket",one-time,,,,,,,,,,,,unmatched_or_missing_category
+167,Toilet Bolt replacement,,,,60,"Labour Only:
+- Replace bolts",one-time,,,,,,,,,,,,unmatched_or_missing_category
+168,Toilet Replacement- Plumbing,,,,60,"Labour Only:
+- Replace toilet",one-time,,,,,,,,,,,,unmatched_or_missing_category
+169,Faucet Replacement Bathroom,,,,60,"Labour Only:
+- Replace faucet",one-time,,,,,,,,,,,,unmatched_or_missing_category
+170,Shower Cartridge,,,,60,"Labour Only:
+- Replace cartridge",one-time,,,,,,,,,,,,unmatched_or_missing_category
+171,Vanity Replacement,,,,60,"Labour Only:
+- Replace vanity",one-time,,,,,,,,,,,,unmatched_or_missing_category
+172,Sliding Door Open/Close Problem,,,,60,"Labour Only:
+- Fix sliding issue",one-time,,,,,,,,,,,,unmatched_or_missing_category
+173,Sliding Door Roller Replacement,,,,60,"Labour Only:
+- Replace rollers",one-time,,,,,,,,,,,,unmatched_or_missing_category
+174,Mirror Removal,,,,60,"Labour Only:
+- Remove mirror",one-time,,,,,,,,,,,,unmatched_or_missing_category
+175,Concrete,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+176,Toilet Tank Replacement,,,,60,"Labour Only:
+- Replace tank",one-time,,,,,,,,,,,,unmatched_or_missing_category
+177,Countertop,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+178,Commercial Door,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+179,Whiteboard Installation,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+180,Renovation,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+181,Deadbolt lock replacement,,,,60,"Labour Only:
+- Replace lock",one-time,,,,,,,,,,,,unmatched_or_missing_category
+182,Wall Panel,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+183,Bathtub door installation,,,,60,"Labour Only:
+- Install door",one-time,,,,,,,,,,,,unmatched_or_missing_category
+184,Shipping Cost,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+185,Sink Garbage Disposal,,,,60,Install disposal unit,one-time,,,,,,,,,,,,unmatched_or_missing_category
+186,Door Hinge Replacement,,,,60,"Labour Only:
+- Replace hinges",one-time,,,,,,,,,,,,unmatched_or_missing_category
+187,Delivery,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+188,Stairs Railing,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+189,Camera,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+190,Stairs,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+191,Mixer Replacement,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+192,Carbon Monoxide Detector,,,,60,"Labour Only:
+- Replace detector",one-time,,,,,,,,,,,,unmatched_or_missing_category
+193,Door Handle,,,,60,"Labour Only:
+- Fix or replace handle",one-time,,,,,,,,,,,,unmatched_or_missing_category
+194,Drawer Adjustment,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+195,Sliding Track Repair,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+196,Shut-Off Valve,,,,60,"Labour Only:
+- Replace valve",one-time,,,,,,,,,,,,unmatched_or_missing_category
+197,Hook Installation,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+198,Barn Door,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+199,Strainer,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+200,Cabinet,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+201,Vent,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+202,Exit Sign,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+203,Advance Payment,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+204,Door Alarm,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+205,Pest Control,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+206,Grill Replacement,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+207,Bathroom Sink,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+208,Baseboard Heater,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+209,Mirror,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+210,Finance,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+211,Baseboard,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+212,Crown Moulding,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+213,P-Trap,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+214,Leaves Removal,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+215,Garage Door,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+216,Ceiling Tiles,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+217,Emergency Service,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+218,Seal,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+219,Vent Cover,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+220,Wood Plank,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+221,Door Stopper,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+222,Oven Installation - Appliance,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+223,Overtime,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+224,Ice Removal,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+225,After Work Hour Fee,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+226,Door Lock,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+227,Touch Up,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+228,Door Closer,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+229,Latch - Door,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+230,Attic,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category
+231,Plywood,,,,60,,one-time,,,,,,,,,,,,unmatched_or_missing_category

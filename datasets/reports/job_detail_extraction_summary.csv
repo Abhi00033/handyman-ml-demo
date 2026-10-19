@@ -1,0 +1,12 @@
+﻿metric,value
+records_read,282
+records_with_initial_request,282
+records_with_usable_final_scope,214
+records_with_customer_followups,231
+records_with_category_evidence,173
+records_with_multiple_category_matches,24
+records_with_explicit_dimensions,16
+records_with_explicit_quantity,1
+records_with_material_evidence,82
+records_flagged_for_scope_review,142
+records_with_image_references,175

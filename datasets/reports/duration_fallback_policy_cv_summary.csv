@@ -1,0 +1,3 @@
+model,records,folds,mae_hours,median_absolute_error_hours,p90_absolute_error_hours,errors_at_least_1h,errors_at_least_3h
+category_median_reference,164,5,0.8604,0.25,1.0,28,6
+support_aware_fallback_policy,164,5,0.8604,0.25,1.0,28,6

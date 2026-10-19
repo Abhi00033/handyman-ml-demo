@@ -1,0 +1,108 @@
+session_id,status,detected_category,category_id,estimated_hours,final_quote_scope,exclusion_reasons
+84,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+96,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+97,address_required,Plumbing,1.0,1.3,"[""*"", ""*""]",excluded_status:address_required
+98,address_required,Plumbing,1.0,1.0,"[""*"", ""trap) under the bathroom sink with a new one."", ""*""]",excluded_status:address_required
+106,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+107,address_required,Plumbing,1.0,1.0,"[""trap (curved pipe under the bathroom sink) and install a new one.""]",excluded_status:address_required
+109,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+111,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+112,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+117,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+118,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+119,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+123,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+125,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+126,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+127,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+128,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+130,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+131,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+132,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+133,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+134,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+138,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+141,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+142,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+143,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+145,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+146,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+147,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+148,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+149,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+150,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+152,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+155,questioning,Electrical,4.0,1.3,"[""Remove the existing starburst chandelier and install your new chandelier using the existing electrical box and wiring.""]",excluded_status:questioning
+162,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+183,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+184,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+185,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+186,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+188,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+189,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+191,draft,Home Service,17.0,1.0,"[""Transport 5 table parts from one room to another and position them in the new location.""]",excluded_status:draft
+192,draft,Home Service,17.0,1.5,"[""Install decorative metal trim border around the perimeter of a 5' × 0' surface.""]",excluded_status:draft
+194,draft,Home Service,17.0,3.0,[],excluded_status:draft; missing_or_unusable_final_scope
+196,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+197,deleted,Plumbing,1.0,1.3,"[""Remove the leaking pipe section under the sink and install a new replacement pipe with all necessary fittings.""]",excluded_status:deleted
+200,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+202,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+203,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+207,rejected,Home Repairs,3.0,1.0,"[""Secure and tighten a loose hot water supply line (a few feet in length) in the basement/utility area. The Tasker will inspect the line, identify the cause of the looseness, and secure it properly using appropriate brackets or fasteners.""]",excluded_status:rejected
+208,rejected,Home Repairs,3.0,1.5,"[""site.""]",excluded_status:rejected
+211,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+212,questioning,Plumbing,1.0,1.0,"[""Tighten the loose PVC pipe joint connection to stop the leak. The Tasker will inspect the joint, reseal it if needed, and test to confirm the leak has stopped.""]",excluded_status:questioning
+213,questioning,Home Improving,2.0,3.5,"[""Sand down the scratched tabletop surface and apply a matte flat finish to restore the table to a smooth, renewed appearance.""]",excluded_status:questioning
+214,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+215,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+217,draft,Plumbing,1.0,1.0,"[""off valve with a new one to restore water shutoff functionality.""]",excluded_status:draft
+233,draft,Plumbing,1.0,1.0,"[""trap) under the kitchen sink and reconnect it to the existing plumbing lines.""]",excluded_status:draft
+236,deleted,Plumbing,1.0,1.5,"[""Replace the cracked fresh water supply line section in the bathroom floor. The Tasker will access the pipe, remove the damaged section, and install a new one using existing connections.""]",excluded_status:deleted
+238,deleted,Plumbing,1.0,1.5,"[""inch section of copper pipe and replace it with new copper pipe, including all fittings and connections.""]",excluded_status:deleted
+245,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+252,deleted,Home Service,17.0,1.25,"[""Remove the existing glass panel from the table top and install a new glass panel of matching size and thickness.""]",excluded_status:deleted
+258,draft,Home Repairs,3.0,1.25,"[""damaged baseboard section (under 2 feet). Remove damaged portion, prepare the area, and install your replacement material.""]",excluded_status:draft
+260,rejected,Home Repairs,3.0,1.0,"[""Repair and reattach the loose baseboard section using your existing""]",excluded_status:rejected
+262,draft,Home Service,17.0,1.0,"[""Remount the modem to the ceiling using the original mounting bracket and hardware.""]",excluded_status:draft
+265,draft,Home Improving,2.0,4.0,"[""Sand the desk surface smooth and apply stain and protective finish to restore the appearance and durability of the wood.""]",excluded_status:draft
+266,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+267,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+268,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+279,draft,Home Service,17.0,2.0,"[""provided brackets. Includes locating studs, securing brackets to the wall, and ensuring each TV is level and safely installed.""]",excluded_status:draft
+282,draft,Home Repairs,3.0,1.0,"[""Reattach the dishwasher to the countertop using the existing brackets and hardware. Verify water supply and drain connections are secure.""]",excluded_status:draft
+283,draft,Home Improving,2.0,4.5,"[""Sand the wall section to create a smooth surface, fill any gaps or imperfections, and apply two coats of paint for an even, finished look.""]",excluded_status:draft
+291,rejected,Carpentry,5.0,1.5,"[""Install edge trim around the perimeter of the tabletop. The Tasker will select a material that matches your table's style and finish.""]",excluded_status:rejected
+295,draft,Carpentry,5.0,2.25,"[""Source matching wood trim and install around the perimeter of the tabletop. The Tasker will measure, cut, and secure the trim to create a finished edge.""]",excluded_status:draft
+304,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+306,draft,Home Repairs,3.0,1.0,"[""Remove the existing cabinet door hinge and install your replacement hinge.""]",excluded_status:draft
+307,draft,Home Improving,2.0,5.0,[],excluded_status:draft; missing_or_unusable_final_scope
+309,draft,Home Repairs,3.0,1.0,"[""Remove the broken cabinet door hinge and install a new one to match the existing hardware.""]",excluded_status:draft
+311,draft,Home Improvement,17.0,2.5,"[""Patch four drywall holes in the same room and paint the patched areas to match the existing wall finish.""]",excluded_status:draft
+312,draft,Home Repairs,3.0,1.0,"[""Remove the existing door latch plate and install a new one.""]",excluded_status:draft
+314,draft,Home Repairs,3.0,1.0,"[""Remove the TV from the existing wall mount, relocate the mount 10 inches higher on the wall, and reinstall the TV securely in its new position.""]",excluded_status:draft
+315,draft,Home Repairs,3.0,1.0,"[""Remove the existing latch plate and install your new latch plate on the door frame.""]",excluded_status:draft
+316,draft,Home Improvement,17.0,1.25,"[""Fill four screw holes with drywall compound, sand smooth, and paint to match the existing wall finish.""]",excluded_status:draft
+317,deleted,Carpentry,5.0,1.0,"[""Remove the existing door handle and install your new handle.""]",excluded_status:deleted
+323,deleted,Home Repairs,3.0,1.0,"[""Remove the existing door handle and install your new handle.""]",excluded_status:deleted
+324,deleted,Home Repairs,3.0,1.0,"[""Remove the existing door knob and install your new knob.""]",excluded_status:deleted
+325,deleted,Carpentry,5.0,1.0,"[""Remove the existing door knob and install your new knob.""]",excluded_status:deleted
+326,deleted,Carpentry,5.0,1.0,"[""Remove the existing door knob and install your new knob.""]",excluded_status:deleted
+327,deleted,Home Repairs,3.0,1.0,"[""Remove and replace the doorknob with the one you've provided.""]",excluded_status:deleted
+329,appointed,Home Repairs,3.0,3.0,[],missing_or_unusable_final_scope
+334,draft,Plumbing,1.0,1.0,"[""trap from the bathroom sink and install a new curved pipe under the sink using the existing connections.""]",excluded_status:draft
+337,deleted,Home Improvement,17.0,2.5,"[""Paint one wall with your supplied paint. Includes prep (protecting trim and floors), two coats of paint, and cleanup.""]",excluded_status:deleted
+340,deleted,Home Repairs,3.0,4.0,[],excluded_status:deleted; missing_or_unusable_final_scope
+341,draft,,,,,excluded_status:draft; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+342,draft,Home Repairs,3.0,2.0,[],excluded_status:draft; missing_or_unusable_final_scope
+343,draft,Home Repairs,3.0,4.0,[],excluded_status:draft; missing_or_unusable_final_scope
+346,matched,Home Repairs,3.0,6.25,[],missing_or_unusable_final_scope
+350,draft,Plumbing,1.0,1.5,"[""Remove the existing copper hot water supply line section and install new PVC pipe with fittings to replace it.""]",excluded_status:draft
+358,deleted,Home Improvement,17.0,2.5,"[""Patch the damaged drywall section under the kitchen cabinet, sand smooth, prime, and paint to match the existing finish.""]",excluded_status:deleted
+359,deleted,Home Repairs,3.0,1.25,[],excluded_status:deleted; missing_or_unusable_final_scope
+360,draft,,,,,excluded_status:draft; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+363,deleted,Home Repairs,3.0,1.25,"[""Remove the existing shower head and arm, and install a new shower head and arm.""]",excluded_status:deleted
+364,approved,Plumbing,1.0,6.0,[],missing_or_unusable_final_scope
+366,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+368,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+369,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+371,questioning,,,,,excluded_status:questioning; missing_category_id; missing_category_name; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope

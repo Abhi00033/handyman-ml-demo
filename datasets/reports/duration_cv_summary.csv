@@ -1,0 +1,4 @@
+model,records,folds,mae_hours,median_absolute_error_hours,max_absolute_error_hours,target_definition,split_method
+category_median,164,5,0.861890243902439,0.25,29.5,"historical estimated_hours (quoted hours), not actual hands-on duration",5-fold GroupKFold by normalized job text
+category_p75,164,5,1.0580792682926827,0.5,28.5,"historical estimated_hours (quoted hours), not actual hands-on duration",5-fold GroupKFold by normalized job text
+text_plus_category_ridge,164,5,1.041956022360843,0.5074973702137389,29.068927419071404,"historical estimated_hours (quoted hours), not actual hands-on duration",5-fold GroupKFold by normalized job text

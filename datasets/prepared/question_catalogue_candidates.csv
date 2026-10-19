@@ -1,0 +1,788 @@
+﻿source_category,question,candidate_pair_count,unique_answer_count,example_answers,source_session_ids,manual_review_pair_count,review_flags,verified_pair_count,catalogue_status
+(missing),"Hi! I'm Leo, your project coordinator at Star Handyman. Thanks for the photos — I can see three different areas here. Let me make sure I understand what you're working on: **Photo 1:** A wall being prepped (looks like drywall with tape and plastic sheeting) in what appears to be an office or commercial space. **Photo 2:** An outlet that looks discolored or damaged — possibly needs replacement or repair. **Photo 3:** A window handle that appears broken or misaligned. Before I ask details, I want to clarify: **Are these three separate projects you'd like done, or are they all part of one larger renovation?",1,1,cancel,341,0,,0,draft_unreviewed
+(missing),What would you like done with this connection?,1,1,replace,214,0,,0,draft_unreviewed
+(missing),"What would you like done with this table — are you looking to add new edging/border trim to cover the damaged area, repair and refinish the existing edge, or something else?",1,1,Add proper border,146,0,,0,draft_unreviewed
+(missing),"Would you like the leaking section repaired, or would you prefer to replace that section of pipe?",1,1,Hjj,130,0,,0,draft_unreviewed
+Appliance Services,Can you tell me where the leak is coming from?,1,1,Water heater tank,288,0,,0,draft_unreviewed
+Appliance Services,"Do you already have a new water heater, or should the Tasker source and bring one?",1,1,Tasker brings one,288,0,,0,draft_unreviewed
+Appliance Services,"Do you want the Tasker to handle disposal of the old water heater, or will you take care of that yourself?",1,1,Tasker handles it,288,0,,0,draft_unreviewed
+Appliance Services,"Do you want to repair the water heater, or replace it with a new one?",1,1,Replace with new one,288,0,,0,draft_unreviewed
+Appliance Services,"Is the water actively leaking right now, or has it stopped?",1,1,Has stopped,288,0,,0,draft_unreviewed
+Carpentry,"After powerwashing, would you like the deck sealed or stained to protect the wood, or just the cleaning?",1,1,yes please,158,0,,0,draft_unreviewed
+Carpentry,"Are you looking to add a trim or edge banding around the perimeter of the table top, or would you like a full decorative border frame built around it?",1,1,Edge trim around top,291,0,,0,draft_unreviewed
+Carpentry,"Are you looking to install the white door shown in the first photo into the frame shown in the second photo, plus install a second door into another frame somewhere else?",1,1,I want 2 slabs installed to this frame. Same slabs showing in the photo,157,0,,0,draft_unreviewed
+Carpentry,"Are you looking to just powerwash the deck surface, or would you also like the railing and any other areas powerwashed?",1,1,deck are only,158,0,,0,draft_unreviewed
+Carpentry,"Are you looking to replace all the deck boards, or just the ones that are visibly damaged or rotted?",1,1,Replace all boards,308,0,,0,draft_unreviewed
+Carpentry,"Are you looking to replace just the handle, or do you want to replace the entire lock system (handle + lock mechanism)?",1,1,Just the handle,318,0,,0,draft_unreviewed
+Carpentry,"Do the door slabs already have holes drilled for the knobs, or do they need to be drilled?",1,1,no,157,0,,0,draft_unreviewed
+Carpentry,"Do the door slabs already have the mortises (recesses) cut for the hinges, or do those need to be cut as well?",1,1,no,157,0,,0,draft_unreviewed
+Carpentry,"Do you already have a new handle picked out, or should the Tasker bring a standard replacement similar to the current one?",1,1,Tasker brings similar,318,0,,0,draft_unreviewed
+Carpentry,"Do you already have a powerwasher, or would you like the Tasker to bring one?",1,1,tasker bring,158,0,,0,draft_unreviewed
+Carpentry,"Do you already have both door slabs, or does the Tasker need to bring them?",1,1,yes I do,157,0,,0,draft_unreviewed
+Carpentry,"Do you already have the hinges and hardware (like handles or knobs), or should the Tasker bring those?",1,1,yes I have,157,0,,0,draft_unreviewed
+Carpentry,"Do you already have the trim material, or should the Tasker bring it and install it?",1,1,Tasker brings it,291,0,,0,draft_unreviewed
+Carpentry,"Do you already have the wood trim material, or should the Tasker bring it and measure on-site to get the right size and finish?",1,1,Tasker brings it,294,0,,0,draft_unreviewed
+Carpentry,"Do you already have the wood trim picked out and ready, or should the Tasker bring a standard option that matches your table style?",1,1,Tasker should bring it,300,0,,0,draft_unreviewed
+Carpentry,"Do you already have the wood trim picked out and ready, or should the Tasker source a matching trim based on the table's current finish?",1,1,Tasker should find it,295,0,,0,draft_unreviewed
+Carpentry,"Do you already have the wood trim, or should the Tasker bring it?",1,1,Tasker should bring it,296,0,,0,draft_unreviewed
+Carpentry,"Do you already have the wooden trim material picked out, or should the Tasker bring trim options for you to choose from?",1,1,I have the trim,276,0,,0,draft_unreviewed
+Carpentry,"Do you already have the wooden trim picked out and ready, or should the Tasker bring a trim option to match your table?",1,1,I have the trim ready,292,0,,0,draft_unreviewed
+Carpentry,"Do you have a preference for the material (wood trim to match, metal banding, or something else)?",1,1,Wood trim to match,296,0,,0,draft_unreviewed
+Carpentry,"Do you have a preference for the new boards (pressure-treated wood, composite, or similar to what's currently there)?",1,1,Pressure-treated wood,308,0,,0,draft_unreviewed
+Carpentry,"Do you have the table available for the Tasker to work on, or will you need to drop it off somewhere for them to pick up?",1,1,Table is at my home,295,0,,0,draft_unreviewed
+Carpentry,"Got it — a 5 by 10 foot table. That's a good size! One final question before I put your estimate together: **Do you already have the decorative border trim material, or should the Tasker bring it and source it based on your table's style and finish?",1,1,tasker bring it,187,0,,0,draft_unreviewed
+Carpentry,"Great — laminate is a solid choice for durability and easy maintenance. One quick follow-up: **Do you already have the laminate material, or should the Tasker source and bring it?",1,1,yes I have,237,0,,0,draft_unreviewed
+Carpentry,Great! So you'd like the deck powerwashed and then sealed/stained. One quick follow-up: Would you prefer a clear sealant (keeps the natural wood look) or a stain (adds color while protecting)?,1,1,yes,158,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+Carpentry,"How long is the perimeter of the table (roughly how many feet around, or just ""small,"" ""medium,"" ""large"")?",1,1,Small (under 6 ft),300,0,,0,draft_unreviewed
+Carpentry,"I want to make sure I get this right for you. Would you prefer: - **Clear sealant** (protects the wood but keeps the natural color), or - **Stain** (adds color and protects the wood)?",1,1,Clear stain,158,0,,0,draft_unreviewed
+Carpentry,"I want to make sure I'm on the same page before I quote this! When you say ""yes true,"" are you confirming that: 1. The table is made of wood, **AND** 2. You'd like the border to match the existing finish?",1,1,first one,187,0,,0,draft_unreviewed
+Carpentry,"Is the table currently in a location where the Tasker can work on it easily, or would it need to be moved?",1,1,Easy access where it is,292,0,,0,draft_unreviewed
+Carpentry,"Is the table currently in place where you'd like the work done, or does it need to be moved to a workshop?",1,1,Move to workshop,296,0,,0,draft_unreviewed
+Carpentry,"Is there anything unusual about the door or lock (like it's sticky, hard to turn, or the door doesn't close smoothly) that we should know about?",1,1,"No, works fine",318,0,,0,draft_unreviewed
+Carpentry,"Is this table currently in place (like a dining table or desk), or will it be easier to work on it somewhere else, like a workshop or garage?",1,1,Table stays in place,276,0,,0,draft_unreviewed
+Carpentry,"Looking at the table — is it made of wood, and would you like the border to match the existing finish, or are you thinking of a contrasting wood or stain color?",1,1,yes true,187,0,,0,draft_unreviewed
+Carpentry,"Perfect! So the table is made of wood, and you'd like the border to match the existing finish. One last detail to lock this in: **What are the approximate dimensions of the table?",1,1,5 by 10,187,0,,0,draft_unreviewed
+Carpentry,Roughly how many square feet is your deck?,1,1,200–300 sq ft,308,0,,0,draft_unreviewed
+Carpentry,"What material would you like for the trim — wood (to match or contrast with the current top), metal edging, or do you have a preference?",1,1,Wood trim,294,0,,0,draft_unreviewed
+Carpentry,What material would you like for the trim?,1,1,Wood trim,295,0,,0,draft_unreviewed
+Carpentry,What material would you like the new surface to be?,1,1,laminate,237,0,,0,draft_unreviewed
+Carpentry,"What material would you prefer for the trim (wood, metal, or do you want the Tasker to suggest something that matches the table)?",1,1,Tasker's choice,291,0,,0,draft_unreviewed
+Carpentry,What's the approximate size of your table?,1,1,small 2 person,237,0,,0,draft_unreviewed
+Carpentry,"When you say ""add a border,"" are you looking to:** - Install a wooden trim or edge banding around the perimeter of the tabletop?",1,1,Wooden trim around edges,276,0,,0,draft_unreviewed
+Carpentry,"When you say ""add a border,"" are you thinking of a wooden trim or edge banding around the perimeter of the table top, or something different?",1,1,Wooden trim around edge,292,0,,0,draft_unreviewed
+Carpentry,"When you say ""add border to this table,"" are you looking to install a trim or edge banding around the perimeter, or are you thinking of something else — like a decorative frame or inlay?",1,1,Trim or edge banding,296,0,,0,draft_unreviewed
+Carpentry,"When you say ""add border to this table,"" are you looking to install trim or edging around the perimeter of the tabletop, or would you prefer to refinish/seal the table surface as well?",1,1,Just add trim,295,0,,0,draft_unreviewed
+Carpentry,"When you say ""add border to this table,"" are you thinking of adding a trim piece around the edge of the tabletop, or something else?",1,1,Trim around edge,294,0,,0,draft_unreviewed
+Carpentry,"When you say ""add border,"" are you looking to install edge trim or edging (like wood trim, metal trim, or a finished edge band) to cover that raw edge?",1,1,Wood trim,300,0,,0,draft_unreviewed
+Carpentry,"When you say ""decorative border,"" are you thinking of adding a trim or molding around the edges of the table, or are you looking to create a decorative frame or panel effect on the table surface itself?",1,1,yeah you got it right,187,0,,0,draft_unreviewed
+Carpentry,"When you say ""replace the skin,"" are you looking to:** - Remove and replace just the top surface (laminate, veneer, or similar material)?",1,1,yes replace top surface,237,0,,0,draft_unreviewed
+Carpentry,"Will the Tasker need to resize or trim the doors to fit the frame, or do they fit as-is?",1,1,no. I measured. Everything seems ok,157,0,,0,draft_unreviewed
+Electrical,"Are you looking to install this fixture, replace an existing one, or remove it?",1,1,Install it,271,0,,0,draft_unreviewed
+Electrical,"Are you looking to replace just the light fixture itself, or do you also need any new wiring installed to support a different type of fixture?",1,1,same kind of fixture,244,0,,0,draft_unreviewed
+Electrical,"Are you looking to replace one of the recessed lights, or are you replacing a different light fixture** — like a pendant, chandelier, or wall sconce — that might be in another part of the room or space?",1,1,just the light,242,0,,0,draft_unreviewed
+Electrical,"Are you looking to replace the entire electrical panel with a new 200-amp panel, or are you upgrading a specific breaker or circuit within the existing panel?",1,1,Yes currently 150,161,0,,0,draft_unreviewed
+Electrical,"Are you looking to replace this existing fixture with a new one, or is there a different type of work you need done with it?",1,1,I will buy 1 similar and I want you install it,156,0,,0,draft_unreviewed
+Electrical,"Are you looking to replace this with a similar pendant light, or would you prefer a different style of fixture (like a flush-mount ceiling light, track light, etc.)?",1,1,Similar one,181,0,,0,draft_unreviewed
+Electrical,"Are you looking to upgrade from your current panel to a new 200-amp main panel, or are you adding a second 200-amp sub-panel next to the existing one?",1,1,Yes upgrade to 200,160,0,,0,draft_unreviewed
+Electrical,Can you describe what's wrong with the circuit?,1,1,I want to upgrade it to 200 amo,161,0,,0,draft_unreviewed
+Electrical,"Do you already have a new light fixture picked out, or should the Tasker bring a standard recessed light option when they arrive?",1,1,yes,242,1,generic_answer_to_choice_or_specific_question,0,draft_unreviewed
+Electrical,"Do you already have a new outlet, or should the Tasker bring one?",1,1,Tasker brings it,361,0,,0,draft_unreviewed
+Electrical,"Do you already have the new 200-amp panel, or should the Tasker source and bring it?",1,1,Bring it,160,0,,0,draft_unreviewed
+Electrical,"Do you already have the new chandelier, or would you like the Tasker to bring one?",1,1,I will order it online,155,0,,0,draft_unreviewed
+Electrical,"Do you already have the new light fixture, or should the Tasker bring one?",1,1,i have it,244,0,,0,draft_unreviewed
+Electrical,"Do you already have the new pendant light fixture, or should the Tasker bring one?",1,1,I have the new one,181,0,,0,draft_unreviewed
+Electrical,"Do you already have this fixture, or should the Tasker bring one when they arrive?",1,1,I have it,271,0,,0,draft_unreviewed
+Electrical,Do you currently have a 100-amp or 150-amp panel that we're replacing?,1,1,150,160,0,,0,draft_unreviewed
+Electrical,"Good question! It matters for **safety**. When working with electrical fixtures, the power needs to be off so the Tasker doesn't get shocked while removing and installing the light. If you already have it turned off, they can start right away. If not, they'll just flip the breaker or switch it off when they get there — it's a quick step either way. So: **Is the power currently off, or will the Tasker need to turn it off?",1,1,tasker has to know it,242,0,,0,draft_unreviewed
+Electrical,"Got it — the panel is inside your home. Just to confirm the full scope: You're replacing your current 150-amp electrical panel with a new 200-amp panel. This is a **licensed electrician job** that involves disconnecting the old panel, installing the new one, and reconnecting all the circuits. Do you already have a new 200-amp panel, or should the Tasker source and bring one?",1,1,Yes already brought it,161,0,,0,draft_unreviewed
+Electrical,I appreciate your response! Just to make sure I understand correctly — could you clarify which wall you'd like the TV mounted on?,1,1,At centre of that wall,88,0,,0,draft_unreviewed
+Electrical,"Is the fan still working at all, or has it stopped completely?",1,1,It is stopped,89,0,,0,draft_unreviewed
+Electrical,"Is the new fixture a similar size and weight to the current one, or is it larger/heavier?",1,1,It is the same size. It is not heavy,156,0,,0,draft_unreviewed
+Electrical,"Is the power to that light currently off, or should the Tasker turn it off when they arrive?",1,1,what is that matter?,242,0,,0,draft_unreviewed
+Electrical,"Is the power to that light currently turned off at the breaker, or should the Tasker handle that when they arrive?",1,1,tasker handle it,244,0,,0,draft_unreviewed
+Electrical,"Is the power to this fixture currently turned off at the breaker, or should the Tasker handle that when they arrive?",1,1,Tasker should handle that,181,0,,0,draft_unreviewed
+Electrical,"Is the power to this outlet currently off at the breaker, or should the Tasker turn it off when they arrive?",1,1,Power is already off,361,0,,0,draft_unreviewed
+Electrical,"Is there an electrical outlet near where the TV will be mounted, or will the Tasker need to install a new outlet behind the TV?",1,1,Install a new one,88,0,,0,draft_unreviewed
+Electrical,Is there anything else about the fixture or installation that I should know?,1,1,that is all,244,0,,0,draft_unreviewed
+Electrical,"Is this fixture already wired in (meaning the electrical connections are already in place), or does it need new wiring run to it?",1,1,Already wired,271,0,,0,draft_unreviewed
+Electrical,"Is this panel located inside your home (like in a basement, garage, or utility room), or is it on the exterior wall of the house?",1,1,Home,161,0,,0,draft_unreviewed
+Electrical,"Just to clarify — do you mean yes, you already have the new fixture, or yes, the Tasker should bring one?",1,1,i have the light,242,0,,0,draft_unreviewed
+Electrical,"Just to confirm, when the Tasker arrives, will the new chandelier already be at your location?",1,1,Yes.,155,0,,0,draft_unreviewed
+Electrical,"Looking at your ceiling, I can see exposed beams and what appears to be an open or commercial-style ceiling. Is the electrical box that supports the current chandelier easily accessible, or is there anything unusual about the mounting setup I should know about?",1,1,"yes, it is easaly accesible",155,0,,0,draft_unreviewed
+Electrical,"Perfect — 55-inch TV. Just to confirm: Do you already have a TV wall mount for it, or should the Tasker bring one?",1,1,Yes i have,88,0,,0,draft_unreviewed
+Electrical,"Since this is a restaurant, will this work need to happen during business hours, or can it be done when the restaurant is closed?",1,1,It can be done after close,156,0,,0,draft_unreviewed
+Electrical,What project or projects would you like help with in this space?,1,1,what do you see in the photo,242,0,,0,draft_unreviewed
+Electrical,"What size is your TV (in inches), and do you already have a TV wall mount, or should the Tasker bring one?",1,1,55inch,88,0,,0,draft_unreviewed
+Electrical,What specific project or work would you like done in this space?,1,1,I want to replace my light fixture,242,0,,0,draft_unreviewed
+Electrical,What's happening with the fan?,1,1,The wires are damaged,89,0,,0,draft_unreviewed
+Electrical,Where would you like the TV mounted — on which wall in this room?,1,1,Yes,88,1,generic_answer_to_choice_or_specific_question,0,draft_unreviewed
+Electrical,"Will the fixture be ready on-site when the Tasker arrives, or does it need to be picked up from somewhere?",1,1,It will be in my restaurant,156,0,,0,draft_unreviewed
+Electrical,"Would you like the cables hidden behind the wall, or is it okay for them to run along the wall surface?",1,1,Cables be hidden,88,0,,0,draft_unreviewed
+Electrical,"Would you like to replace it with a standard outlet like the current one, or are you interested in a safety outlet (the kind with TEST and RESET buttons)?",1,1,Standard outlet,361,0,,0,draft_unreviewed
+Electrical,"Would you like to replace the existing chandelier with a new one, or are you looking to remove it entirely?",1,1,I want to replace it with similar one,155,0,,0,draft_unreviewed
+HVAC,"Do you already have the new smart thermostat, or should the Tasker bring one?",1,1,Yes,169,1,generic_answer_to_choice_or_specific_question,0,draft_unreviewed
+HVAC,Do you have a preference for the new thermostat?,1,1,Yes,169,0,,0,draft_unreviewed
+HVAC,"Do you have a replacement part (like a battery or internal component), or should the Tasker bring what's needed after they diagnose the issue on-site?",1,1,Tasker bring what’s,166,0,,0,draft_unreviewed
+HVAC,"Do you want to repair the current thermostat, or replace it with a new one?",1,1,Yes,166,0,,0,draft_unreviewed
+HVAC,"I appreciate that, but I need to clarify which one you'd prefer so I can give you the right estimate. Let me ask it simply: **Do you want to keep the old thermostat and have it fixed, or get a brand new thermostat installed?",1,1,Yes,169,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+HVAC,"I appreciate you wanting to move forward, but I need that last answer first so I can give you an accurate estimate. Is your thermostat battery-powered, or is it wired into your home's electrical system?",1,1,Yes sure,168,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+HVAC,"I need to clarify one more time — do you: **A) Already have the smart thermostat at home**, or **B) Need the Tasker to bring one?",1,1,A,169,0,,0,draft_unreviewed
+HVAC,"I need to clarify — do you want: **A) A basic manual thermostat** (simple on/off and temperature control), or **B) A smart thermostat** (programmable, app control, learning features)?",1,1,B,169,0,,0,draft_unreviewed
+HVAC,"I understand this might be frustrating, but I need a clear answer to move forward with your estimate. Here are your two options: **Option A: Repair the existing thermostat** — I'll send a Tasker to diagnose the problem and fix it if possible. **Option B: Replace it with a new thermostat** — I'll send a Tasker to remove the old one and install a new one. Which one would you like to do — **A or B?",1,1,B,169,0,,0,draft_unreviewed
+HVAC,"I want to make sure I understand — would you like me to: **A) Troubleshoot and repair the current thermostat**, or **B) Replace it with a new one?",1,1,Yes,169,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+HVAC,"I want to make sure I understand — would you like to: **Repair the current thermostat**, or **replace it with a new one?",1,1,Repaire,166,0,,0,draft_unreviewed
+HVAC,"Thanks! Just to clarify — is it battery-powered, or is it wired into your electrical system?",1,1,Yes both,168,0,,0,draft_unreviewed
+HVAC,What's the issue with the thermostat?,1,1,I not working,166,0,,0,draft_unreviewed
+HVAC,What's the issue you're experiencing?,1,1,It’s not working,168,0,,0,draft_unreviewed
+HVAC,"What's wrong with the thermostat, and what would you like done?",1,1,It not working g,169,0,,0,draft_unreviewed
+HVAC,"When you say it's not working, does that mean the screen is blank/dark, or is the screen on but the heating or cooling isn't turning on?",1,1,Blank,168,0,,0,draft_unreviewed
+HVAC,"Would you like me to troubleshoot it and try to get it working again, or would you prefer to replace it with a new thermostat?",1,1,Yes,169,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+Home Improvement,"Do you already have paint that matches the wall, or should the Tasker bring paint to match it on-site?",2,2,I have matching paint | I have the paint,"311, 316",0,,0,draft_unreviewed
+Home Improvement,"After the holes are patched, would you like the area painted to match the rest of the wall, or just the patches filled and left as-is?",1,1,Paint to match,311,0,,0,draft_unreviewed
+Home Improvement,"After the patch is finished, would you also like the wall painted so the repair area matches the rest of the wall perfectly?",1,1,"Yes, paint it",313,0,,0,draft_unreviewed
+Home Improvement,"Are these holes all in the same room, or spread across different rooms?",1,1,Same room,311,0,,0,draft_unreviewed
+Home Improvement,"Are you looking to have the wall fully finished and ready to paint, or do you want the Tasker to handle both the sanding AND the painting?",1,1,Sand and paint,331,0,,0,draft_unreviewed
+Home Improvement,"Are you looking to patch and finish the hole so it blends in with the rest of the wall, or just fill it temporarily?",1,1,Patch and finish it,313,0,,0,draft_unreviewed
+Home Improvement,"Are you looking to patch and paint just that damaged back panel, or do you want the entire interior of the cabinet (all four walls) refinished to match?",1,1,Just the back panel,345,0,,0,draft_unreviewed
+Home Improvement,"Do you already have paint picked out and ready, or should the Tasker bring paint to match a color or sample you provide?",1,1,Already have paint,347,0,,0,draft_unreviewed
+Home Improvement,"Do you already have paint picked out and ready, or should the Tasker bring paint to match the rest of your space?",1,1,Paint is ready,331,0,,0,draft_unreviewed
+Home Improvement,"Do you already have the finishing materials (stain, sealant, etc.), or should the Tasker bring everything needed?",1,1,Tasker brings materials,322,0,,0,draft_unreviewed
+Home Improvement,"Do you already have the materials on hand (patch compound, sandpaper, primer, paint), or should the Tasker bring everything needed?",1,1,Tasker brings everything,345,0,,0,draft_unreviewed
+Home Improvement,"Do you already have the paint (same color as the existing wall), or should the Tasker bring it?",1,1,Already have it,330,0,,0,draft_unreviewed
+Home Improvement,"Do you already have the paint picked out and ready, or should the Tasker bring paint for you?",1,1,Already have it,338,0,,0,draft_unreviewed
+Home Improvement,"Do you already have the paint, or should the Tasker bring it?",1,1,I have the paint,339,0,,0,draft_unreviewed
+Home Improvement,"Got it — the Tasker will bring all materials. Just to confirm: you have the paint code ready to share with the Tasker so they can match the colour exactly, right?",1,1,Tasker brings everything,345,0,,0,draft_unreviewed
+Home Improvement,"Hi! I'm Leo, your project coordinator at Star Handyman. Thanks for the photos — I can see you've got a few things going on here. I can see: - **Project 1:** A large wall area being prepped (looks like drywall work with protective sheeting) - **Project 2:** An outlet that needs attention (looks like it may need cleaning or replacement) - **Project 3:** A window latch or hardware that needs adjustment or repair Before I ask detailed questions, let me confirm what I'm looking at — could you tell me briefly what you'd like done with each of these?",1,1,Paint the wall,339,0,,0,draft_unreviewed
+Home Improvement,"How many walls are we talking about, or is this just the one wall in the photo?",1,1,Just this one,331,0,,0,draft_unreviewed
+Home Improvement,How many walls are we talking about?,1,1,One wall,339,0,,0,draft_unreviewed
+Home Improvement,"Is it just the wall that needs painting, or are there other areas in this room (trim, ceiling, baseboards) that should be painted at the same time?",1,1,Just the wall,339,0,,0,draft_unreviewed
+Home Improvement,"Is the patching work already complete, or does the Tasker need to finish applying mud/compound before sanding?",1,1,Patching is done,330,0,,0,draft_unreviewed
+Home Improvement,"Is this just one wall, or are there multiple walls you'd like painted in this room?",1,1,Just this one wall,338,0,,0,draft_unreviewed
+Home Improvement,What color are you planning to paint this wall?,1,1,New color,338,0,,0,draft_unreviewed
+Home Improvement,What would you like done in this bedroom?,1,1,Paint and finish,347,0,,0,draft_unreviewed
+Home Improvement,What's the current condition of the wood?,1,1,Just worn and dull,322,0,,0,draft_unreviewed
+Home Improvement,"When you say ""change skin of table,"" are you looking to refinish the existing wood surface, or replace the tabletop entirely with a new one?",1,1,Refinish the wood,322,0,,0,draft_unreviewed
+Home Improvement,"When you say ""finished,"" do you want the wall sanded smooth and then painted to match the rest of the room, or are you looking for a different finish or color?",1,1,Match existing wall,330,0,,0,draft_unreviewed
+Home Improvement,"When you say ""paint and finish,"" are you looking to paint the walls and ceiling, or just the walls?",1,1,Walls only,347,0,,0,draft_unreviewed
+Home Improvement,"Would you like these holes filled and sanded smooth, or filled, sanded, *and* painted to match the wall?",1,1,"Filled, sanded, and painted",316,0,,0,draft_unreviewed
+Home Improving,"Do you already have the paint, or should the Tasker bring it?",2,2,tasker bring it | yes,"229, 232",1,generic_answer_to_choice_or_specific_question,0,draft_unreviewed
+Home Improving,"After sanding and painting, do you want the wall to have a smooth finish, or are you okay with a textured look (like popcorn or knockdown)?",1,1,Smooth finish,283,0,,0,draft_unreviewed
+Home Improving,"After the drywall is patched, would you like it painted to match the rest of the wall, or just patched and left as-is?",1,1,paint it as well,216,0,,0,draft_unreviewed
+Home Improving,"After the patch is done, would you like the area painted over so it blends in with the rest of the wall, or just patched and left as-is?",1,1,Paint it to match,261,0,,0,draft_unreviewed
+Home Improving,"After the patch is done, would you like the area painted to match the rest of the wall, or just the drywall repair itself?",1,1,yes please,218,0,,0,draft_unreviewed
+Home Improving,"After the repair is done, would you like the area painted to match the rest of the ceiling, or just the drywall patched and finished?",1,1,yes,219,0,,0,draft_unreviewed
+Home Improving,"After the repair is finished, would you like the area painted to match the rest of the ceiling, or will you handle the painting yourself?",1,1,yes painted,222,0,,0,draft_unreviewed
+Home Improving,"After the wall is patched and smooth, would you like the Tasker to paint it to match the rest of the wall, or just leave it prepped and ready for you to paint?",1,1,Paint it to match,307,0,,0,draft_unreviewed
+Home Improving,"Are there any other areas with drywall damage, or is it just the one hole we see in the photos?",1,1,1 hole,216,0,,0,draft_unreviewed
+Home Improving,"Are you looking to **remove the vines and paint the wall**, or just **paint over the wall as-is** with the vines still there?",1,1,exterior paint on red paint,232,0,,0,draft_unreviewed
+Home Improving,"Are you looking to have the grout cleaned and sealed, or do you want the old grout removed and completely replaced with fresh grout?",1,1,yes please. Fresh grout,210,0,,0,draft_unreviewed
+Home Improving,"Are you looking to have the tub reglazed (refinished with a new coating), or would you prefer a full replacement with a new tub?",1,1,reglaze the bathtub please,167,0,,0,draft_unreviewed
+Home Improving,"Are you looking to have the tub reglazed (refinished with a protective coating), or would you prefer to replace the tub entirely with a new one?",1,1,reglaze please,173,0,,0,draft_unreviewed
+Home Improving,"Are you looking to paint just that one wall, or the entire room?",1,1,Just that wall,248,0,,0,draft_unreviewed
+Home Improving,"Are you looking to paint just the front face of the door, or both the front and back sides?",1,1,Both sides,298,0,,0,draft_unreviewed
+Home Improving,"Are you looking to paint just the front-facing panels, or would you also like the inside of the wardrobe painted?",1,1,just the panel,227,0,,0,draft_unreviewed
+Home Improving,"Are you looking to paint over the existing paint, or would you like the wall prepped first (scraping off loose paint, cleaning the surface)?",1,1,paint over the red,229,0,,0,draft_unreviewed
+Home Improving,"Are you looking to paint over the existing red paint, or would you like the old paint removed first and then repainted?",1,1,yes over the red,226,0,,0,draft_unreviewed
+Home Improving,"Are you looking to remove the sign completely, or would you like it reinstalled elsewhere?",1,1,Remove it completely,269,0,,0,draft_unreviewed
+Home Improving,"Are you looking to repair the peeling paint on the red wall, fully repaint it, or do something else with it?",1,1,just paint,231,0,,0,draft_unreviewed
+Home Improving,"Are you looking to repair the wall (patch the hole and clean up the marks) and then paint over everything, or would you prefer a fresh wall with primer and paint to make it look brand new?",1,1,yes. I want the hole fixed and painted,174,0,,0,draft_unreviewed
+Home Improving,"Are you looking to repair this damaged section so it blends in with the rest of the ceiling, or do you have a different goal in mind?",1,1,yes,222,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+Home Improving,"Do you already have drywall patch materials and paint on hand, or should the Tasker bring everything?",1,1,no i dont,222,0,,0,draft_unreviewed
+Home Improving,"Do you already have exterior paint picked out, or should the Tasker bring paint and confirm the colour and finish with you in the chatbox?",1,1,yes,228,1,generic_answer_to_choice_or_specific_question,0,draft_unreviewed
+Home Improving,"Do you already have exterior paint picked out, or should the Tasker bring paint and confirm the details with you (color, finish, quantity) in the chatbox?",1,1,no. I dont,226,0,,0,draft_unreviewed
+Home Improving,"Do you already have exterior paint, or should the Tasker bring it?",1,1,yes,230,1,generic_answer_to_choice_or_specific_question,0,draft_unreviewed
+Home Improving,"Do you already have paint at home, or should the Tasker bring paint to match your wall?",1,1,i dont have a paint. Tasker can match the color,174,0,,0,draft_unreviewed
+Home Improving,"Do you already have paint picked out, or should the Tasker bring a standard interior paint (and you'll choose the color/finish with them in the chatbox)?",1,1,I have paint ready,284,0,,0,draft_unreviewed
+Home Improving,"Do you already have paint that matches the wall, or should the Tasker bring paint and match it on-site?",1,1,tasker bring it,216,0,,0,draft_unreviewed
+Home Improving,"Do you already have spackling compound or patching material on hand, or should the Tasker bring everything needed?",1,1,Tasker should bring them,261,0,,0,draft_unreviewed
+Home Improving,"Do you already have the grout material, or should the Tasker bring it and match it to your tile?",1,1,tasker bring it,210,0,,0,draft_unreviewed
+Home Improving,"Do you already have the metal trim material, or should the Tasker bring it and source it based on the panel's dimensions?",1,1,tasker bring,193,0,,0,draft_unreviewed
+Home Improving,"Do you already have the paint picked out and ready, or should the Tasker bring paint for you?",1,1,I have paint ready,248,0,,0,draft_unreviewed
+Home Improving,"Do you already have the paint picked out, or should the Tasker bring paint and confirm the colour and finish (matte, satin, semi-gloss) with you in the chatbox?",1,1,I have paint ready,283,0,,0,draft_unreviewed
+Home Improving,"Do you already have the paint picked out, or should the Tasker bring paint to match your room?",1,1,no I dont,227,0,,0,draft_unreviewed
+Home Improving,"Do you already have the refinishing materials, or should the Tasker bring everything needed for the reglazing?",1,1,no I dont have it,173,0,,0,draft_unreviewed
+Home Improving,"Do you already have the stain and finishing materials, or should the Tasker bring them?",1,1,Tasker brings materials,265,0,,0,draft_unreviewed
+Home Improving,"Do you already have white paint, or should the Tasker bring it?",1,1,I have paint,298,0,,0,draft_unreviewed
+Home Improving,"Do you have drywall mud, sandpaper, and primer/paint on hand already, or should the Tasker bring everything needed?",1,1,Tasker should bring them,307,0,,0,draft_unreviewed
+Home Improving,"Do you have drywall patch materials already, or should the Tasker bring everything needed for the repair?",1,1,no I dont have it,219,0,,0,draft_unreviewed
+Home Improving,"Do you have the materials for the reglaze already, or should the Tasker bring everything needed for the refinishing?",1,1,i dont have any material,167,0,,0,draft_unreviewed
+Home Improving,Do you know roughly how big the damaged area is?,1,1,it is a switch how big it can be?,261,0,,0,draft_unreviewed
+Home Improving,"Do you know the approximate size of the wall, or would you like me to estimate based on the photo?",1,1,7x8,230,0,,0,draft_unreviewed
+Home Improving,Do you need any patching or touch-up done to the ceiling after the sign is removed (like filling screw holes or repainting the area)?,1,1,"Yes, patch and paint",269,0,,0,draft_unreviewed
+Home Improving,"Does the door need any prep work first, like sanding or filling small dents or gaps?",1,1,"Good condition, ready to paint",298,0,,0,draft_unreviewed
+Home Improving,"Does the door need to be prepped first (cleaned, sanded, any loose paint removed), or is it in good condition and ready to paint?",1,1,Ready to paint,297,0,,0,draft_unreviewed
+Home Improving,"Does the wall need any prep work first, like scraping off peeling paint, filling cracks, or power washing?",1,1,no,232,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+Home Improving,"For the caulking — are you looking to remove the old caulk and apply fresh caulk around the bathtub, or just apply new caulk over what's already there?",1,1,Remove old and recaulk,299,0,,0,draft_unreviewed
+Home Improving,"For the caulking — is this around the bathtub/shower area, or somewhere else in the bathroom?",1,1,Bathtub/shower caulking,307,0,,0,draft_unreviewed
+Home Improving,"For the kitchen cabinet hinge — is it loose, damaged, or does it need to be replaced entirely?",1,1,"Damaged, needs replacement",307,0,,0,draft_unreviewed
+Home Improving,"For the medicine cabinet interiors — are you looking to paint just the inside walls and shelves, or do you also want the door frames and exterior painted?",1,1,Inside only,299,0,,0,draft_unreviewed
+Home Improving,Got it — there's something specific going on here. **Can you tell me a bit more about what needs to be fixed or done with this outlet/switch?,1,1,Around the switch needs to be patched,261,0,,0,draft_unreviewed
+Home Improving,Got it — you've got one of the two covered. Quick follow-up: Do you have the paint or the caulk already?,1,1,I have the caulk,299,0,,0,draft_unreviewed
+Home Improving,"Great — matte flat finish. That's clear. One last question: **Do you already have the materials (stain, sealer, or other finishing products), or should the Tasker bring everything needed?",1,1,yes I have,213,0,,0,draft_unreviewed
+Home Improving,How large is the damaged area?,1,1,1x1,218,0,,0,draft_unreviewed
+Home Improving,How large is the hole?,1,1,dinner plate,174,0,,0,draft_unreviewed
+Home Improving,"I appreciate you wanting to move forward, but I need just one more clarification to give you an accurate estimate. **Quick question:** What's the size of your bathroom?",1,1,4x5,227,0,,0,draft_unreviewed
+Home Improving,"I want to make sure I get the right finish for you. When you say ""yes"" — does that mean it's flat paint, satin, or semi-gloss?",1,1,yes,219,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+Home Improving,"I want to make sure I get this right for you. Before I revise the estimate, could you tell me what specifically you'd like me to change?",1,1,labour time be shorter,213,0,,0,draft_unreviewed
+Home Improving,"In the first photo, is that water damage, a stain, or something else affecting the ceiling?",1,1,drywall please,219,0,,0,draft_unreviewed
+Home Improving,"Is the ceiling painted with flat paint, satin, or semi-gloss finish?",1,1,yes,219,0,,0,draft_unreviewed
+Home Improving,"Is the damage just a small ding or crack around the switch plate, or is there a noticeable hole in the drywall?",1,1,Small crack or ding,261,0,,0,draft_unreviewed
+Home Improving,"Is the sign currently mounted with screws, adhesive, or a combination of both?",1,1,Not sure,269,0,,0,draft_unreviewed
+Home Improving,"Is the switch itself working fine, or does it also need to be replaced at the same time?",1,1,Switch works fine,261,0,,0,draft_unreviewed
+Home Improving,"Is the tub currently in good structural condition (no cracks, holes, or soft spots in the material itself)?",1,1,there is no damage area,167,0,,0,draft_unreviewed
+Home Improving,"Is this a single wall, or are there multiple walls in this area that need the same treatment?",1,1,Single wall,284,0,,0,draft_unreviewed
+Home Improving,Is this an interior or exterior wall?,1,1,exterior,230,0,,0,draft_unreviewed
+Home Improving,Is this an interior wall or an exterior wall (outside the home)?,1,1,exterior,231,0,,0,draft_unreviewed
+Home Improving,Is this an interior wall or an exterior wall?,1,1,exterior,226,0,,0,draft_unreviewed
+Home Improving,Is this an interior wall or exterior wall?,1,1,exterior,229,0,,0,draft_unreviewed
+Home Improving,"Is this chip on a door frame, window trim, baseboard, or drywall corner?",1,1,Drywall corner,263,0,,0,draft_unreviewed
+Home Improving,"Is this damage just on one side of the wall, or does it go all the way through to the other side?",1,1,yes on 1 side,218,0,,0,draft_unreviewed
+Home Improving,"Is this the only wall section you'd like sanded and painted, or are there other areas in the room or home you want done at the same time?",1,1,Just this section,283,0,,0,draft_unreviewed
+Home Improving,"Is this wardrobe currently in place, or will it need to be moved to a different location for painting?",1,1,it is not wardrobe it is my bathroom ceiling,227,0,,0,draft_unreviewed
+Home Improving,"Just to clarify — do you already have the paint, or should the Tasker bring it?",1,1,yes,230,1,generic_answer_to_choice_or_specific_question,0,draft_unreviewed
+Home Improving,"Just to clarify — would you like both the patch **and** the paint done, or just one of those?",1,1,paint please,219,0,,0,draft_unreviewed
+Home Improving,"Looking at the damage, would you like me to repair just that spot, or are there other areas of the ceiling or walls that need attention?",1,1,spot please it is 1x1,219,0,,0,draft_unreviewed
+Home Improving,Perfect — scratched surface. That helps me understand the scope. Just one more thing to be clear: **Do you have a preference for the new finish look?,1,1,matte flat,213,0,,0,draft_unreviewed
+Home Improving,"Perfect — so the Tasker will bring the paint for the medicine cabinet interior. One last thing: Would you like the Tasker to handle the disposal of the old caulk, or would you prefer to dispose of it yourself?",1,1,Tasker handles it,299,0,,0,draft_unreviewed
+Home Improving,"Perfect — that's a small bathroom at 4x5 feet. One final detail: **Quick question:** Is the ceiling currently in good condition, or does it have cracks, water stains, or damage that would need repair before painting?",1,1,it perfect condition,227,0,,0,draft_unreviewed
+Home Improving,"Perfect. I have what I need. Let me ask one quick clarification: Do you already have paint and caulk on hand, or should the Tasker bring those materials?",1,1,"I have one, need the other",299,0,,0,draft_unreviewed
+Home Improving,"Perfect. One more quick thing before I finalize your estimate: Do you already have the white paint, or should the Tasker bring it?",1,1,Tasker brings it,297,0,,0,draft_unreviewed
+Home Improving,"Roughly how many square feet is this wall, or can you give me the approximate width and height so I can size the estimate accurately?",1,1,30,228,0,,0,draft_unreviewed
+Home Improving,What area or item are you hoping to repair or improve in this photo?,1,1,Desk surface,265,0,,0,draft_unreviewed
+Home Improving,What color would you like the wall painted?,1,1,red,232,0,,0,draft_unreviewed
+Home Improving,What condition is the surface in right now?,1,1,scracthed,213,0,,0,draft_unreviewed
+Home Improving,"What would you like done in this area — are you looking to repair, replace, or install something specific?",1,1,i want this chip to be fixed on the corner,263,0,,0,draft_unreviewed
+Home Improving,"What would you like done with that damaged wall area — repair and patch it so it's smooth and ready to paint, or is there something else you're looking for?",1,1,Repair and patch it,307,0,,0,draft_unreviewed
+Home Improving,What would you like done with the desk surface?,1,1,Refinish/stain,265,0,,0,draft_unreviewed
+Home Improving,What would you like done with this wall?,1,1,paint over it,230,0,,0,draft_unreviewed
+Home Improving,"What's the issue with this outlet/switch — is it broken, loose, not working, or something else?",1,1,Something else,261,0,,0,draft_unreviewed
+Home Improving,What's the size of your shower floor?,1,1,3x5 ft,210,0,,0,draft_unreviewed
+Home Improving,"What's your priority here — are you looking to repair the damaged wall area, replace the baseboard, address the tile, or tackle all three?",1,1,There is no baseboard.,307,0,,0,draft_unreviewed
+Home Improving,"When you say ""add metal trim border and carry it,"" do you mean you'd like me to:** - Add a metal trim/edge border around the perimeter of this black panel, or - Install metal trim and then move the panel to a different location?",1,1,install metal trim,193,0,,0,draft_unreviewed
+Home Improving,"When you say ""paint this door to white,"" do you mean paint the entire door frame and all surfaces white, or just the main door panels?",1,1,Entire door and frame,297,0,,0,draft_unreviewed
+Home Improving,"When you say ""replace skin of table,"" do you mean you'd like to refinish or resurface the existing tabletop, or are you looking to replace the entire top with a new piece?",1,1,resurface,213,0,,0,draft_unreviewed
+Home Improving,"When you say ""sanded and finished,"" are you looking to: - Sand it smooth and then **paint** it?",1,1,Sand and paint,284,0,,0,draft_unreviewed
+Home Improving,Where exactly should the metal trim go?,1,1,all four edges,193,0,,0,draft_unreviewed
+Home Improving,"Would you like me to assume the ivy stays, or should the Tasker remove it first so the wall can be fully prepped and painted?",1,1,no just paint the wall,228,0,,0,draft_unreviewed
+Home Improving,"You mentioned the chip on the drywall corner — is it small (like a dent or shallow gouge), or does it involve deeper damage that might need a small patch?",1,1,Small dent,263,0,,0,draft_unreviewed
+Home Repairs,"Do you already have caulk on hand, or should the Tasker bring it?",7,5,no I dont have it | no i dont | tasker bring it please | Tasker should bring it | Tasker brings it,"199, 220, 224, 277, 278, 280, 332",0,,0,draft_unreviewed
+Home Repairs,"Do you know what's behind the wall where the mount is (drywall, brick, concrete, or something else)?",5,5,give me your prompts | how do you work? | 3. tell me more about it | breakdown more | Drywall,321,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a new faucet, or should the Tasker bring one?",2,2,I have one already | Tasker brings it,"342, 343",0,,0,draft_unreviewed
+Home Repairs,"Do you already have a replacement hinge, or should the Tasker bring one?",2,2,I have one | Tasker brings it,"306, 310",0,,0,draft_unreviewed
+Home Repairs,"Do you already have the new door handle, or would you like the Tasker to bring one?",2,2,Tasker bring it | I don't have it yet,"135, 151",0,,0,draft_unreviewed
+Home Repairs,"About how long is the loose section of the hot water line — would you say it's just a few feet, or does it run longer than that?",1,1,A few feet,207,0,,0,draft_unreviewed
+Home Repairs,"After we remove the screws and patch the holes, would you like us to paint just the patched areas to blend in, or repaint the entire wall to get a uniform finish?",1,1,Just the patches,259,0,,0,draft_unreviewed
+Home Repairs,"Are both of these outlets experiencing the same issue, or is it different for each one?",1,1,Both have the same problem,343,0,,0,draft_unreviewed
+Home Repairs,"Are the water supply lines and drain hose still connected to the dishwasher, or did those come loose as well?",1,1,Still connected,282,0,,0,draft_unreviewed
+Home Repairs,"Are there any fasteners (screws or bolts) that look stuck or corroded, or should the removal be pretty quick?",1,1,Not sure,320,0,,0,draft_unreviewed
+Home Repairs,"Are there any gaps or cracks between the baseboard and wall that need caulking, or is it mainly just loose spots that need to be reattached?",1,1,Not sure,272,0,,0,draft_unreviewed
+Home Repairs,"Are there any wall anchors, studs, or other obstacles we should know about in the new location, or does the wall look clear to you?",1,1,Wall looks clear,314,0,,0,draft_unreviewed
+Home Repairs,"Are these three separate projects, or are they all part of one larger bathroom renovation?",1,1,Three separate projects,329,0,,0,draft_unreviewed
+Home Repairs,"Are we talking about caulking just around the shower floor (where the tile meets the drain), or are there other areas too — like where the walls meet the tub or around the edges of the shower enclosure?",1,1,wall and floor joints,225,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to add fresh caulk around the drain area, or are you wanting to recaulk the entire shower floor (including the edges where the tile meets the walls)?",1,1,shower floor,220,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to add new caulk around the base of the toilet, or remove old caulk and re-caulk the area?",1,1,Add new caulk,280,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to add new caulk around the shower floor and walls, or do you need the existing caulk removed and replaced?",1,1,Add new caulk,274,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to caulk the seam between the yellow subway tile backsplash and the countertop, or around other edges as well (like where the tiles meet the cabinets or walls)?",1,1,Countertop + cabinet edges,348,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to have the dishwasher reattached to the countertop using the existing brackets and hardware, or does it need a full reinstallation with new connections?",1,1,Reattach to countertop,282,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to have the old caulk removed and replaced with fresh caulk, or just have new caulk applied over what's there?",1,1,yes please. remove and apply the caulking,225,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to have work done on both the painted wall AND the kitchen faucet, or is one of these the main project you'd like to focus on?",1,1,Both projects,342,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to recaulk the existing joints (remove old caulk and apply new), or just add caulk to areas that are missing it?",1,1,Replace and redo the caulking,199,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to recaulk the existing seams (remove old caulk and apply new), or just apply fresh caulk over what's already there?",1,1,remove and apply new,234,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to remove the old caulk and apply fresh caulk, or just add caulk to areas that are missing it?",1,1,Remove and replace,332,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to remove the old caulk and apply fresh new caulk, or do you want the tub resealed with a different type of sealant?",1,1,Remove and recaulk,278,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to repair and reattach the baseboard, or would you prefer to replace it with a new one?",1,1,Repair and reattach,260,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to repair just that damaged section, or replace the entire baseboard run (the full length of that wall)?",1,1,Repair just the damaged part,303,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to repair or replace the tiles, or is there a specific issue (like leaking, cracked tiles, or grout problems) you'd like addressed?",1,1,I want caulking to be replaced,224,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to repair the existing baseboard in place (fix damage, reattach it, fill gaps), or fully replace sections of it with new baseboard?",1,1,Repair in place,254,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to repair the existing baseboard, or fully replace it with a new one?",1,1,Repair it,253,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to repair the existing hinges, or fully replace them with new ones?",1,1,Replace them,302,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to repair the existing threshold, or fully replace it with a new one?",1,1,replace,365,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just that edge trim (the strip running along the side), or are you thinking about refinishing or replacing the entire tabletop surface?",1,1,yes replace it,201,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just the diverter spout (the part that diverts water to the shower head), or do you need the entire valve assembly behind the wall replaced?",1,1,just the diverter will be perfect,198,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just the handle with a new one in the same style, or would you like to upgrade to a different type (like a different finish, a locking handle, or a different style altogether)?",1,1,New one closer to this one,151,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just the hinges themselves, or do you also want the cabinet doors adjusted so they close and align properly?",1,1,Replace + adjust alignment,301,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just the latch plate itself, or would you also like the door handle/knob replaced at the same time?",1,1,Just the latch plate,312,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just the latch plate itself, or would you also like the door latch mechanism inside the door replaced?",1,1,Just the plate,315,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just the one broken hinge, or would you like both hinges on that door replaced to make sure it hangs evenly?",1,1,Just the broken one,309,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just the strike plate (the metal part on the door frame), or does the latch mechanism itself on the door need replacing too?",1,1,Just the strike plate,319,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just the tabletop surface, or do you want to replace the entire table?",1,1,Just the tabletop surface,251,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just this one hinge, or do you need multiple hinges replaced on this cabinet door?",1,1,Just this one,306,0,,0,draft_unreviewed
+Home Repairs,"Are you looking to replace just this transition board with a similar style, or would you like to explore a different material or look?",1,1,Replace with similar,362,0,,0,draft_unreviewed
+Home Repairs,"Are you reaching out because you'd like a second opinion on the work, or is there an issue with the caulking that needs attention (like gaps, peeling, or uneven sealing)?",1,1,Just checking quality,372,0,,0,draft_unreviewed
+Home Repairs,Can you describe what kind of damage you're seeing?,1,1,Burn marks,206,0,,0,draft_unreviewed
+Home Repairs,Can you describe what's wrong with the pipe?,1,1,Loose,207,0,,0,draft_unreviewed
+Home Repairs,Can you tell me a bit more about what needs fixing?,1,1,Multiple issues,253,0,,0,draft_unreviewed
+Home Repairs,Can you tell me a bit more about what needs to be fixed?,1,1,Loose or separating,254,0,,0,draft_unreviewed
+Home Repairs,Can you tell me specifically what's not working or what you'd like repaired?,1,1,Pipe,207,0,,0,draft_unreviewed
+Home Repairs,Can you tell me what's not working?,1,1,No hot water,208,0,,0,draft_unreviewed
+Home Repairs,Could you tell me what this surface is?,1,1,Kitchen countertop,206,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a TV mount, or should the Tasker bring one?",1,1,I have a mount already,342,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a TV wall mount (the bracket that attaches to the wall), or should the Tasker bring one?",1,1,I have a mount,285,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a new diverter spout, or should the Tasker bring one?",1,1,no I dont have it,198,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a new door handle, or would you like the Tasker to bring one?",1,1,I dont,136,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a new knob picked out, or should the Tasker bring one that matches what you have?",1,1,I have one ready,328,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a new latch plate, or should the Tasker bring one?",1,1,I have one,315,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a new strike plate, or should the Tasker bring one?",1,1,Tasker brings it,319,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a new tabletop material picked out, or would you like the Tasker to source one for you (and if so, what style or material are you thinking — wood, laminate, glass, etc.)?",1,1,Tasker sources it,251,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a new transition board, or should the Tasker bring one?",1,1,Tasker brings it,362,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a new transition strip, or should the Tasker bring one?",1,1,Not sure,367,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a replacement latch plate, or should the Tasker bring one?",1,1,Tasker brings it,312,0,,0,draft_unreviewed
+Home Repairs,"Do you already have a replacement roof vent, or should the Tasker bring one?",1,1,Tasker brings it,343,0,,0,draft_unreviewed
+Home Repairs,"Do you already have any repair materials on hand (like wood glue, nails, or caulk), or should the Tasker bring everything needed?",1,1,I have materials,260,0,,0,draft_unreviewed
+Home Repairs,"Do you already have baseboard material that matches, or should the Tasker bring a replacement piece?",1,1,Tasker brings it,303,0,,0,draft_unreviewed
+Home Repairs,"Do you already have caulk on hand, or should the Tasker bring caulk and any tools needed for the job?",1,1,yes,234,1,generic_answer_to_choice_or_specific_question,0,draft_unreviewed
+Home Repairs,"Do you already have caulk on hand, or should the Tasker bring caulk and apply it?",1,1,Tasker brings caulk,274,0,,0,draft_unreviewed
+Home Repairs,"Do you already have caulk on hand, or should the Tasker bring everything needed?",1,1,Tasker brings it,348,0,,0,draft_unreviewed
+Home Repairs,"Do you already have matching baseboard material, or should the Tasker bring replacement material for that small section?",1,1,I have it,258,0,,0,draft_unreviewed
+Home Repairs,"Do you already have matching paint, or should the Tasker bring paint to match your wall?",1,1,I have paint,259,0,,0,draft_unreviewed
+Home Repairs,"Do you already have replacement hinges, or should the Tasker bring them?",1,1,I have hinges,301,0,,0,draft_unreviewed
+Home Repairs,"Do you already have the materials needed for the repair, or should the Tasker bring everything?",1,1,I have materials,206,0,,0,draft_unreviewed
+Home Repairs,"Do you already have the new hinges, or should the Tasker bring them?",1,1,Tasker brings them,302,0,,0,draft_unreviewed
+Home Repairs,"Do you already have the new wire shelf, or should the Tasker bring one?",1,1,Tasker bring it please,235,0,,0,draft_unreviewed
+Home Repairs,"Do you have a caulk color preference, or should the Tasker bring a standard white or clear caulk to match what's typical for showers?",1,1,no I dont have ite,225,0,,0,draft_unreviewed
+Home Repairs,"Do you have a new edge trim or material ready to go, or should the Tasker bring one that matches the current style and size?",1,1,yes i have,201,0,,0,draft_unreviewed
+Home Repairs,"Do you have a new threshold already, or should the Tasker bring one to match the current style?",1,1,Not sure what to get,365,0,,0,draft_unreviewed
+Home Repairs,"Do you have a preference for the new faucet (single-handle, double-handle, finish like chrome or brushed nickel)?",1,1,Similar to current,342,0,,0,draft_unreviewed
+Home Repairs,"Do you have a preference for the new faucet style (single-handle, double-handle, pull-down sprayer), or should the Tasker bring a standard option similar to the current one?",1,1,Single-handle,343,0,,0,draft_unreviewed
+Home Repairs,"Do you have a preference for the style or finish (like brushed nickel, chrome, matte black), or should the Tasker bring a standard option similar to the current one?",1,1,Same as much as possible,136,0,,0,draft_unreviewed
+Home Repairs,"Do you have a preference for the style or finish of the new handle (like the current chrome lever style, a different finish, or a knob instead), or should the Tasker bring a standard option similar to the current one?",1,1,Close to similar,135,0,,0,draft_unreviewed
+Home Repairs,"Do you know if the brackets under the dishwasher are still in good condition, or do they look bent, broken, or damaged?",1,1,Brackets look fine,282,0,,0,draft_unreviewed
+Home Repairs,"Do you know the dimensions of the shelf you'd like (width × depth), or should the Tasker measure the space and bring a standard size that fits?",1,1,it is 5 ft wide,235,0,,0,draft_unreviewed
+Home Repairs,"Do you want the wires hidden behind the drywall, or is it okay to leave them visible along the wall?",1,1,Visible is fine,285,0,,0,draft_unreviewed
+Home Repairs,"Do you want to keep the existing hinge and just adjust it, or would you prefer to replace it with a new one?",1,1,Replace with a new hinge,310,0,,0,draft_unreviewed
+Home Repairs,"Do you want to keep the same style of knob (like a matching replacement), or are you open to upgrading to a different style or finish?",1,1,Same style,328,0,,0,draft_unreviewed
+Home Repairs,"Does your mount come with all the hardware (brackets, screws, anchors), or will the Tasker need to source any missing pieces?",1,1,Has all hardware,342,0,,0,draft_unreviewed
+Home Repairs,"For the kitchen faucet — would you like to repair it, or fully replace it with a new one?",1,1,Replace it,343,0,,0,draft_unreviewed
+Home Repairs,"Good to know. **Question 4/4 (Project 3):** Do you already have drywall patching materials (drywall, mud, tape, sandpaper, primer, paint), or should the Tasker bring everything?",1,1,Tasker brings everything,329,0,,0,draft_unreviewed
+Home Repairs,"Got it — I hear you. Let me make sure I'm giving you an accurate estimate. **Quick clarification:** When you say ""expensive,"" are you concerned about the labour cost itself, or are you wondering if there's a simpler way to do this project that might take less time?",1,1,Labour seems high,274,0,,0,draft_unreviewed
+Home Repairs,"Got it — Tasker will handle the water shut-off. **Question 4/4 (Project 1):** Just to confirm, is this a standard shower valve cartridge (like a Moen, Delta, or Kohler), or do you know the specific brand/type?",1,1,Not sure of the brand,329,0,,0,draft_unreviewed
+Home Repairs,Got it — drywall work. **Question 2/4 (Project 3):** How much drywall needs to be done?,1,1,Patch large areas,329,0,,0,draft_unreviewed
+Home Repairs,"Got it — full cartridge replacement. **Question 2/4 (Project 1):** Do you already have a new shower cartridge, or should the Tasker bring one?",1,1,Tasker brings it,329,0,,0,draft_unreviewed
+Home Repairs,"Got it — full replacement. **Question 2/4** (Project 1): Do you already have a new faucet picked out, or should the Tasker bring a standard kitchen faucet similar to the current style?",1,1,Tasker brings one,346,0,,0,draft_unreviewed
+Home Repairs,"Got it — interior door latch realignment. Alright, now for **Project 3 — the plastic sheeting and prep work** in the first photo. **Question 1/4 (Project 3):** What's the main work planned for that room?",1,1,Drywall repair/install,329,0,,0,draft_unreviewed
+Home Repairs,"Got it — patching large drywall areas. **Question 3/4 (Project 3):** Roughly how many large patches are we talking about, and what's the approximate size of each (for example, 2-3 patches about 2'x2' each, or more)?",1,1,1-2 large patches,329,0,,0,draft_unreviewed
+Home Repairs,"Got it — repair the existing one. **Question 2/3** (Project 2): Is the outlet currently not working at all, or is it partially working (like one socket works but not the other)?",1,1,Not working at all,346,0,,0,draft_unreviewed
+Home Repairs,"Got it — so 2 door handles total need replacing. Just to clarify: Is the second handle in a similar condition and style to this one, or is it different in any way (different room, different style, or any special features like a locking mechanism)?",1,1,Same,151,0,,0,draft_unreviewed
+Home Repairs,"Got it — so you're also looking to have a TV mounted on that accent wall. Let me clarify the full scope here. So far I'm seeing three possible projects: 1. The painted accent wall (already done, or needs work?",1,1,Already painted and finished,342,0,,0,draft_unreviewed
+Home Repairs,"Got it — the baseboard is loose or separating from the wall. That's a straightforward repair. One quick final detail: **Do you already have any materials on hand (adhesive, nails, caulk), or should the Tasker bring everything needed?",1,1,I have some materials,254,0,,0,draft_unreviewed
+Home Repairs,"Got it — the latch isn't catching properly. **Question 2/3 (Project 2):** Would you like the Tasker to adjust/realign the existing strike plate and latch, or replace them with new ones?",1,1,Adjust and realign,329,0,,0,draft_unreviewed
+Home Repairs,"Got it — we're moving forward with the dining table edge trim replacement. Just to confirm before I finalize: **Are you happy with the 1 hour 15 minutes labour estimate as quoted, or would you like me to explore ways to adjust the scope to bring the time down?",1,1,yes,201,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+Home Repairs,"Great — that gives me what I need. One last thing: **Would you like the Tasker to handle disposal of the old tabletop, or would you prefer to dispose of it yourself?",1,1,Tasker handles it,251,0,,0,draft_unreviewed
+Home Repairs,"Great! Just to confirm — you have caulk ready to go, so the Tasker won't need to bring materials?",1,1,yes. I have it,234,0,,0,draft_unreviewed
+Home Repairs,"Great. One more detail for Project 3: **Question 2/2** (Project 3): Do you already have paint and drywall patching materials on hand, or should the Tasker bring everything needed?",1,1,I have materials,346,0,,0,draft_unreviewed
+Home Repairs,"Have you noticed any signs of damage to the outlets themselves — like scorch marks, cracks, or discoloration — or does everything look normal on the outside?",1,1,"Yes, visible damage",343,0,,0,draft_unreviewed
+Home Repairs,"Hi! I'm Leo, your project coordinator at Star Handyman. Thanks for sending those photos — I can see you've got three separate projects here. Let me break down what I'm seeing: **Project 1** — Kitchen faucet replacement (the chrome single-handle faucet at the sink) **Project 2** — Electrical outlet replacement (the safety outlet with TEST/RESET buttons on the wall) **Project 3** — Drywall repair and paint (the wall section taped off with blue tape, looks like prep or patching work) Before I dive into details, let me start with the first project. **Question 1/4** (Project 1): For the kitchen faucet — are you looking to **repair** it, or fully **replace** it with a new one?",1,1,Replace it,346,0,,0,draft_unreviewed
+Home Repairs,How large is the shower?,1,1,Standard alcove,274,0,,0,draft_unreviewed
+Home Repairs,How long is the damaged section of baseboard?,1,1,Small (under 2 ft),258,0,,0,draft_unreviewed
+Home Repairs,How many cabinet doors need this work done?,1,1,2 doors,301,0,,0,draft_unreviewed
+Home Repairs,How many linear feet of baseboard are we talking about?,1,1,One wall,247,0,,0,draft_unreviewed
+Home Repairs,"I appreciate the question, but I'm here specifically to help coordinate your TV remount project at Star Handyman. My role is to understand your needs, ask the right questions, and get you an accurate estimate. Let's finish scoping your TV — we're almost there. **Question 2/3 (still):** Do you know what's behind the wall where the mount is (drywall, brick, concrete, or something else)?",1,1,Who is managing you?,321,0,,0,draft_unreviewed
+Home Repairs,"I appreciate you wanting to move forward, but I need that last detail to give you the most accurate estimate. **Question 3/3 (still waiting):** Is this a gas water heater or electric?",1,1,Gas,208,0,,0,draft_unreviewed
+Home Repairs,"I understand — you're concerned about the quote price. Let me help you figure out the best approach here. The estimate reflects the actual time it takes to carefully remove the old trim and install the new one properly. **Before I revise, I have one clarifying question:** **Is there a specific part of the work you'd like to simplify or skip?",1,1,gui,201,0,,0,draft_unreviewed
+Home Repairs,"I want to make sure I have all the details before I deliver your full estimate. Let me confirm Project 3 (the drywall and paint work): **Question 1/2** (Project 3): Looking at the taped-off wall section — are you looking to **patch and repair** the existing drywall, **paint over** it, or do a **full redo** of that wall section?",1,1,Patch and repair,346,0,,0,draft_unreviewed
+Home Repairs,"I'm not sure what you mean by ""gui"" — could you clarify?",1,1,yes dining table,201,0,,0,draft_unreviewed
+Home Repairs,"Is the TV already mounted on that wall, or do you need it installed there for the first time?",1,1,First time installation,285,0,,0,draft_unreviewed
+Home Repairs,"Is the baseboard loose along the entire length shown in the photo, or just in certain spots?",1,1,Just a few spots,272,0,,0,draft_unreviewed
+Home Repairs,"Is the baseboard loose in just one spot, or is it pulling away along a longer section?",1,1,One spot,260,0,,0,draft_unreviewed
+Home Repairs,"Is the bracket currently holding anything (like the blue item I see), or is it empty?",1,1,It's empty,320,0,,0,draft_unreviewed
+Home Repairs,"Is the caulking around the entire shower floor, or just in specific areas (like between the tiles and the wall, or around the drain)?",1,1,between tiles and walls please,224,0,,0,draft_unreviewed
+Home Repairs,"Is the dark blue paint already finished and looking good, or is there something about it that needs to be fixed or redone (like touch-ups, uneven coverage, or prep work)?",1,1,tv mount,342,0,,0,draft_unreviewed
+Home Repairs,"Is the door currently locked, or can the Tasker access it freely when they arrive?",1,1,Door is unlocked,328,0,,0,draft_unreviewed
+Home Repairs,"Is the existing caulk still there (just dirty or cracked), or has it mostly come away and needs to be completely removed first before new caulk goes in?",1,1,Existing caulk is there,274,0,,0,draft_unreviewed
+Home Repairs,"Is the hinge broken or damaged, or does it just need adjustment so the door closes properly?",1,1,Broken,309,0,,0,draft_unreviewed
+Home Repairs,"Is the hinge broken, or is the door just misaligned (not closing properly)?",1,1,Door won't close right,310,0,,0,draft_unreviewed
+Home Repairs,"Is the old caulk already removed, or does the Tasker need to remove the existing caulk first before applying new?",1,1,no it is not,220,0,,0,draft_unreviewed
+Home Repairs,"Is the water shut off right now, or should the Tasker turn it off when they arrive?",1,1,i didn't understand,198,0,,0,draft_unreviewed
+Home Repairs,"Is there anything unusual about the door frame or surrounding area I should know about — like if it's metal, painted over, or if there's any damage around where the plate sits?",1,1,"No, it's standard",319,0,,0,draft_unreviewed
+Home Repairs,"Is this a dining table, kitchen table, or a different type of table?",1,1,dining table,201,0,,0,draft_unreviewed
+Home Repairs,"Is this baseboard currently off the wall, or is it loose and needs to be reattached and secured?",1,1,"It's loose, needs reattaching",247,0,,0,draft_unreviewed
+Home Repairs,"Is this caulking just around the bathtub perimeter, or does it also include the corners where the walls meet the tub?",1,1,Just the perimeter,332,0,,0,draft_unreviewed
+Home Repairs,"Is this caulking work that's already been completed, or are you looking to have caulking done in this bathroom?",1,1,Already completed,372,0,,0,draft_unreviewed
+Home Repairs,"Is this the only door handle you need replaced, or are there others in your home you'd like done at the same time?",1,1,This is the one Oh actually wait,151,0,,0,draft_unreviewed
+Home Repairs,"Is this the only threshold that needs replacing, or are there other doorways or transitions in the home that need the same work?",1,1,Just this one,365,0,,0,draft_unreviewed
+Home Repairs,"Is this the only transition strip that needs replacing, or are there other areas in your home with similar work?",1,1,Just this one,367,0,,0,draft_unreviewed
+Home Repairs,"Looking at the faucet, would you like it repaired, or fully replaced with a new one?",1,1,Replace with new,342,0,,0,draft_unreviewed
+Home Repairs,"No problem — that's totally fine. The Tasker can measure it on-site and work from there. One quick thing before I finalize your estimate: Do you already have the baseboard in good condition, or will the Tasker need to bring a replacement piece?",1,1,It is just in one location as showing in the photo,247,0,,0,draft_unreviewed
+Home Repairs,"No problem — the Tasker will assess that on-site and let you know if caulking would help seal things up nicely. One quick thing: Do you already have any caulk or materials on hand, or should the Tasker bring everything they need?",1,1,Tasker brings it all,272,0,,0,draft_unreviewed
+Home Repairs,"No problem — the Tasker will identify it on-site and bring the right replacement. Alright, Project 1 is set. Now let's move to **Project 2 — the door latch issue** (the circled area on the door frame). **Question 1/3 (Project 2):** What's the issue with the door latch or strike plate?",1,1,Won't catch/latch,329,0,,0,draft_unreviewed
+Home Repairs,"No problem! Let me clarify. Before replacing the diverter, the water needs to be turned off so it doesn't spray everywhere during the work. **Question 3/3 (rephrased):** Has someone already turned off the water to your shower, or will the Tasker need to do that when they arrive?",1,1,tasker needs to do it. It is diverter shower valve controls it. No need to open or close. It is a bathtub diverter,198,0,,0,draft_unreviewed
+Home Repairs,No problem! Take your time — what's on your mind?,1,1,I have 1 more,151,0,,0,draft_unreviewed
+Home Repairs,"Perfect — I'll scope each one separately and give you a clear breakdown. Let me start with the first one. **Question 1/4 (Project 1 — Shower/Bathroom):** Looking at the shower cartridge photo, what would you like done?",1,1,Replace the cartridge,329,0,,0,draft_unreviewed
+Home Repairs,"Perfect — so you have a loose pipe that needs to be secured. Just to make sure I have the full picture, could you send me a closer photo of the loose pipe?",1,1,Need a moment,207,0,,0,draft_unreviewed
+Home Repairs,Perfect. **Question 3/3 (Project 2):** Is this an interior door or an exterior door?,1,1,Interior door,329,0,,0,draft_unreviewed
+Home Repairs,"Perfect. **Question 3/4 (Project 1):** Is the water shut off to that shower right now, or will the Tasker need to shut it off when they arrive?",1,1,Tasker will shut it off,329,0,,0,draft_unreviewed
+Home Repairs,"Perfect. Now let me move to Project 2. **Question 1/3** (Project 2): For that safety outlet — are you looking to **replace** it with a new one, or **repair** the existing one?",1,1,Repair it,346,0,,0,draft_unreviewed
+Home Repairs,"Perfect. One more quick thing before I put your estimate together: Do you already have a replacement hinge, or should the Tasker bring one?",1,1,Tasker brings it,309,0,,0,draft_unreviewed
+Home Repairs,Roughly how long is that wall?,1,1,Not sure,247,0,,0,draft_unreviewed
+Home Repairs,"Roughly how long is the baseboard section that needs repair — is it just a small area (a few feet), a whole wall, or multiple walls?",1,1,Small section (few feet),253,0,,0,draft_unreviewed
+Home Repairs,What are the approximate dimensions of your table (length × width)?,1,1,"Around 48"" × 72""",251,0,,0,draft_unreviewed
+Home Repairs,"What colour caulk would you like — white, clear, or something else?",1,1,Clear,278,0,,0,draft_unreviewed
+Home Repairs,What type of hinges do you need?,1,1,Cabinet hinges,302,0,,0,draft_unreviewed
+Home Repairs,"What would you like done in this area — is there a repair needed, something you'd like installed, or are you looking to replace equipment?",1,1,Repair needed,207,0,,0,draft_unreviewed
+Home Repairs,What would you like done with the roof vent?,1,1,replace,343,0,,0,draft_unreviewed
+Home Repairs,What would you like done with these outlets?,1,1,Fix a problem,343,0,,0,draft_unreviewed
+Home Repairs,What would you like done with this countertop?,1,1,Repair damage,206,0,,0,draft_unreviewed
+Home Repairs,What would you like done with this transition area?,1,1,Replace the strip,367,0,,0,draft_unreviewed
+Home Repairs,What would you like done with this water heater setup?,1,1,Repair broken one,208,0,,0,draft_unreviewed
+Home Repairs,"What's the condition of the caulk line itself — is it cracked, peeling, discolored, or a mix of issues?",1,1,Mix of issues,277,0,,0,draft_unreviewed
+Home Repairs,"What's the main project here — are you looking to install new flooring, repair existing flooring, or refinish what's already there?",1,1,Baseboard repair,254,0,,0,draft_unreviewed
+Home Repairs,What's the size of your shower?,1,1,yes it is 3 walls standard,199,0,,0,draft_unreviewed
+Home Repairs,"When the TV pulled away, did it damage the drywall (holes, cracks, gouges), or does the wall look okay?",1,1,Wall looks okay,321,0,,0,draft_unreviewed
+Home Repairs,"When you look at the shower, does the caulk just need a fresh line around the floor where it meets the tile, or does it also need to go along the walls where they meet each other and the fixtures?",1,1,Just the floor,274,0,,0,draft_unreviewed
+Home Repairs,"When you move the TV up 10 inches, do you want to keep it on the same wall mount, or would you prefer a new mount installed?",1,1,Keep the same mount,314,0,,0,draft_unreviewed
+Home Repairs,"When you say ""remove the bracket,"" do you want me to just take the bracket off the wall and leave the wall as-is, or would you also like the wall patched and painted where the bracket was mounted?",1,1,Just remove it,320,0,,0,draft_unreviewed
+Home Repairs,"When you say ""replace this shelf to wire shelf,"" do you want to remove the existing shelf completely and install a new wire shelf in its place, or are you looking to modify the current setup?",1,1,yes,235,0,,0,draft_unreviewed
+Home Repairs,"Where is the loose pipe located — is it a hot water line, cold water line, or a drain pipe?",1,1,Hot water line,207,0,,0,draft_unreviewed
+Home Repairs,Which seams need caulking?,1,1,around bathtub,234,0,,0,draft_unreviewed
+Home Repairs,"Will the current power outlet and any cables (HDMI, etc.) still reach the TV in its new position 10 inches higher, or do we need to adjust the wiring?",1,1,Cables will reach fine,314,0,,0,draft_unreviewed
+Home Repairs,"Would you like me to remove the old caulk and apply fresh new caulk, or just apply new caulk over what's there?",1,1,Remove and replace,277,0,,0,draft_unreviewed
+Home Repairs,"Would you like the TV remounted securely to the wall, or are you looking to remove it entirely?",1,1,Remount it securely,321,0,,0,draft_unreviewed
+Home Repairs,"Would you like to repair the damaged section, or fully replace the baseboard in that area?",1,1,Repair it,258,0,,0,draft_unreviewed
+Home Repairs,"Would you like to repair the existing baseboard (fill gaps and reattach), or fully replace it with new baseboard?",1,1,Repair it,272,0,,0,draft_unreviewed
+Home Repairs,"Would you like to replace just the handle itself, or the entire door hardware set (including the latch mechanism inside the door)?",1,1,Install new door handle,135,0,,0,draft_unreviewed
+Home Repairs,"Would you like to replace just the handle, or the entire door handle set (including the latch mechanism inside the door)?",1,1,New Door handle,136,0,,0,draft_unreviewed
+Home Service,"Do you already have a TV mount, or would you like the Tasker to bring one?",3,3,Tasker should bring it | I already told you | Tasker to bring one,"81, 85",0,,0,draft_unreviewed
+Home Service,Approximately how many square feet is your balcony?,1,1,around 80,164,0,,0,draft_unreviewed
+Home Service,"Are all 3 TVs the same size, or do they vary (like one large and two smaller)?",1,1,All the same size,281,0,,0,draft_unreviewed
+Home Service,"Are there any cables or wires currently hidden behind the TV on the current wall, or is it just the power cord?",1,1,no hidden,241,0,,0,draft_unreviewed
+Home Service,"Are there any cables or wires that need to be run or hidden to reach the modem's new ceiling location, or will the existing cable reach without issues?",1,1,Cables will reach fine,249,0,,0,draft_unreviewed
+Home Service,"Are these three TVs all going on the same wall, or different walls in your home?",1,1,Different walls,279,0,,0,draft_unreviewed
+Home Service,"Are you looking to add a new decorative border around this black surface, or are you replacing an existing border that's damaged?",1,1,new decorative one,192,0,,0,draft_unreviewed
+Home Service,"Are you looking to mount a TV on the wall in this room, and you need help carrying the TV and installing the mount?",1,1,Yes carry it,91,0,,0,draft_unreviewed
+Home Service,"Are you looking to mount the TV on the wall below the ceiling fan, or are you thinking of a ceiling-mounted TV setup?",1,1,Wanna mount a tv as already told,86,0,,0,draft_unreviewed
+Home Service,"Are you looking to powerwash just to clean it, or are you hoping to restore the wood finish as well (like staining or sealing after)?",1,1,I want just powerwash the area,165,0,,0,draft_unreviewed
+Home Service,"Are you looking to powerwash just to clean the surface, or are you also looking to seal or stain the wood after cleaning?",1,1,Just powerwash the balcony,163,0,,0,draft_unreviewed
+Home Service,"Are you looking to powerwash the balcony to clean it, or are you also thinking about refinishing or sealing it afterward?",1,1,I want to powerwash it,159,0,,0,draft_unreviewed
+Home Service,"Are you looking to remount the modem to the same spot on the ceiling using the existing bracket, or do you need a new bracket installed?",1,1,"Same spot, existing bracket",275,0,,0,draft_unreviewed
+Home Service,"Are you looking to remount this same modem back onto the ceiling, or do you need to relocate it to a different spot on the ceiling?",1,1,Remount in same spot,250,0,,0,draft_unreviewed
+Home Service,At what height from the floor would you like the center of the TV to be?,1,1,Yeah sure,92,0,,0,draft_unreviewed
+Home Service,"At what height would you like the TV mounted, or would you like the Tasker to position it at standard viewing height?",1,1,3 feet above ground,90,0,,0,draft_unreviewed
+Home Service,Can you describe what's not working?,1,1,this is a modem came off from the ceiling,262,0,,0,draft_unreviewed
+Home Service,Could you send me a photo of the wall where you'd like the TV mounted?,1,1,I already provided you,86,0,,0,draft_unreviewed
+Home Service,Could you send me a photo that shows the wall itself?,1,1,Please review the uploaded image(s) and continue.,86,0,,0,draft_unreviewed
+Home Service,"Do you already have a TV mount for the new wall, or should the Tasker bring one?",1,1,I will use the old one,240,0,,0,draft_unreviewed
+Home Service,"Do you already have a ceiling mount bracket for the modem, or should the Tasker bring one?",1,1,I have one,249,0,,0,draft_unreviewed
+Home Service,"Do you already have the 55-inch TV on-site, or will it need to be delivered before installation?",1,1,I already have it,85,0,,0,draft_unreviewed
+Home Service,"Do you already have the TV mount and any necessary hardware, or should the Tasker bring a mount suitable for a 55-inch TV?",1,1,I have everything,83,0,,0,draft_unreviewed
+Home Service,"Do you already have the TV mount bracket and hardware, or should the Tasker bring one?",1,1,i already have,194,0,,0,draft_unreviewed
+Home Service,"Do you already have the metal trim, or should the Tasker bring it and source it based on your measurements?",1,1,bring it,192,0,,0,draft_unreviewed
+Home Service,"Do you already have the mounting hardware (anchors, screws, etc.), or should the Tasker bring everything needed to remount it?",1,1,I have the hardware,275,0,,0,draft_unreviewed
+Home Service,"Do you already have the new mirror, or would you like the Tasker to bring one?",1,1,I have one,95,0,,0,draft_unreviewed
+Home Service,"Do you already have the trim or edge banding material picked out, or should the Tasker bring options to match your table's style and finish?",1,1,Tasker brings options,305,0,,0,draft_unreviewed
+Home Service,"Do you already have the wall mounts (the brackets that hold the TVs), or should your handyman bring them?",1,1,I have the mounts,279,0,,0,draft_unreviewed
+Home Service,"Do you have a powerwasher available, or should the Tasker bring one?",1,1,no I dont have,165,0,,0,draft_unreviewed
+Home Service,"Do you have a powerwasher, or should the Tasker bring their own equipment?",1,1,No. I dont,159,0,,0,draft_unreviewed
+Home Service,"Do you have a pressure washer, or should the Tasker bring one?",1,1,No I dont have it,163,0,,0,draft_unreviewed
+Home Service,"Do you have the mounting bracket and hardware it originally came with, or should the Tasker bring new mounting hardware?",1,1,I have the original bracket,262,0,,0,draft_unreviewed
+Home Service,"Do you have the mounting hardware (screws, anchors, etc.) available, or should the Tasker bring replacements?",1,1,I have the hardware,257,0,,0,draft_unreviewed
+Home Service,"Do you need any wires or cables hidden behind the wall, or will they be left visible/managed with cable covers?",1,1,Left visible,87,0,,0,draft_unreviewed
+Home Service,"Do you still have the original mounting bracket and hardware (screws, anchors), or do we need the Tasker to bring a new bracket?",1,1,Have the original bracket,250,0,,0,draft_unreviewed
+Home Service,"Do you want the Tasker to hide the cables behind the drywall (running them through the wall), or just manage them neatly on the surface (clips, conduit, etc.)?",1,1,Hide cables in wall,281,0,,0,draft_unreviewed
+Home Service,"Does the new wall already have the power outlet nearby that you'll need for the TV, or will we need to run the cable across the room or hide it somehow?",1,1,have an outlet,241,0,,0,draft_unreviewed
+Home Service,"Got it — 10 pieces total. And just to confirm: are these pieces mostly the tabletop, legs, and smaller hardware, or are some of them quite large and heavy?",1,1,not much heavy it can be lift by an young man I am old man thats why i need some help,190,0,,0,draft_unreviewed
+Home Service,"Got it — you'd like to powerwash the walkway to clean it up. I appreciate you reaching out, but powerwashing is outside what Star Handyman covers. We focus on home improvement, home repairs, electrical, plumbing, carpentry, appliances, and HVAC work. That said, is there anything else about this space I can help with?",1,1,we do powerwash,164,0,,0,draft_unreviewed
+Home Service,"Got it — you're looking to move a table from one room to another. Just to clarify: are you looking for help with just moving and positioning the table, or would you also like assistance with any assembly, disassembly, or setup once it's in the new location?",1,1,just moving,190,0,,0,draft_unreviewed
+Home Service,"Great — that makes it simpler. One more thing: roughly how many pieces are we talking about, and does the table feel heavy (would it typically need two people to carry safely)?",1,1,10,190,0,,0,draft_unreviewed
+Home Service,"Hi! I'm Leo, your project coordinator at Star Handyman. Thanks for the photo. I can see what looks like a countertop or surface with an edge detail, but the angle and lighting make it a bit hard for me to identify the exact project. Could you help me out by describing what you're looking to have done?",1,1,i wanted to change the position of this table from one room to another,190,0,,0,draft_unreviewed
+Home Service,"I appreciate you wanting to move forward! Just one quick clarification first: Are both rooms on the same floor, or will the table need to go up or down stairs?",1,1,yeah same floor,190,0,,0,draft_unreviewed
+Home Service,"I appreciate your patience, but I need to see the wall where you'd like the TV mounted before I can provide an accurate estimate. The photo you shared shows the ceiling and ceiling fan, but I need to see the specific wall area where the TV will be installed. This helps me understand the mounting location, whether there are any obstacles, and confirm the drywall condition you mentioned. **Could you send me a photo of the wall where you want the 55-inch TV mounted?",1,1,Please review the uploaded image(s) and continue.,90,0,,0,draft_unreviewed
+Home Service,"Is the TV currently in this room, or will it need to be carried from another location (like a different room or floor)?",1,1,Same room,91,0,,0,draft_unreviewed
+Home Service,"Is the TV currently nearby and ready to mount, or will the Tasker need to help move it into position first?",1,1,Move first,87,0,,0,draft_unreviewed
+Home Service,"Is the balcony mostly dirt and grime, or are there any stains, mold, or algae growth visible?",1,1,there is algae signs,165,0,,0,draft_unreviewed
+Home Service,"Is the ceiling bracket still in good condition, or does it need to be replaced?",1,1,Bracket is fine,257,0,,0,draft_unreviewed
+Home Service,"Is the ceiling material drywall, plaster, or something else (like popcorn ceiling or tile)?",1,1,Drywall,275,0,,0,draft_unreviewed
+Home Service,"Is the modem currently mounted on the ceiling, or are you installing it for the first time in that location?",1,1,Currently mounted there,270,0,,0,draft_unreviewed
+Home Service,"Is the modem still in working condition, or does it need to be tested/troubleshot once it's remounted?",1,1,Working fine,250,0,,0,draft_unreviewed
+Home Service,"Is this table made of wood, laminate, or another material?",1,1,Laminate,305,0,,0,draft_unreviewed
+Home Service,"Just to confirm — is this mirror in your home, or is this photo from a store?",1,1,This is my store,95,0,,0,draft_unreviewed
+Home Service,"On the new wall, are there any obstacles (windows, outlets, shelving) the Tasker should know about, or is it a clear open wall?",1,1,open wall,240,0,,0,draft_unreviewed
+Home Service,"Once the parts are in the new room, would you like the Tasker to just set them down, or would you like them to reassemble the table for you as well?",1,1,not i can set it,191,0,,0,draft_unreviewed
+Home Service,"Perfect — just moving the table to a different room. Quick question: Is the table already disassembled, or does it need to be taken apart before moving it to fit through doorways or hallways?",1,1,it is disassembled,190,0,,0,draft_unreviewed
+Home Service,"Perfect — laminate top it is. Just to confirm before I finalize the estimate: **Do you already have the laminate sheet, or should the Tasker source and bring it?",1,1,yes I have,194,0,,0,draft_unreviewed
+Home Service,Roughly how large are the TVs?,1,1,"55""",281,0,,0,draft_unreviewed
+Home Service,"To hide the wires behind the drywall as you requested, I need to know: Is there an electrical outlet on this wall, or will we need to run the wires down to an outlet on a different wall or baseboard?",1,1,Yes,92,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+Home Service,What are the dimensions of your balcony?,1,1,sorry I accept the scope,165,0,,0,draft_unreviewed
+Home Service,What height would you like the TV mounted at?,1,1,Eye level,81,0,,0,draft_unreviewed
+Home Service,"What size is the TV you're looking to mount, and do you already have a TV mount, or would you like the Tasker to bring one?",1,1,Yes i have tv mount and its 55inch,87,0,,0,draft_unreviewed
+Home Service,What style or material would you like for the new border?,1,1,metal trim,192,0,,0,draft_unreviewed
+Home Service,What type of new surface would you prefer?,1,1,laminate,194,0,,0,draft_unreviewed
+Home Service,"What type of wall is it — drywall, brick, concrete, or something else?",1,1,drywal,194,0,,0,draft_unreviewed
+Home Service,"What type of walls are these — drywall, tile, brick, or a mix?",1,1,Drywall,279,0,,0,draft_unreviewed
+Home Service,"What would you like done with the current mirror — would you like it removed and a new mirror installed in the same spot, or are you looking to reposition it or change the style completely?",1,1,I just wanted to replace this mirror,95,0,,0,draft_unreviewed
+Home Service,What would you like done with this fixture?,1,1,Repair it,262,0,,0,draft_unreviewed
+Home Service,"What would you like done with this walkway — are you looking to clean it, repair the decking, replace it entirely, or something else?",1,1,I would like powerwash,164,0,,0,draft_unreviewed
+Home Service,What's the approximate length and width of this walkway?,1,1,it is my balcony,164,0,,0,draft_unreviewed
+Home Service,What's the reason for remounting it?,1,1,It's loose,270,0,,0,draft_unreviewed
+Home Service,"When you move the TV to the new wall, do you want the Tasker to also hide the cables behind the wall (patch and finish the wall where they currently run), or just remove the TV and remount it on the new wall?",1,1,just remove and install on a new wall,240,0,,0,draft_unreviewed
+Home Service,"When you move the TV to the other wall, do you want to: - Keep the same wall mount and reuse it on the new wall, or - Get a new/different mount for the new wall?",1,1,existing one,241,0,,0,draft_unreviewed
+Home Service,"When you say ""add border to this table,"" are you looking to add a trim or edge banding around the perimeter, or did you have something else in mind (like a decorative frame, metal edging, or a different style)?",1,1,Trim/edge banding,305,0,,0,draft_unreviewed
+Home Service,"When you say ""change the skin,"" are you looking to **refinish the existing tabletop** (sand and stain/paint it), or **replace it with a new surface** (like laminate, veneer, or a new wood top)?",1,1,replace it with a new surface,194,0,,0,draft_unreviewed
+Home Service,"When you say ""move this table from one room to another,"" do you just need help physically moving and positioning it in the new room, or are there other things involved — like disassembling it first, reassembling it, or removing/installing legs?",1,1,i am old man thats why i cannot move this table thats why I need some help to move it and it is already ready to move it has 5 parts to move,191,0,,0,draft_unreviewed
+Home Service,"Where exactly on this wall would you like the TV mounted — centered on the wall, or positioned to one side?",1,1,Centered side,92,0,,0,draft_unreviewed
+Home Service,"Where exactly would you like the TV mounted — on the wall below the ceiling fan, or somewhere else in this space?",1,1,I wanted to mount tv not to fix anything,83,0,,0,draft_unreviewed
+Home Service,"Where is the TV currently located in the room, and how far is it from this wall where you want it mounted?",1,1,Same room,92,0,,0,draft_unreviewed
+Home Service,Where on the wall would you like the 55-inch TV mounted?,1,1,I already share,90,0,,0,draft_unreviewed
+Home Service,"Where on this wall would you like the TV positioned — centered on the wall, or in a specific spot?",1,1,At centered,87,0,,0,draft_unreviewed
+Home Service,"Where would you like the TV mounted — on the wall near the table, or somewhere else in the room?",1,1,on the wall in another room,194,0,,0,draft_unreviewed
+Home Service,Where would you like the modem remounted?,1,1,ceiling mount,249,0,,0,draft_unreviewed
+Home Service,Which option would you like?,1,1,Option a,86,0,,0,draft_unreviewed
+Home Service,Which wall in this room would you like the TV mounted on?,1,1,Centre of wall,91,0,,0,draft_unreviewed
+Home Service,"Which wall would you like the TV mounted on, and do you already have the TV mount, or should the Tasker bring one?",1,1,Bring bring it,91,0,,0,draft_unreviewed
+Home Service,Which wall would you like the TV mounted on?,1,1,Wall facing the camera,83,0,,0,draft_unreviewed
+Home Service,"Will the TV be mounted on the wall (and if so, could you send me a photo of the wall where you'd like it mounted?",1,1,Yes,86,1,generic_answer_to_choice_or_specific_question,0,draft_unreviewed
+Home Service,Will the TV be on-site and ready when the Tasker arrives?,1,1,Yes,90,0,,0,draft_unreviewed
+Home Service,"Would you also like the cables hidden behind the wall for a clean look, or is mounting the TV with visible cables okay?",1,1,Yes hide the csb,81,0,,0,draft_unreviewed
+Home Service,"Would you like the TV mounted on the large white wall shown in the photo, or on a different wall?",1,1,Yes on large white wall,81,0,,0,draft_unreviewed
+Home Service,"Would you like the TV wires hidden behind the wall, or is an exposed setup (with a cable cover or just visible wires) okay?",1,1,It can be visible no problem,83,0,,0,draft_unreviewed
+Home Service,"Would you like the cables hidden behind the wall, or are you okay with them running along the outside of the wall?",1,1,It can be visible,85,0,,0,draft_unreviewed
+Home Service,"Would you like the modem remounted to the ceiling in the same location, or do you need it repositioned elsewhere?",1,1,Same location,257,0,,0,draft_unreviewed
+Plumbing,"Is the water actively leaking right now, or has it stopped?",7,4,Stopped now | Stopped leaking | Has stopped | Actively leaking,"286, 287, 289, 349, 354, 355, 357",0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement pipe, or should the Tasker bring one?",5,4,Tasker should bring one | Tasker should bring | I have one ready | Tasker brings it,"182, 195, 246, 264, 273",0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe and fittings, or should the Tasker bring everything needed?",4,3,"No , Tasker need to brought | Tasker should bring | Replace it Carry by tasker","100, 114, 144, 80",0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to this area, or is it still leaking right now?",4,1,Shut off,"100, 115, 153, 93",0,,0,draft_unreviewed
+Plumbing,"Is the water shut off right now, or is it still actively leaking?",4,4,Shut | Shut off | shut off | yes it stopped now,"170, 223, 373, 80",0,,0,draft_unreviewed
+Plumbing,What would you like done?,4,3,Replace the water heater | Replace the pipe | Replace the P-trap,"286, 287, 349, 370",0,,0,draft_unreviewed
+Plumbing,Can you tell me where this pipe is located?,3,3,Under the Kitchen sink | Under kitchen sink | Under bathroom sink,"233, 349, 370",0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement P-trap, or should the Tasker bring one?",3,3,Bring one | Tasker bring one | Tasker should bring one,"177, 243, 375",0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe and fittings, or would you like the Tasker to bring everything needed?",3,3,Tasker should bring | Carry it | Bring it,"113, 121, 122",0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe, or would you like the Tasker to bring it?",3,2,I have already one | Tasker should bring,"139, 94, 98",0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to stop the leak, or is it still actively leaking?",3,1,Shut off,"102, 105, 137",0,,0,draft_unreviewed
+Plumbing,Can you see where exactly the leak is coming from?,2,2,join where two pipes connected | crack in pipe,"212, 239",0,,0,draft_unreviewed
+Plumbing,Can you send me a clear photo of the leaking pipe connection?,2,1,Crack in pipe,"354, 355",0,,0,draft_unreviewed
+Plumbing,Can you tell me where the leak is coming from?,2,2,Curved | Pipe connection,"177, 287",0,,0,draft_unreviewed
+Plumbing,"Do you already have a new P-trap on hand, or should the Tasker bring one?",2,2,Tasker should bring it | Tasker brings it,"335, 336",0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement pipe section, or should the Tasker bring one and source it based on the pipe size and type they see on-site?",2,1,Tasker brings it,"354, 355",0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement parts needed, or should the Tasker bring them?",2,2,Tasker should bring | Tasker bring,"101, 102",0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe and fittings, or would you like the Tasker to bring them?",2,2,Tasker should bring | Tasker should bring it,"115, 137",0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe materials, or would you like the Tasker to bring everything needed?",2,2,Tasker should | Tasker should bring,"103, 140",0,,0,draft_unreviewed
+Plumbing,Do you know what this pipe connects to?,2,2,Water pipeline | Its to sink,"144, 93",0,,0,draft_unreviewed
+Plumbing,Do you know what's causing the leak?,2,2,Loose connection | Cracked pipe,"256, 264",0,,0,draft_unreviewed
+Plumbing,"Is the main water shut-off valve accessible and working, or do you need the Tasker to locate it when they arrive?",2,1,Already shut off,"354, 355",0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to this area, or is it still leaking?",2,2,Shut off | Yes it is shut off,"144, 154",0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off, or is it still leaking right now?",2,1,Shut off,"110, 114",0,,0,draft_unreviewed
+Plumbing,"Is this pipe part of the main water supply line coming into your home, or is it a smaller line connected to the water heater itself (like a hot water outlet)?",2,1,Main water supply,"354, 355",0,,0,draft_unreviewed
+Plumbing,Is this under a kitchen sink or bathroom sink?,2,1,Bathroom,"107, 98",0,,0,draft_unreviewed
+Plumbing,"What would you like done with the leaking pipe — repair the leak, or replace the damaged section?",2,2,Repair thr leak | Replace,"110, 114",0,,0,draft_unreviewed
+Plumbing,"Where is this cracked pipe located — is it under a sink, near a water heater, in a basement, or somewhere else in your home?",2,1,Near water heater,"354, 355",0,,0,draft_unreviewed
+Plumbing,"Would you like the leaking pipe repaired, or fully replaced?",2,1,Fully replaced,"139, 80",0,,0,draft_unreviewed
+Plumbing,"Are you looking to have the leak repaired at the connection point, or would you like the damaged section of pipe replaced?",1,1,Replaced,115,0,,0,draft_unreviewed
+Plumbing,"Are you looking to have the leak repaired, or would you like the damaged pipe section replaced?",1,1,Pipe section,103,0,,0,draft_unreviewed
+Plumbing,"Are you looking to have the leak repaired, or would you prefer to replace the damaged section of pipe?",1,1,Replace,137,0,,0,draft_unreviewed
+Plumbing,"Are you looking to repair that connection, or does the entire pipe/valve need to be replaced?",1,1,Replace the pipe,374,0,,0,draft_unreviewed
+Plumbing,"Are you looking to repair that connection, or would you prefer to replace the entire water heater?",1,1,Replace the section,172,0,,0,draft_unreviewed
+Plumbing,"Are you looking to repair the connection that's circled in red, replace that outlet/valve, or address a larger water heater issue?",1,1,Repair the connection,255,0,,0,draft_unreviewed
+Plumbing,"Are you looking to repair the existing pipe connection, or would you prefer to replace that section of piping?",1,1,Replace it,122,0,,0,draft_unreviewed
+Plumbing,"Are you looking to repair the leak on the existing pipe, or would you prefer to replace that section of piping entirely?",1,1,I wanna replace the pipe,121,0,,0,draft_unreviewed
+Plumbing,"Are you looking to repair the leaking connection, or would you prefer to replace that section of pipe entirely?",1,1,Replace,144,0,,0,draft_unreviewed
+Plumbing,"Are you looking to repair the leaking pipe, or would you prefer to replace that section entirely?",1,1,Replace,113,0,,0,draft_unreviewed
+Plumbing,"Are you looking to repair this connection, or fully replace that section of pipe?",1,1,Replace the pipe,273,0,,0,draft_unreviewed
+Plumbing,"Are you looking to repair this leak, or would you prefer to replace the entire P-trap with a new one?",1,1,Replace the whole thing,336,0,,0,draft_unreviewed
+Plumbing,"Are you looking to replace the water heater, or would you like a Tasker to come assess it first to confirm what's causing the leak?",1,1,Replace it,352,0,,0,draft_unreviewed
+Plumbing,"Are you replacing a keyboard that's built into a desk, or is this a standalone computer keyboard?",1,1,Keyboard replaced,221,0,,0,draft_unreviewed
+Plumbing,"Bathroom Ceiling** Looking at the photo, I can see two exhaust vents and some drywall damage. What would you like done with the ceiling?",1,1,Repair drywall only,364,0,,0,draft_unreviewed
+Plumbing,Can you describe what's wrong with it?,1,1,It's leaking,351,0,,0,draft_unreviewed
+Plumbing,Can you describe where the leak is coming from?,1,1,Crack,170,0,,0,draft_unreviewed
+Plumbing,Can you see how long the cracked section is?,1,1,2 inch,180,0,,0,draft_unreviewed
+Plumbing,Can you see where exactly the water is coming from?,1,1,From a crack,178,0,,0,draft_unreviewed
+Plumbing,Can you see where the leak is coming from?,1,1,From joint,176,0,,0,draft_unreviewed
+Plumbing,Can you send me a closer photo of the exact spot where the water was leaking from?,1,1,Already sent above,375,0,,0,draft_unreviewed
+Plumbing,Can you send me a photo of the drywall damage?,1,1,Please review the uploaded image(s) and continue.,175,0,,0,draft_unreviewed
+Plumbing,Can you tell me approximately how long the section of pipe is that needs replacing?,1,1,Short,115,0,,0,draft_unreviewed
+Plumbing,Can you tell me what room this is in and what that pipe connects to?,1,1,Sink,100,0,,0,draft_unreviewed
+Plumbing,Can you tell me what this pipe connects to?,1,1,Sink,94,0,,0,draft_unreviewed
+Plumbing,Can you tell me what's leaking?,1,1,Water heater,352,0,,0,draft_unreviewed
+Plumbing,Can you tell me which pipe is leaking?,1,1,Hot water line,376,0,,0,draft_unreviewed
+Plumbing,Could you send me a close-up photo of the actual leak point?,1,1,Hard to get close to it,357,0,,0,draft_unreviewed
+Plumbing,"Do you already have a dishwasher, or should the Tasker bring one?",1,1,Tasker should bring one,364,0,,0,draft_unreviewed
+Plumbing,"Do you already have a new P-trap, or should the Tasker bring one?",1,1,Tasker brings it,334,0,,0,draft_unreviewed
+Plumbing,"Do you already have a new faucet, or should the Tasker bring one?",1,1,Tasker brings it,344,0,,0,draft_unreviewed
+Plumbing,"Do you already have a new hot water tank on hand, or should the Tasker bring one?",1,1,Tasker should bring it,293,0,,0,draft_unreviewed
+Plumbing,"Do you already have a new water heater, or should the Tasker bring one?",1,1,Tasker brings one,352,0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement P-trap on hand, or should the Tasker bring one?",1,1,Tasker brings it,333,0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement curved pipe (P-trap), or should the Tasker bring one?",1,1,Tasker should bring,107,0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement curved pipe, or should the Tasker bring one?",1,1,Tasker should bring one,233,0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement pipe on hand, or should the Tasker bring one?",1,1,Tasker brings it,374,0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement pipe or fitting for this joint, or should the Tasker bring one when they arrive?",1,1,tasker bring one when he arrives,209,0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement pipe, or should the Tasker bring one and handle the replacement?",1,1,Yes already have replacement pipe,239,0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement shut-off valve, or should the Tasker bring one?",1,1,tasker bring,217,0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement valve or fitting, or should the Tasker bring one?",1,1,Tasker brings it,221,0,,0,draft_unreviewed
+Plumbing,"Do you already have a replacement water line, or should the Tasker bring one?",1,1,tasker bring one,205,0,,0,draft_unreviewed
+Plumbing,"Do you already have any repair materials (like fittings or solder), or should the Tasker bring everything needed?",1,1,No tasker should carry,154,0,,0,draft_unreviewed
+Plumbing,"Do you already have the PVC pipe and fittings you need, or should the Tasker bring them?",1,1,Tasker brings it,350,0,,0,draft_unreviewed
+Plumbing,"Do you already have the copper pipe and fittings needed for the replacement, or should the Tasker bring everything?",1,1,Tasker should bring,108,0,,0,draft_unreviewed
+Plumbing,"Do you already have the materials needed (new fitting, washers, sealant), or should the Tasker bring everything?",1,1,Tasker brings everything,353,0,,0,draft_unreviewed
+Plumbing,"Do you already have the materials needed for the repair (like a pipe repair clamp or replacement pipe section), or would you like the Tasker to bring them?",1,1,Tasker should bring,110,0,,0,draft_unreviewed
+Plumbing,"Do you already have the materials needed for the repair, or would you like the Tasker to bring them?",1,1,NO DON'T HAVE MATERIALS,93,0,,0,draft_unreviewed
+Plumbing,"Do you already have the pipe materials and fittings needed for the replacement, or would you like the Tasker to bring them?",1,1,Tasker need to bring,124,0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement copper pipe and fittings, or should the Tasker bring everything needed?",1,1,Tasker should bring,116,0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe and fittings, or should the Tasker bring them?",1,1,Tasker should,105,0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe fittings and materials, or would you like the Tasker to bring everything needed?",1,1,Tasker should bring,153,0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe fittings and materials, or would you like the Tasker to bring them?",1,1,Tasker should bei,120,0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe section and fittings, or would you like the Tasker to bring everything needed?",1,1,Yes bring it,97,0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe section, or should the Tasker bring one?",1,1,Already have the pipe,172,0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement pipe, or should the Tasker bring it?",1,1,Tasker should bring,99,0,,0,draft_unreviewed
+Plumbing,"Do you already have the replacement piping and fittings, or would you like the Tasker to bring everything needed?",1,1,Yes I have,82,0,,0,draft_unreviewed
+Plumbing,"Do you have access to a shut-off valve for this hot water line, or would you need the Tasker to locate and shut off the main water valve?",1,1,Have a shut-off valve nearby,376,0,,0,draft_unreviewed
+Plumbing,"Do you have the materials needed for the drywall repair and showerhead replacement, or should the Tasker bring those as well?",1,1,Tasker should bring them,364,0,,0,draft_unreviewed
+Plumbing,"Do you know approximately how long that section of pipe is that needs replacing, or should the Tasker assess and confirm the exact length when they arrive?",1,1,Tasker should,108,0,,0,draft_unreviewed
+Plumbing,"Do you know approximately when this leak started, or have you noticed any water damage to the surrounding area that might need attention?",1,1,No don’t know,154,0,,0,draft_unreviewed
+Plumbing,Do you know roughly how much of the pipe needs replacing?,1,1,Just replaced the leaking section,105,0,,0,draft_unreviewed
+Plumbing,Do you know what caused the leak to stop?,1,1,I turned off the water,353,0,,0,draft_unreviewed
+Plumbing,"Do you know what caused the leak — was it a loose connection, a cracked pipe, or are you not sure?",1,1,Cracked pipe,375,0,,0,draft_unreviewed
+Plumbing,Do you know what caused the leak?,1,1,Crack in pipe,356,0,,0,draft_unreviewed
+Plumbing,Do you know what those pipes are for?,1,1,Yes I know,82,0,,0,draft_unreviewed
+Plumbing,"Do you know what type of pipes these are — are they metal (copper or steel), or plastic (PVC)?",1,1,pvc,212,0,,0,draft_unreviewed
+Plumbing,"Do you know what's causing the leak — for example, is it a loose connection, a cracked pipe, a faulty valve, or are you not sure?",1,1,Cracked pipe,289,0,,0,draft_unreviewed
+Plumbing,"Do you know what's causing the leak — is it coming from a joint, a crack in the pipe itself, or where the pipe connects to something else?",1,1,Crack in pipe,110,0,,0,draft_unreviewed
+Plumbing,Do you know where the leak is coming from?,1,1,I dont know where it is coming from,175,0,,0,draft_unreviewed
+Plumbing,Do you know where the water shut-off valve is for your home?,1,1,I know where it is,246,0,,0,draft_unreviewed
+Plumbing,"Do you know which fixture or appliance these pipes connect to (like a sink, dishwasher, or water heater)?",1,1,Sink,103,0,,0,draft_unreviewed
+Plumbing,"Good — that's helpful. Let me ask a follow-up to make sure we address this safely. **Follow-up to Question 1:** Did you turn off the water supply to stop the leak, or did it stop on its own?",1,1,I turned it off,286,0,,0,draft_unreviewed
+Plumbing,"Got it — a cracked pipe. That's helpful context. Now, to give you the right estimate, I need to see the exact location and severity of the crack so I can determine whether it's a simple repair or requires pipe replacement. **Could you send me a close-up photo of the cracked pipe?",1,1,Photo already sent,289,0,,0,draft_unreviewed
+Plumbing,"Got it — full P-trap replacement. One quick question before I finalize your estimate: **Do you already have a new P-trap, or should the Tasker bring one?",1,1,Tasker brings it,370,0,,0,draft_unreviewed
+Plumbing,"Got it — so the shower is on the first floor (or above), and the leak is showing up in the basement ceiling below it. That tells me water is coming down through the floor structure. One final detail before I quote: **Once we find and fix the leak, would you like the Tasker to repair just the damaged drywall in the basement, or would you also like them to paint it so it blends with the rest of the ceiling?",1,1,paints and finish,175,0,,0,draft_unreviewed
+Plumbing,Got it — the water is actively leaking right now. That needs attention. **Quick safety check: Have you turned off the water supply to that pipe or the main water shut-off valve for your home?,1,1,"Yes, already off",357,0,,0,draft_unreviewed
+Plumbing,"Got it — we'll repair the connection. One more thing: Do you already have the repair materials (like a new connector or fitting), or should the Tasker bring what's needed?",1,1,tasker will bring it,223,0,,0,draft_unreviewed
+Plumbing,Got it. Just to make sure I have the full picture: **Can you tell me where this pipe is located?,1,1,Under sink,356,0,,0,draft_unreviewed
+Plumbing,"Great — you've got the pipe ready to go. Just to confirm: do you have the water shut off to that sink right now, or should the Tasker handle that when they arrive?",1,1,Water is shut off,273,0,,0,draft_unreviewed
+Plumbing,"Great! Could you let me know what they're for — are they water supply pipes, drain pipes, or part of a heating system?",1,1,Water pipes,82,0,,0,draft_unreviewed
+Plumbing,"Great! Let me ask that question again so I can make sure the estimate is right for you. **Quick question:** Are you looking to keep the same scope (replace the shut-off valve), or would you prefer a different approach — like having the Tasker diagnose the valve to see if it just needs adjustment or cleaning instead of full replacement?",1,1,Replace the valve,217,0,,0,draft_unreviewed
+Plumbing,"Have you already turned off the water supply to the heater, or is it still running?",1,1,Already shut off,290,0,,0,draft_unreviewed
+Plumbing,"Hi! I'm Leo, your project coordinator at Star Handyman. Thanks for sending that photo. I can see a laptop keyboard and what looks like some fabric beside it, but I'm not quite sure what project you're looking to get done here. Could you tell me a bit more about what you'd like help with?",1,1,Replace,221,0,,0,draft_unreviewed
+Plumbing,"Hi! I'm Leo, your project coordinator at Star Handyman. Thanks for sending those photos — I can see you've got a few different things going on here. Let me make sure I understand what you're looking at: **Photo 1:** Bathroom ceiling with two exhaust vents and what looks like some cracks or damage in the drywall. **Photo 2:** Bathroom wall with a shower diverter/spout that appears to have some corrosion or damage around it. **Photo 3:** Under-sink cabinet with what looks like plumbing visible inside. Before I ask detailed questions, I want to clarify: **Are these three separate projects you'd like addressed, or is there one main issue tying them together?",1,1,All three areas,364,0,,0,draft_unreviewed
+Plumbing,"Hi! I'm Leo, your project coordinator at Star Handyman. Thanks for the photo — I can see what looks like plumbing work under a sink or in a utility area. Let me get a clearer picture of what we're working with. Could you send me a couple more photos?",1,1,I need to fix this pipe,209,0,,0,draft_unreviewed
+Plumbing,"Hi! I'm Leo, your project coordinator at Star Handyman. Thanks for the photos — I can see there's water leaking from a pipe near what looks like a water heater or tank. Before I scope this out, I need to make sure everyone's safe. **Is the water actively leaking right now, or has it stopped?",1,1,It's stopped,353,0,,0,draft_unreviewed
+Plumbing,"How long is the section of pipe that needs replacing — just the short connector piece shown in the red circle, or a longer run of the copper pipe?",1,1,Red piece,116,0,,0,draft_unreviewed
+Plumbing,"I appreciate that, but I'm not seeing a close-up photo of the leaking pipe yet in our conversation. Could you try uploading it again?",1,1,Please review the uploaded image(s) and continue.,353,0,,0,draft_unreviewed
+Plumbing,"I appreciate that, but I'm not seeing a photo of the cracked pipe itself in our conversation yet. The first image you sent shows water at a connection point, but I need a closer, clearer shot of the actual crack so I can assess the damage properly. **Could you take a close-up photo of the cracked section of pipe and send it now?",1,1,Can't get close enough,289,0,,0,draft_unreviewed
+Plumbing,"I appreciate you asking me to move forward, but I need just a bit more information to give you an accurate estimate. Before I can finalize the scope and labour time, I need to understand the connection better so I can match you with the right Tasker and calculate the real work involved. **Quick clarification:** What type of connection is leaking?",1,1,Water supply line,351,0,,0,draft_unreviewed
+Plumbing,"I appreciate you getting back to me. I notice your feedback came through empty, so I want to make sure I'm addressing your actual concern. **Could you tell me what part of the estimate doesn't feel right?",1,1,i dont want to proceed,212,0,,0,draft_unreviewed
+Plumbing,"I appreciate you wanting to move forward, but I need that last answer first to give you an accurate estimate. **Is there access to the space above the shower** — like an attic, crawl space, or second floor — or is it an exterior wall with no accessible space above?",1,1,there is no access. Drywall damage is in the basement. Above the basement is shower,175,0,,0,draft_unreviewed
+Plumbing,"I appreciate your feedback, though I'm not sure I fully understand what you'd like adjusted. Could you help me understand what specifically you'd like changed?",1,1,It's my choice 😌,140,0,,0,draft_unreviewed
+Plumbing,"I just need that one answer so I can give you the most accurate estimate. **Do you have a replacement water line/hose, or should the Tasker bring one?",1,1,tasker bring it,204,0,,0,draft_unreviewed
+Plumbing,"I need just one answer to complete your estimate accurately. **Where is this cracked pipe located — under a sink, in the basement, behind a wall, or somewhere else?",1,1,Under sink,289,0,,0,draft_unreviewed
+Plumbing,"I understand — price is a concern for you. Let me clarify something to make sure I'm quoting you accurately: **Quick question:** Are you looking to keep the same scope (replace the shut-off valve), or would you prefer a different approach — like having the Tasker diagnose the valve to see if it just needs adjustment or cleaning instead of full replacement?",1,1,sjsjsj,217,0,,0,draft_unreviewed
+Plumbing,"I understand — you have every right to feel however you do about the estimate. If you'd like to move forward with this project, I'm here to help coordinate it. If you'd prefer not to proceed, that's completely okay too. Is there anything else I can help clarify, or would you like to proceed with a different project instead?",1,1,NO,140,1,generic_answer_to_choice_or_specific_question; unresolved_either_or_choice,0,draft_unreviewed
+Plumbing,"I understand — you're concerned about the cost. Let me ask a quick follow-up so I can make sure the estimate is as accurate as possible. **Follow-up Question:** When you say the price feels high, are you looking to: 1. **Keep the repair simple** — just patch or seal the crack temporarily to stop the leak?",1,1,Keep the repair simple,178,0,,0,draft_unreviewed
+Plumbing,"I'm here to help with your project! Let me know when you're ready to continue, and we can move forward with your shut-off valve repair. Are you still interested in getting an estimate for this work?",1,1,yes,217,0,,0,draft_unreviewed
+Plumbing,"I'm here to help! It looks like that might have been a typo. Are you ready to send that additional photo of your built-in keyboard setup, or do you have a question about the project?",1,1,Please review the uploaded image(s) and continue.,221,0,,0,draft_unreviewed
+Plumbing,"Is the leak actively dripping right now, or is it a slow seep?",1,1,Slow seep,176,0,,0,draft_unreviewed
+Plumbing,"Is the leak coming from a connection (where pipes join together), or from a crack or hole in the pipe itself?",1,1,Crack,180,0,,0,draft_unreviewed
+Plumbing,"Is the leaking pipe connected directly to the water heater itself, or is it part of the supply line coming into the heater?",1,1,Connected to the heater,357,0,,0,draft_unreviewed
+Plumbing,"Is the pipe actively leaking right now, or is it just loose/dripping?",1,1,Actively leaking,246,0,,0,draft_unreviewed
+Plumbing,"Is the pipe currently leaking, or are you looking to prevent a future leak?",1,1,Currently leaking,179,0,,0,draft_unreviewed
+Plumbing,"Is the water actively dripping/leaking right now, or does it only leak when you run water?",1,1,Only when water runs,376,0,,0,draft_unreviewed
+Plumbing,"Is the water actively dripping/leaking right now, or has it stopped?",1,1,i stopped,356,0,,0,draft_unreviewed
+Plumbing,"Is the water actively dripping/leaking right now, or is it just wet around that area?",1,1,shut off,243,0,,0,draft_unreviewed
+Plumbing,"Is the water actively leaking at this moment, or has it stopped?",1,1,"No, it stopped",375,0,,0,draft_unreviewed
+Plumbing,"Is the water actively leaking right now, or does it only leak when the appliance is running?",1,1,actively leaking,204,0,,0,draft_unreviewed
+Plumbing,"Is the water actively leaking right now, or is it only leaking when you use the appliance or fixture connected to this pipe?",1,1,Stopped for now,370,0,,0,draft_unreviewed
+Plumbing,"Is the water currently leaking, or has it stopped?",1,1,Stopped leaking,352,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to prevent further leaking, or is it still active?",1,1,Shut off,108,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to prevent further leaking, or is it still actively leaking right now?",1,1,Shut off,82,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to stop the leak, or is it still dripping?",1,1,Shut off,99,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to stop the leak, or is it still leaking right now?",1,1,Shut off,101,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to stop the leak, or is it still leaking?",1,1,Shut off,98,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to this area, or is it still actively leaking?",1,1,Shut off,103,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to this line, or would the Tasker need to shut it off when they arrive?",1,1,Tasker need to shut it of,94,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to this pipe, or is it still actively leaking?",1,1,Shut off,120,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off to this pipe, or is it still leaking right now?",1,1,Shut off,97,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off under the sink, or is it still leaking right now?",1,1,Shut off,107,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off, or is it still actively leaking right now?",1,1,Shut off,140,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off, or is it still actively leaking?",1,1,Shut off,195,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off, or is it still leaking?",1,1,Shut off,139,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off, or is it still running and leaking?",1,1,Water is shut off,264,0,,0,draft_unreviewed
+Plumbing,"Is the water currently shut off, or is it still running?",1,1,Shut off,177,0,,0,draft_unreviewed
+Plumbing,"Is the water heater currently leaking from that connection, or is it just loose/not sealed properly?",1,1,It's leaking,255,0,,0,draft_unreviewed
+Plumbing,"Is the water heater still actively leaking right now, or has it stopped?",1,1,Shut off,180,0,,0,draft_unreviewed
+Plumbing,"Is the water heater turned off right now, or is water still actively leaking?",1,1,Turn off,113,0,,0,draft_unreviewed
+Plumbing,"Is the water leaking from a pipe connection at the bottom of the heater, or from the tank itself (like a crack or rust hole)?",1,1,Pipe connection,290,0,,0,draft_unreviewed
+Plumbing,"Is the water line currently leaking, or is there another issue (like a loose connection, crack, or something else)?",1,1,its leaking,205,0,,0,draft_unreviewed
+Plumbing,"Is the water shut off at the sink right now, or is it still running?",1,1,Water is shut off,335,0,,0,draft_unreviewed
+Plumbing,Is the water shut off now?,1,1,yes it is shut off,204,0,,0,draft_unreviewed
+Plumbing,"Is the water shut off right now, or do you need the Tasker to shut it off when they arrive?",1,1,Shut off,172,0,,0,draft_unreviewed
+Plumbing,"Is the water shut off right now, or is it still running?",1,1,Water is off,256,0,,0,draft_unreviewed
+Plumbing,"Is the water shut off right now, or is the leak actively dripping?",1,1,Shut ofd,182,0,,0,draft_unreviewed
+Plumbing,"Is the water shut off right now, or is water actively leaking?",1,1,Shut off,171,0,,0,draft_unreviewed
+Plumbing,"Is the water shut off to the sink right now, or should the Tasker handle that when they arrive?",1,1,Already shut off,344,0,,0,draft_unreviewed
+Plumbing,"Is the water shut off to this area right now, or should the Tasker turn it off when they arrive?",1,1,Already shut off,333,0,,0,draft_unreviewed
+Plumbing,"Is the water shut-off valve under the sink working properly, or does the Tasker need to use the main shut-off valve for this job?",1,1,Tasker need to use,233,0,,0,draft_unreviewed
+Plumbing,"Is the water still shut off at the main valve, and will it stay off until the Tasker arrives?",1,1,"Yes, it's off",353,0,,0,draft_unreviewed
+Plumbing,"Is this a built-in keyboard (like part of a desk or integrated fixture), or a standalone computer keyboard that plugs in?",1,1,Build in,221,0,,0,draft_unreviewed
+Plumbing,Is this a gas water heater or electric water heater?,1,1,Gas,290,0,,0,draft_unreviewed
+Plumbing,Is this a gas water heater or electric?,1,1,Electric,352,0,,0,draft_unreviewed
+Plumbing,"Is this a hot water tank, and do you know if the leak started recently or has it been ongoing?",1,1,Hot water tank,293,0,,0,draft_unreviewed
+Plumbing,Is this a kitchen sink or a bathroom sink?,1,1,Bathroom sink,334,0,,0,draft_unreviewed
+Plumbing,Is this a water supply line (bringing fresh water in) or a drain line (taking water out)?,1,1,Bringing fresh water,176,0,,0,draft_unreviewed
+Plumbing,"Is this leak coming from a connection you can see (like where two pipes join together), or is it coming from a crack or hole in the pipe itself?",1,1,crack near p trap,243,0,,0,draft_unreviewed
+Plumbing,"Is this pipe actively leaking right now, or has it stopped?",1,1,Shut off,233,0,,0,draft_unreviewed
+Plumbing,"Is this pipe actively leaking right now, or is it a slow drip?",1,1,Slow dip,178,0,,0,draft_unreviewed
+Plumbing,"Is this pipe actively leaking right now, or is it just dripping slowly?",1,1,shut off,239,0,,0,draft_unreviewed
+Plumbing,"Is this pipe connected to an appliance (like a washer, dishwasher, or fridge), or is it part of your main plumbing system?",1,1,into an appliance,223,0,,0,draft_unreviewed
+Plumbing,"Is this pipe currently leaking, or are you replacing it as a preventive measure?",1,1,Yeah leaking,129,0,,0,draft_unreviewed
+Plumbing,"Is this pipe hidden inside a wall, or is it exposed and accessible (like under a sink or in a basement)?",1,1,Exposed,178,0,,0,draft_unreviewed
+Plumbing,"Is this pipe inside your home (under a sink, in a wall, basement), or is it outside (exterior faucet, garden hose connection)?",1,1,In basement,246,0,,0,draft_unreviewed
+Plumbing,"Is this pipe part of the hot water supply line coming from the water heater, or is it a drain line?",1,1,Hot water supply,350,0,,0,draft_unreviewed
+Plumbing,"Is this pipe under a kitchen sink, bathroom sink, or somewhere else in your home?",1,1,Kitchen sink,273,0,,0,draft_unreviewed
+Plumbing,"Is this pipe under a sink, or is it part of your heating/plumbing system elsewhere in the home?",1,1,Sink,99,0,,0,draft_unreviewed
+Plumbing,"Is this pipe visible and accessible (like under a sink or in a basement), or is it running inside a wall?",1,1,Visible and accessible,264,0,,0,draft_unreviewed
+Plumbing,"Is this pipe visible and accessible (like under a sink or in an open area), or is it hidden behind a wall or in the floor?",1,1,Visible and easy to reach,373,0,,0,draft_unreviewed
+Plumbing,"Is this pipe visible and accessible (you can see it and reach it easily), or is it hidden behind a wall or in a tight space?",1,1,Visible and accessible,170,0,,0,draft_unreviewed
+Plumbing,"Is this the curved pipe under a sink (P-trap), or is it a different type of pipe — like a main water line, supply line, or drain pipe?",1,1,Curved pipe under sink,375,0,,0,draft_unreviewed
+Plumbing,"Is this the kitchen sink, bathroom sink, or somewhere else in the home?",1,1,kitchen sink,243,0,,0,draft_unreviewed
+Plumbing,"Is this the only leak you've noticed, or are there other areas in your home that need attention?",1,1,Only this one,256,0,,0,draft_unreviewed
+Plumbing,"Is this under a kitchen sink, bathroom vanity, or connected to an appliance like a dishwasher or water heater?",1,1,Bathroom vanity,101,0,,0,draft_unreviewed
+Plumbing,"Is water currently leaking from that spot, or is it not working properly in another way (like low pressure, won't turn on/off, etc.)?",1,1,it is stop,217,0,,0,draft_unreviewed
+Plumbing,"Is water currently leaking from this pipe, or is it just a loose connection?",1,1,is has loose connection,212,0,,0,draft_unreviewed
+Plumbing,"Let me get one quick detail first to make sure I have the full picture. **Before I finalize the estimate:** Can you tell me roughly where this pipe is located — under a kitchen sink, bathroom sink, or somewhere else?",1,1,Under kitchen sink,179,0,,0,draft_unreviewed
+Plumbing,"Looking at the circled area in your photo, it appears to be copper piping with a joint connection. Do you know if this is part of the hot water supply line from the water heater, or is it a different line?",1,1,Yes it’s hot water supply,153,0,,0,draft_unreviewed
+Plumbing,Looking at the connection circled in the second photo — are you looking to repair or replace that valve/fitting?,1,1,Replace it,221,0,,0,draft_unreviewed
+Plumbing,"Looking at the leak, do you know if it's coming from the connection (the fitting where two pipes join), or from a crack or hole in the pipe itself?",1,1,Crack in pipe,373,0,,0,draft_unreviewed
+Plumbing,"Looking at the leak, does it seem like the connection just needs to be tightened, or does the pipe itself look cracked or damaged and need to be replaced?",1,1,Pipe looks damaged,246,0,,0,draft_unreviewed
+Plumbing,"Looking at the photo, I can see this appears to be under a sink or fixture. Is this in a bathroom, kitchen, laundry room, or somewhere else?",1,1,Bathroom,122,0,,0,draft_unreviewed
+Plumbing,"Looking at the photo, it appears this is under a kitchen sink. Is that correct, and is there any water damage to the cabinet or surrounding area that you'd also like addressed?",1,1,Kitchen sink,102,0,,0,draft_unreviewed
+Plumbing,"Looking at the photo, it appears to be part of a drain line. Is this under a sink, or is it connected to another fixture like a washing machine or water heater?",1,1,Water heater,113,0,,0,draft_unreviewed
+Plumbing,"Looking at the photo, it appears to be the hot water outlet pipe from your water heater. How far does the leak extend — is it just that curved section you've circled, or does the problem go further along the pipe?",1,1,Only the circled part,121,0,,0,draft_unreviewed
+Plumbing,"Looking at the photo, this appears to be under a sink or cabinet. Can you tell me what room this is in (kitchen, bathroom, laundry, etc.)?",1,1,Kitchen,97,0,,0,draft_unreviewed
+Plumbing,"Looking at the photos, I can see copper piping with what appears to be a joint connection. Can you tell me approximately how much of the pipe needs replacing — just the leaking joint area, or a longer section of the pipe run?",1,1,Joint area,120,0,,0,draft_unreviewed
+Plumbing,"Looking at the photos, I can see copper piping with what looks like a joint or connection point that's leaking. Can you tell me approximately how much of the pipe run needs replacing — just the leaking section, or a longer section of the visible piping?",1,1,Just leaking section,80,0,,0,draft_unreviewed
+Plumbing,"Looking at the photos, I can see copper piping. Do you know what caused the leak, or did it just start leaking on its own?",1,1,Don't knwo,114,0,,0,draft_unreviewed
+Plumbing,"Looking at the photos, I can see the curved pipe (P-trap) and the connections. Do you know if any other parts of the plumbing system in this area are leaking or showing issues, or is it just this one pipe section?",1,1,Just one pipe,139,0,,0,draft_unreviewed
+Plumbing,"Looking at the photos, I can see this is in what appears to be a utility area with a floor drain. Is this a water supply line (cold or hot water feeding something), or is it a drain line?",1,1,Sink,124,0,,0,draft_unreviewed
+Plumbing,"Looking at the photos, this appears to be in a utility room or laundry area. Can you confirm what room this is in, and is the water shut off right now?",1,1,Shut off,116,0,,0,draft_unreviewed
+Plumbing,"Looking at where the leak is coming from, does it appear to be leaking from a connection/joint between two pipes, or is the leak coming from a crack or hole in the pipe itself?",1,1,Leaking from a joint/connection,376,0,,0,draft_unreviewed
+Plumbing,"Looking at where the water was leaking from, do you know what system it is?",1,1,Water heater,286,0,,0,draft_unreviewed
+Plumbing,"Perfect — full pipe replacement at that connection. One quick follow-up: **Do you already have the replacement pipe, or should the Tasker bring one?",1,1,Tasker brings it,287,0,,0,draft_unreviewed
+Plumbing,"Perfect — full pipe replacement. That's the more durable solution. One more thing before I calculate your estimate: **Do you already have the replacement pipe, or should the Tasker bring it?",1,1,Tasker brings it,356,0,,0,draft_unreviewed
+Plumbing,"Perfect — that makes the repair straightforward. One more quick thing: Do you already have replacement pipe and fittings on hand, or should the Tasker bring everything needed?",1,1,Tasker brings it,373,0,,0,draft_unreviewed
+Plumbing,Perfect — that's the right call. Now I need to see the leak more clearly so I can scope the repair. **Could you send me a close-up photo of the leaking pipe?,1,1,Photo already sent,353,0,,0,draft_unreviewed
+Plumbing,"Perfect — that's the right first step. One more thing before I get your estimate: **Do you have a new pipe fitting or connection ready, or should the Tasker bring one?",1,1,Tasker brings it,290,0,,0,draft_unreviewed
+Plumbing,"Shower Spout** Looking at the second photo, I can see the shower diverter/spout has some corrosion or wear around it. Would you like to repair it, or fully replace it with a new one?",1,1,it is showerhead arm. I want it to be replaced,364,0,,0,draft_unreviewed
+Plumbing,"Thanks. I can see it's dripping, but I need to pinpoint where on the pipe the water is coming from. **Question 2/3 (clarification): Is the drip coming from a connection point (like where two pipes join together), or is it coming from a hole or crack somewhere along the length of the pipe itself?",1,1,its is dripping where two pipes are connecting,209,0,,0,draft_unreviewed
+Plumbing,"Under-Sink Area** Looking at the third photo, I can see the plumbing under the sink. What would you like done in this area?",1,1,I want to install dishwasher to the area,364,0,,0,draft_unreviewed
+Plumbing,What would you like done once we find the leak?,1,1,i need to find the issue and fix it,175,0,,0,draft_unreviewed
+Plumbing,"What would you like done with that water line connection — repair it, replace it, or disconnect it entirely?",1,1,repair it,205,0,,0,draft_unreviewed
+Plumbing,What would you like done with this connection?,1,1,repair,217,0,,0,draft_unreviewed
+Plumbing,"What would you like done with this leak — repair the existing connection, or replace the pipe section entirely?",1,1,Replace the pipe,98,0,,0,draft_unreviewed
+Plumbing,"What would you like done with this leak — repair the existing pipe joint, or replace a section of the piping?",1,1,Replace,116,0,,0,draft_unreviewed
+Plumbing,"What would you like done with this pipe — are you looking to repair it, fully replace it, or remove it entirely?",1,1,Replace it,129,0,,0,draft_unreviewed
+Plumbing,"What would you like done — repair the leak (if it's just a connection or small issue), or replace the section of pipe?",1,1,Replace the section,171,0,,0,draft_unreviewed
+Plumbing,What's happening with this pipe that's making you want to replace it?,1,1,It's corroded,94,0,,0,draft_unreviewed
+Plumbing,What's the issue with this connection?,1,1,leaking,204,0,,0,draft_unreviewed
+Plumbing,What's the main issue or goal here?,1,1,Repair the connection,351,0,,0,draft_unreviewed
+Plumbing,What's wrong with the pipe right now?,1,1,it is leaking,209,0,,0,draft_unreviewed
+Plumbing,"Where exactly is the leak coming from — is it at a joint/connection, or is there a crack or hole in the pipe itself?",1,1,A crack,179,0,,0,draft_unreviewed
+Plumbing,Where exactly is the leak coming from?,1,1,it is dripping,209,0,,0,draft_unreviewed
+Plumbing,Where exactly on the water heater is the water coming from?,1,1,Bottom of tank,352,0,,0,draft_unreviewed
+Plumbing,"Where is this pipe located — is it under a sink, near a water heater, or somewhere else in your home?",1,1,under the sink kitchen,239,0,,0,draft_unreviewed
+Plumbing,Where is this pipe located?,1,1,Water heater,357,0,,0,draft_unreviewed
+Plumbing,"Which appliance is it connected to — a washing machine, dishwasher, refrigerator, or something else?",1,1,washing machine,223,0,,0,draft_unreviewed
+Plumbing,"Would you like a faucet similar to the current one (single-handle, chrome finish), or do you have a different style in mind?",1,1,Similar style,344,0,,0,draft_unreviewed
+Plumbing,"Would you like the Tasker to handle the disposal of the old pipe section, or would you prefer to dispose of it yourself?",1,1,We can dispose it,121,0,,0,draft_unreviewed
+Plumbing,"Would you like the Tasker to repair just that section of pipe, or would you prefer to replace the entire pipe run?",1,1,Replace the whole pipe,356,0,,0,draft_unreviewed
+Plumbing,"Would you like the Tasker to repair that connection, or replace the entire section of pipe?",1,1,Repair the connection,353,0,,0,draft_unreviewed
+Plumbing,"Would you like the Tasker to repair the existing connection, or fully replace the water line hose?",1,1,repair it,223,0,,0,draft_unreviewed
+Plumbing,"Would you like the Tasker to repair the leak (if it's a loose connection or small crack), or replace the entire section of pipe?",1,1,Replace rhe pipe,182,0,,0,draft_unreviewed
+Plumbing,"Would you like the Tasker to repair the leak (if it's a loose connection), or replace the entire hot water tank with a new one?",1,1,Replace the tank,293,0,,0,draft_unreviewed
+Plumbing,"Would you like the Tasker to repair the leak, or fully replace that curved pipe section?",1,1,Yes Tasker replaced,233,0,,0,draft_unreviewed
+Plumbing,"Would you like the leak repaired (tightening the connection or replacing just the leaking part), or would you prefer to replace the entire pipe section?",1,1,Replaced,100,0,,0,draft_unreviewed
+Plumbing,"Would you like the leak repaired at the existing connection, or would you prefer to replace a section of the pipe?",1,1,Need to be repaired,154,0,,0,draft_unreviewed
+Plumbing,"Would you like the leaking pipe connection repaired, or are you looking to replace any components in that area?",1,1,Fully replaced,153,0,,0,draft_unreviewed
+Plumbing,"Would you like the leaking pipe repaired, or fully replaced with a new one?",1,1,Fully replaced,195,0,,0,draft_unreviewed
+Plumbing,"Would you like the leaking pipe repaired, or the connection fully replaced?",1,1,Full replaced,101,0,,0,draft_unreviewed
+Plumbing,"Would you like the leaking pipe repaired, or the connection/fitting fully replaced?",1,1,Fully replaced,102,0,,0,draft_unreviewed
+Plumbing,"Would you like the leaking pipe repaired, or would you prefer to replace that section of pipe entirely?",1,1,Only that section,97,0,,0,draft_unreviewed
+Plumbing,"Would you like the leaking section repaired, or the pipe replaced?",1,1,Pipe replaced,105,0,,0,draft_unreviewed
+Plumbing,"Would you like the leaking section repaired, or would you prefer to replace that section of pipe entirely?",1,1,Replaced,108,0,,0,draft_unreviewed
+Plumbing,"Would you like this leak repaired (tightening the fitting or replacing damaged sections), or would you prefer to replace the entire visible section of piping?",1,1,Replace,124,0,,0,draft_unreviewed
+Plumbing,"Would you like this pipe connection repaired to stop the leak, or are you looking to replace any part of the plumbing?",1,1,Replace,104,0,,0,draft_unreviewed
+Plumbing,"Would you like this pipe connection repaired, or would you prefer to replace the damaged section?",1,1,Replaced,140,0,,0,draft_unreviewed
+Plumbing,"Would you like this pipe repaired (fixing the leak at that joint), or would you prefer to replace that section of piping?",1,1,Replaced,82,0,,0,draft_unreviewed
+Plumbing,"Would you like this pipe repaired (tightening connections or replacing worn parts), or would you prefer to have the entire curved pipe section replaced?",1,1,Replaced,107,0,,0,draft_unreviewed
+Plumbing,"Would you like this pipe repaired, or fully replaced?",1,1,Replaced,120,0,,0,draft_unreviewed
+Plumbing,"Would you like this pipe repaired, or would you prefer to have the leaking section replaced?",1,1,Leaking section,93,0,,0,draft_unreviewed
+Plumbing,"Would you like this pipe repaired, or would you prefer to have the section replaced?",1,1,Replace,99,0,,0,draft_unreviewed
+Plumbing,"Would you like to repair the P-trap, or fully replace it with a new one?",1,1,Replace it,335,0,,0,draft_unreviewed
+Plumbing,"Would you like to repair the existing P-trap connection, or fully replace the P-trap with a new one?",1,1,Replace the P-trap,334,0,,0,draft_unreviewed
+Plumbing,"Would you like to repair the leak, or fully replace the P-trap with a new one?",1,1,Replace the whole P-trap,333,0,,0,draft_unreviewed
+Plumbing,"Would you like to replace just the leaking connection piece, or would you prefer to replace the entire trap assembly (the curved pipe section and fittings)?",1,1,Replace the pipe,104,0,,0,draft_unreviewed

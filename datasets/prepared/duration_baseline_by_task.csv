@@ -1,0 +1,6 @@
+﻿category_id,detected_category,task_title,sample_count,average_hours,median_hours,minimum_hours,maximum_hours,standard_deviation_hours,p10_hours,p25_hours,p75_hours,p90_hours,recommended_hours,conservative_hours,variation,data_quality_note,task_estimate_usable
+1.0,Plumbing,P-Trap Replacement,1,1.0,1.0,1.0,1.0,,1.0,1.0,1.0,1.0,1.0,1.0,,Very limited sample,False
+1.0,Plumbing,Water Leak Repair,1,1.0,1.0,1.0,1.0,,1.0,1.0,1.0,1.0,1.0,1.0,,Very limited sample,False
+3.0,Home Repairs,Bathroom Caulking Quality Inspection,1,1.0,1.0,1.0,1.0,,1.0,1.0,1.0,1.0,1.0,1.0,,Very limited sample,False
+1.0,Plumbing,Water Line Replacement,1,1.25,1.25,1.25,1.25,,1.25,1.25,1.25,1.25,1.25,1.25,,Very limited sample,False
+1.0,Plumbing,Water Pipe Leak Repair,1,1.5,1.5,1.5,1.5,,1.5,1.5,1.5,1.5,1.5,1.5,,Very limited sample,False

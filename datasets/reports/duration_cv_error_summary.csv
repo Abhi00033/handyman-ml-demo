@@ -1,0 +1,8 @@
+category_id,detected_category,records,median_baseline_mae_hours,median_baseline_median_absolute_error_hours,records_with_error_at_least_1h,records_with_error_at_least_3h,quotes_8h_or_more,quotes_16h_or_more,largest_quoted_hours
+5.0,Carpentry,11,3.727272727272727,1.0,7,2,2,1,32.0
+4.0,Electrical,9,2.25,0.5,2,2,2,0,10.0
+17.0,Home Improvement,31,1.596774193548387,1.0,17,2,2,2,16.0
+19.0,Mounting,10,0.35,0.32500000000000007,0,0,0,0,1.5
+1.0,Plumbing,70,0.28214285714285714,0.25,3,0,0,0,4.0
+3.0,Home Repairs,30,0.225,0.17500000000000004,1,0,0,0,2.5
+7.0,HVAC,3,0.19999999999999996,0.1499999999999999,0,0,0,0,1.3

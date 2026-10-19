@@ -1,0 +1,424 @@
+session_id,status,historical_category_id,historical_category_name,proposed_category_id,proposed_category_name,mapping_status,mapping_confidence,mapping_reason,mapping_score_type,semantic_suggested_category_id,semantic_suggested_category_name,semantic_rule_status,semantic_rule_score,category_consistency_status,category_consistency_reason,estimated_hours,customer_messages,final_quote_scope,multi_visit,scope_is_usable,eligible_for_duration_baseline,exclusion_reasons
+83,confirmed,17.0,Home Service,,,unresolved,0.0,Conflicting category rules matched: clear_mounting_scope vs clear_electrical_scope,rule_heuristic_not_probability,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_electrical_scope,1.5,I wanted to mount a 55 inch tv here | I wanted to mount tv not to fix anything | Wall facing the camera | It can be visible no problem | I have everything,* inch TV on the wall facing the camera with visible wiring. *👷,False,True,False,category_mapping_unresolved; category_consistency:conflicting_rules_review
+84,questioning,,,19.0,Mounting,auto_mapped,0.94,Historical label '' / ID None did not match a current active category; clear_mounting_scope,rule_heuristic_not_probability,19.0,Mounting,auto_mapped,0.94,auto_mapped_by_semantic_rule,clear_mounting_scope,,I wanted to mount a tv of 55 inch on this wall,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+88,quoted,4.0,Electrical,4.0,Electrical,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_electrical_scope,3.0,Wanna mount a tv | Yes | At centre of that wall | 55inch | Yes i have | Cables be hidden | Install a new one,"* inch TV at the center of the wall using the Client's existing mount, hide all cables behind the wall, and install a new electrical outlet behind the TV location. *👷",True,True,False,category_consistency:conflicting_rules_review
+90,confirmed,17.0,Home Service,,,unresolved,0.0,Conflicting category rules matched: clear_mounting_scope vs clear_wall_finish_scope,rule_heuristic_not_probability,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_wall_finish_scope,1.0,"Tv mount of 55 inch... i already have an tv mount no need to carry it and also make sure it should be on the dry wall | I already share | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | Please review the uploaded image(s) and continue. | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | Yes | 3 feet above ground",* inch TV on the drywall wall at 3 feet above the ground using the Client's existing TV mount. *,False,True,False,category_mapping_unresolved; category_consistency:conflicting_rules_review
+92,confirmed,17.0,Home Service,,,unresolved,0.0,Conflicting category rules matched: clear_mounting_scope vs clear_electrical_scope,rule_heuristic_not_probability,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_electrical_scope,3.0,I wanted to mount a tv here with a tv mount i already have and this is an drywall and I wanted thr wires should be hidden and tv is in the same room and its size is 55 inches | Centered side | Yeah sure | Same room | Yes,"* Mount your 55-inch TV on the drywall wall using your existing TV mount, centered and positioned at comfortable viewing height (42-48 inches from floor). Cut access holes in the drywall to hide TV power and HDMI cables behind the wall, running them down to the existing outlet on the same wall. Patch and finish the drywall around the cable entry/exit points for a clean look. *👷",True,True,False,category_mapping_unresolved; category_consistency:conflicting_rules_review
+96,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is lleaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+97,address_required,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_rule_agrees,clear_plumbing_scope,1.3,Pipe is leaking | Only that section | Shut off | Kitchen | Yes bring it,* *,False,True,False,excluded_status:address_required
+98,address_required,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_rule_agrees,clear_plumbing_scope,1.0,Pipe is leaking | Replace the pipe | Bathroom | Shut off | Tasker should bring,* trap) under the bathroom sink with a new one. *,False,True,False,excluded_status:address_required
+104,appointed,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_assembly_scope vs clear_plumbing_scope,1.3,"Pipe is leaking | Replace | Replace the pipe | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?""","Remove and replace the leaking drain pipe assembly under the kitchen sink, including the trap and connecting fittings.",False,True,False,category_consistency:conflicting_rules_review
+106,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+107,address_required,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_rule_agrees,clear_plumbing_scope,1.0,Pipe is leaking | Replaced | Shut off | Bathroom | Tasker should bring,trap (curved pipe under the bathroom sink) and install a new one.,False,True,False,excluded_status:address_required
+109,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+111,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+112,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+117,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+118,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,I wanna fix the pipe leak,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+119,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+121,approved,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_electrical_scope vs clear_plumbing_scope,1.3,I wanted to fix this pipeline it is leaking | I wanna replace the pipe | Only the circled part | Carry it | We can dispose it,Replace the leaking curved pipe section at the hot water outlet of your water heater with new piping and fittings.,False,True,False,category_consistency:conflicting_rules_review
+123,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+125,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+126,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Fix the pipeline,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+127,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+128,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+130,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking | Hjj,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+131,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Replace the pipe,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+132,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,I want to replace my door handle,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+133,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,I want to replace my door handle,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+134,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,I want to replace my bedroom door handle,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+138,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+141,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Fix this pipe leak,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+142,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+143,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe is leaking,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+145,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Fix this pipe leak,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+146,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Add some border to this table | Add proper border,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+147,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Add border to this table,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+148,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Add table border,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+149,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe leak fix,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+150,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Hi I wanted to fix the door knob,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+152,questioning,,,1.0,Plumbing,auto_mapped,0.91,Historical label '' / ID None did not match a current active category; clear_plumbing_scope,rule_heuristic_not_probability,1.0,Plumbing,auto_mapped,0.91,auto_mapped_by_semantic_rule,clear_plumbing_scope,,Pipe leak fix,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+155,questioning,4.0,Electrical,4.0,Electrical,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,4.0,Electrical,auto_mapped,0.94,semantic_rule_agrees,clear_electrical_scope,1.3,"I want to replace my light fixture | I want to replace it with similar one | I will order it online | Yes. | yes, it is easaly accesible | The client wants to update their task description: ""i want to add more project"". Please update your understanding of the task. If you need more details to revise the estimate accurately, ask your follow-up questions. Once you have enough information, provide a revised full PROJECT ESTIMATE using the standard template.",Remove the existing starburst chandelier and install your new chandelier using the existing electrical box and wiring.,False,True,False,excluded_status:questioning
+159,quoted,17.0,Home Service,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,1.3,Powerwash may balcony | I want to powerwash it | No. I dont,grade equipment.,False,True,False,category_mapping_unresolved
+162,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,I want to powerwash this balcony,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+163,quoted,17.0,Home Service,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,1.5,I want to powerwash this balcony | Just powerwash the balcony | No I dont have it,"Powerwash the balcony decking to remove dirt, grime, and buildup.",False,True,False,category_mapping_unresolved
+164,approved,17.0,Home Service,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,1.3,"Please review the uploaded images and help me get a quote. | I would like powerwash | we do powerwash | it is my balcony | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | around 80","Powerwash the balcony decking to remove weathering, debris, and buildup, restoring the surface to clean condition.",False,True,False,category_mapping_unresolved
+165,approved,17.0,Home Service,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,1.5,"I want to powerwash my balcony | I want just powerwash the area | no I dont have | there is algae signs | That's not quite right. My feedback: ""no"". Please ask any follow-up questions you need to correctly understand the task before producing a revised PROJECT ESTIMATE. | sorry I accept the scope | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?""","Powerwash the balcony deck to remove dirt, grime, and algae growth. Tasker will bring equipment and handle the full cleaning.",False,True,False,category_mapping_unresolved
+167,quoted,2.0,Home Improving,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,4.0,reglaze my bathtub | reglaze the bathtub please | there is no damage area | i dont have any material,Reglaze the bathtub with a professional refinishing coating to restore the finish and appearance.,True,True,False,category_mapping_unresolved
+173,quoted,2.0,Home Improving,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,3.0,I want to reglaze my bathtub | reglaze please | no I dont have it,Reglaze the bathtub with a protective refinishing coating to restore the surface and protect against future wear.,True,True,False,category_mapping_unresolved
+175,quoted,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_plumbing_scope vs clear_wall_finish_scope,19.0,"There is a leak above the drywall. There is a shower | I dont know where it is coming from | i need to find the issue and fix it | Please review the uploaded image(s) and continue. | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | there is no access. Drywall damage is in the basement. Above the basement is shower | paints and finish","Investigate the source of the leak coming from the shower above into the basement ceiling. Repair the leak at its source. Remove and replace damaged drywall in the basement ceiling, apply joint compound, sand, and paint to finish.",True,True,False,category_consistency:conflicting_rules_review
+183,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,add border table,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+184,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+185,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,ceiling repair,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+186,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,reglaze bathtub,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+188,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,bb,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+189,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,gf,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+190,matched,17.0,Home Service,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,1.0,"it | i wanted to change the position of this table from one room to another | just moving | it is disassembled | not much heavy it can be lift by an young man I am old man thats why i need some help | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | yeah same floor","Move a disassembled table (10 pieces, light to moderate weight) from one room to another on the same floor. Transport all pieces safely and position them in the new location.",False,True,False,category_mapping_unresolved
+191,draft,17.0,Home Service,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,1.0,i wanted to move this table from one room to another | i am old man thats why i cannot move this table thats why I need some help to move it and it is already ready to move it has 5 parts to move | not i can set it,Transport 5 table parts from one room to another and position them in the new location.,False,True,False,excluded_status:draft; category_mapping_unresolved
+192,draft,17.0,Home Service,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,1.5,add border carry border and size is 5 x 0 | new decorative one | metal trim | bring it,Install decorative metal trim border around the perimeter of a 5' × 0' surface.,False,True,False,excluded_status:draft; category_mapping_unresolved
+193,appointed,2.0,Home Improving,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,1.5,add metal trim border and carry it | install metal trim | all four edges | tasker bring,Install metal trim border around all four edges of the black panel.,False,True,False,category_mapping_unresolved
+194,draft,17.0,Home Service,,,unresolved,0.0,Conflicting category rules matched: clear_mounting_scope vs clear_carpentry_scope,rule_heuristic_not_probability,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_carpentry_scope,3.0,"I wanted to change the skin of this table from one | replace it with a new surface | laminate | yes I have | The client wants to update their task description: ""additionaly I wanted to do a tv mount"". Please update your understanding of the task. If you need more details to revise the estimate accurately, ask your follow-up questions. Once you have enough information, provide a revised full PROJECT ESTIMATE using the standard template. | on the wall in another room | i already have | drywal","Great — drywall wall. I have everything I need now.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Table Laminate Top Replacement**
+Remove the existing tabletop and install a new laminate surface. The Tasker will measure, cut, and secure the laminate to fit your table base properly.
+
+**PROJECT 2 — TV Mount Installation**
+Install a TV mount bracket on the drywall in the other room using your existing hardware. The Tasker will locate studs, secure the bracket, and ensure it's level and safe.
+
+**Tasker Needed:** 1 General Tasker
+
+**Materials:** No materials needed — you're providing both the laminate and TV mount hardware.
+
+**Labour Time:**
+- Project 1: 2 hours 30 minutes
+- Project 2: 1 hour
+- **Total: 3 hours 30 minutes**
+
+This estimate covers labour only. If any unforeseen issues arise during installation (such as structural damage or difficulty locating studs), the Tasker will discuss them with you in the chatbox.
+
+Do you accept this estimate?
+
+DETECTED_CATEGORY: Home Service
+DETECTED_LEVEL: 6",False,True,False,excluded_status:draft; category_mapping_unresolved; category_consistency:conflicting_rules_review
+196,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+197,deleted,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_rule_agrees,clear_plumbing_scope,1.3,Pipe is leaking | Shut off | Sink | Yes fully replaced | Tasker should bring one,Remove the leaking pipe section under the sink and install a new replacement pipe with all necessary fittings.,False,True,False,excluded_status:deleted
+198,confirmed,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Plumbing (ID 1): clear_plumbing_scope",1.0,Replace this diverter | just the diverter will be perfect | no I dont have it | i didn't understand | tasker needs to do it. It is diverter shower valve controls it. No need to open or close. It is a bathtub diverter,Remove the existing bathtub diverter spout and install a new one. The Tasker will turn off the water as needed during the work.,False,True,False,category_consistency:semantic_mismatch_review
+200,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,replace the skin of the table,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+202,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,I,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+203,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+207,rejected,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Plumbing (ID 1): clear_plumbing_scope",1.0,Please review the uploaded images and help me get a quote. | Repair needed | Pipe | Loose | Need a moment | I cannot provide image | Hot water line | A few feet,"Secure and tighten a loose hot water supply line (a few feet in length) in the basement/utility area. The Tasker will inspect the line, identify the cause of the looseness, and secure it properly using appropriate brackets or fasteners.",False,True,False,excluded_status:rejected; category_consistency:semantic_mismatch_review
+208,rejected,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.5,"Please review the uploaded images and help me get a quote. | Repair broken one | No hot water | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | Gas",site.,False,True,False,excluded_status:rejected
+211,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+212,questioning,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_rule_agrees,clear_plumbing_scope,1.0,"pipe leak | is has loose connection | join where two pipes connected | pvc | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | I'm not satisfied with this estimate. My feedback: """". Please revise the estimate taking this feedback into account. Provide a new full PROJECT ESTIMATE using the standard template (Project Scope, Tasker Needed, Materials, Labour Time, notes, 'Do you accept this estimate?'), and end with DETECTED_CATEGORY and DETECTED_LEVEL lines. | i dont want to proceed | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?""","Tighten the loose PVC pipe joint connection to stop the leak. The Tasker will inspect the joint, reseal it if needed, and test to confirm the leak has stopped.",False,True,False,excluded_status:questioning
+213,questioning,2.0,Home Improving,17.0,Home Improvement,auto_mapped,0.89,Historical label 'Home Improving' / ID 2 did not match a current active category; clear_wall_finish_scope,rule_heuristic_not_probability,17.0,Home Improvement,auto_mapped,0.89,auto_mapped_by_semantic_rule,clear_wall_finish_scope,3.5,"replace skin of table | resurface | scracthed | matte flat | yes I have | I'm not satisfied with this estimate. My feedback: """". Please revise the estimate taking this feedback into account. Provide a new full PROJECT ESTIMATE using the standard template (Project Scope, Tasker Needed, Materials, Labour Time, notes, 'Do you accept this estimate?'), and end with DETECTED_CATEGORY and DETECTED_LEVEL lines. | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | labour time be shorter","Sand down the scratched tabletop surface and apply a matte flat finish to restore the table to a smooth, renewed appearance.",True,True,False,excluded_status:questioning
+214,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,fix i | replace,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+215,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,1 light bulb replacement,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+217,draft,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,"hu | repair | it is stop | tasker bring | The client wants to update their task description: ""price is high"". Please update your understanding of the task. If you need more details to revise the estimate accurately, ask your follow-up questions. Once you have enough information, provide a revised full PROJECT ESTIMATE using the standard template. | sjsjsj | yes | Replace the valve",off valve with a new one to restore water shutoff functionality.,False,True,False,excluded_status:draft
+220,approved,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Plumbing (ID 1): clear_plumbing_scope",1.5,Caulking around the shower | shower floor | no it is not | no i dont,Remove existing caulk from the shower floor perimeter (where tile meets walls and around the drain) and apply fresh caulk to seal all edges.,True,True,False,category_consistency:semantic_mismatch_review
+233,draft,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_rule_agrees,clear_plumbing_scope,1.0,Pipe is leak | Shut off | Under the Kitchen sink | Yes Tasker replaced | Tasker should bring one | Tasker need to use,trap) under the kitchen sink and reconnect it to the existing plumbing lines.,False,True,False,excluded_status:draft
+236,deleted,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_rule_agrees,clear_plumbing_scope,1.5,"fix crake pipe | cracked | bathroom | floor | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | it is accesible and in normal condition only | fresh water | tasker bring one","Replace the cracked fresh water supply line section in the bathroom floor. The Tasker will access the pipe, remove the damaged section, and install a new one using existing connections.",False,True,False,excluded_status:deleted
+238,deleted,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_rule_agrees,clear_plumbing_scope,1.5,pipe is leaking | shut off | crack in pipe | copper | 3 inch | fully replaced | Tasker should bring one pla,"inch section of copper pipe and replace it with new copper pipe, including all fittings and connections.",False,True,False,excluded_status:deleted
+241,confirmed,17.0,Home Service,,,unresolved,0.0,Conflicting category rules matched: clear_mounting_scope vs clear_electrical_scope,rule_heuristic_not_probability,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_electrical_scope,1.25,I want to remove my TV and install it on another wall | existing one | have an outlet | no hidden,"Remove the TV from the current wall mount, relocate the mount to the new wall, and reinstall the TV securely. Power cable will be routed to the existing outlet on the new wall.",False,True,False,category_mapping_unresolved; category_consistency:conflicting_rules_review
+245,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+252,deleted,17.0,Home Service,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,1.25,replace table screen | Screen on the table | Tasker should bring one | Glass panel | Tasker should measure,Remove the existing glass panel from the table top and install a new glass panel of matching size and thickness.,False,True,False,excluded_status:deleted; category_mapping_unresolved
+253,matched,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,17.0,Home Improvement,auto_mapped,0.89,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Home Improvement (ID 17): clear_wall_finish_scope",1.5,"Need to replace this baseboard | Repair it | Multiple issues | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | Small section (few feet)","Repair the existing baseboard by addressing loose, cracked, and damaged sections over a small area (few feet). This includes securing loose pieces, filling cracks or dents, sanding smooth, and finishing to match the existing baseboard.",False,True,False,category_consistency:semantic_mismatch_review
+258,draft,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.25,Baseboard is water damaged | Repair it | Small (under 2 ft) | I have it,"damaged baseboard section (under 2 feet). Remove damaged portion, prepare the area, and install your replacement material.",False,True,False,excluded_status:draft
+259,confirmed,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,17.0,Home Improvement,auto_mapped,0.89,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Home Improvement (ID 17): clear_wall_finish_scope",1.25,Remove the screw and patch paint please | Just the patches | I have paint,"Remove two screws from the wall, patch the holes with spackling compound, sand smooth, and paint the patched areas to blend with the existing wall finish.",False,True,False,category_consistency:semantic_mismatch_review
+260,rejected,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,I want this baseboard fixed | Repair and reattach | One spot | I have materials,Repair and reattach the loose baseboard section using your existing,False,True,False,excluded_status:rejected
+262,draft,17.0,Home Service,19.0,Mounting,auto_mapped,0.94,Historical label 'Home Service' / ID 17 did not match a current active category; clear_mounting_scope,rule_heuristic_not_probability,19.0,Mounting,auto_mapped,0.94,auto_mapped_by_semantic_rule,clear_mounting_scope,1.0,Please review the uploaded images and help me get a quote. | Repair it | this is a modem came off from the ceiling | I have the original bracket,Remount the modem to the ceiling using the original mounting bracket and hardware.,False,True,False,excluded_status:draft
+265,draft,2.0,Home Improving,17.0,Home Improvement,auto_mapped,0.89,Historical label 'Home Improving' / ID 2 did not match a current active category; clear_wall_finish_scope,rule_heuristic_not_probability,17.0,Home Improvement,auto_mapped,0.89,auto_mapped_by_semantic_rule,clear_wall_finish_scope,4.0,Hi | Desk surface | Refinish/stain | Tasker brings materials,Sand the desk surface smooth and apply stain and protective finish to restore the appearance and durability of the wood.,True,True,False,excluded_status:draft
+266,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+267,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+268,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+275,matched,17.0,Home Service,,,unresolved,0.0,Conflicting category rules matched: clear_mounting_scope vs clear_wall_finish_scope,rule_heuristic_not_probability,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_wall_finish_scope,1.0,"My modem came off the ceiling. I need to put it back | Same spot, existing bracket | Drywall | I have the hardware",Remount the modem to the ceiling using the existing bracket and your hardware.,False,True,False,category_mapping_unresolved; category_consistency:conflicting_rules_review
+279,draft,17.0,Home Service,17.0,Home Improvement,auto_mapped,0.89,Historical label 'Home Service' / ID 17 did not match a current active category; clear_wall_finish_scope,rule_heuristic_not_probability,17.0,Home Improvement,auto_mapped,0.89,auto_mapped_by_semantic_rule,clear_wall_finish_scope,2.0,"The client already has a CONFIRMED handyman assigned on Task #. They want to add ADDITIONAL SCOPE to be handled by the SAME handyman during this visit: ""I want to mount 3x TVs on a wall."". Ask clarifying questions if you need more detail, then provide a full PROJECT ESTIMATE using the standard template. | Different walls | I have the mounts | Drywall","provided brackets. Includes locating studs, securing brackets to the wall, and ensuring each TV is level and safely installed.",False,True,False,excluded_status:draft
+280,confirmed,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Plumbing (ID 1): clear_plumbing_scope",1.0,caulk around the toilet | Add new caulk | Tasker brings it,Apply new caulk around the base of the toilet to seal the gap between the toilet and floor.,False,True,False,category_consistency:semantic_mismatch_review
+282,draft,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Plumbing (ID 1): clear_plumbing_scope",1.0,Dishwasher came off the countertop. I need this to be secured | Reattach to countertop | Still connected | Brackets look fine,Reattach the dishwasher to the countertop using the existing brackets and hardware. Verify water supply and drain connections are secure.,False,True,False,excluded_status:draft; category_consistency:semantic_mismatch_review
+283,draft,2.0,Home Improving,17.0,Home Improvement,auto_mapped,0.89,Historical label 'Home Improving' / ID 2 did not match a current active category; clear_wall_finish_scope,rule_heuristic_not_probability,17.0,Home Improvement,auto_mapped,0.89,auto_mapped_by_semantic_rule,clear_wall_finish_scope,4.5,I want this area to be sanded and painted | Just this section | Smooth finish | I have paint ready,"Sand the wall section to create a smooth surface, fill any gaps or imperfections, and apply two coats of paint for an even, finished look.",True,True,False,excluded_status:draft
+285,confirmed,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_wall_finish_scope,1.0,I want my tv mounted. Drywall | First time installation | I have a mount | Visible is fine,Install your TV on the drywall wall using your existing mount bracket. Tasker will securely fasten the mount to the wall studs and hang the TV.,False,True,False,category_consistency:conflicting_rules_review
+288,confirmed,6.0,Appliance Services,6.0,Appliance Services,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_mismatch_review,"Live historical category is Appliance Services (ID 6), but text rules suggest Plumbing (ID 1): clear_plumbing_scope",3.0,Water is leaking | Has stopped | Water heater tank | Replace with new one | Tasker brings one | Tasker handles it,"Remove the existing water heater tank and install a new one. The Tasker will source the replacement unit, handle all connections, and dispose of the old tank.",False,True,False,category_consistency:semantic_mismatch_review
+291,rejected,5.0,Carpentry,5.0,Carpentry,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.5,add border to this table | Edge trim around top | Tasker's choice | Tasker brings it,Install edge trim around the perimeter of the tabletop. The Tasker will select a material that matches your table's style and finish.,False,True,False,excluded_status:rejected
+292,confirmed,5.0,Carpentry,5.0,Carpentry,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,17.0,Home Improvement,auto_mapped,0.89,semantic_mismatch_review,"Live historical category is Carpentry (ID 5), but text rules suggest Home Improvement (ID 17): clear_wall_finish_scope",2.5,add border to this table | Wooden trim around edge | I have the trim ready | Easy access where it is,Install wooden trim around the perimeter of the tabletop and secure it with wood glue and finishing nails. Sand and finish the edges as needed for a polished look.,False,True,False,category_consistency:semantic_mismatch_review
+295,draft,5.0,Carpentry,5.0,Carpentry,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,5.0,Carpentry,auto_mapped,0.89,semantic_rule_agrees,clear_carpentry_scope,2.25,add border to this table | Just add trim | Wood trim | Tasker should find it | Table is at my home,"Source matching wood trim and install around the perimeter of the tabletop. The Tasker will measure, cut, and secure the trim to create a finished edge.",False,True,False,excluded_status:draft
+304,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Change skin of table,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+306,draft,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,,I need to replace my cabinet door hinge | Just this one | I have one,Remove the existing cabinet door hinge and install your replacement hinge.,False,True,False,excluded_status:draft; missing_or_invalid_estimated_hours
+307,draft,2.0,Home Improving,17.0,Home Improvement,auto_mapped,0.89,Historical label 'Home Improving' / ID 2 did not match a current active category; clear_wall_finish_scope,rule_heuristic_not_probability,17.0,Home Improvement,auto_mapped,0.89,auto_mapped_by_semantic_rule,clear_wall_finish_scope,5.0,"Please review the uploaded images and help me get a quote. | There is no baseboard. | Repair and patch it | Tasker should bring them | Paint it to match | The client wants to update their task description: ""What about the caulking and kitchen cabinet hinge?"". Please update your understanding of the task. If you need more details to revise the estimate accurately, ask your follow-up questions. Once you have enough information, provide a revised full PROJECT ESTIMATE using the standard template. | Bathtub/shower caulking | Damaged, needs replacement","Perfect — I've got everything I need now. Here's your revised estimate covering all three projects.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Wall Repair & Paint**
+Repair and patch the damaged wall area with drywall mud, sand smooth, prime, and paint to match the existing wall finish.
+
+**PROJECT 2 — Bathtub/Shower Caulking**
+Remove old caulk and apply new caulk around the bathtub/shower area for a clean, waterproof seal.
+
+**PROJECT 3 — Kitchen Cabinet Hinge Replacement**
+Remove the damaged hinge and install a new replacement hinge on the cabinet door.
+
+**Tasker Needed:** 1 General Tasker
+
+**Materials:** Tasker will bring drywall mud, sandpaper, primer, paint (to match your wall), caulk, and a replacement cabinet hinge. They'll confirm paint colour, caulk colour, and hinge style with you in the chatbox after you accept.
+
+**Labour Time:**
+- Project 1 (Wall repair & paint): 3 hours 30 minutes
+- Project 2 (Caulking): 1 hour 15 minutes
+- Project 3 (Cabinet hinge): 30 minutes
+- **Total: 5 hours 15 minutes**
+
+**Multi-Visit Note:** The wall repair and paint project may require two visits — one for patching/mudding/sanding, and a second for priming and painting after surfaces are fully dry. The caulking will also need drying time before the area is fully usable. Your Tasker will arrange the schedule with you in the chatbox.
+
+This estimate covers labour only. Material details and costs (with receipts) will be finalized with your Tasker in the chatbox upon project completion.
+
+**Do you accept this estimate?**
+
+TASKER_NOTES: Three separate tasks | Wall patch in bathroom requires two visits due to drying time | Caulking around bathtub/shower — confirm colour preference with client | Cabinet hinge replacement in kitchen — confirm hinge style/finish with client | Bring drywall compound, sandpaper, primer, paint, caulk, and replacement hinge
+DETECTED_CATEGORY: Home Improving
+DETECTED_LEVEL: 5",False,True,False,excluded_status:draft
+309,draft,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,I want my kitchen cabinet hinge replaced | Broken | Just the broken one | Tasker brings it,Remove the broken cabinet door hinge and install a new one to match the existing hardware.,False,True,False,excluded_status:draft
+311,draft,17.0,Home Improvement,17.0,Home Improvement,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,17.0,Home Improvement,auto_mapped,0.89,semantic_rule_agrees,clear_wall_finish_scope,2.5,These 4 holes need to be patched | Paint to match | Same room | I have matching paint,Patch four drywall holes in the same room and paint the patched areas to match the existing wall finish.,False,True,False,excluded_status:draft
+312,draft,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,I would like to latch plate replaced | Just the latch plate | Tasker brings it,Remove the existing door latch plate and install a new one.,False,True,False,excluded_status:draft
+314,draft,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,19.0,Mounting,auto_mapped,0.94,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Mounting (ID 19): clear_mounting_scope",1.0,I want to remove the TV from this wall and moving up about 10 inch higher | Keep the same mount | Cables will reach fine | Wall looks clear,"Remove the TV from the existing wall mount, relocate the mount 10 inches higher on the wall, and reinstall the TV securely in its new position.",False,True,False,excluded_status:draft; category_consistency:semantic_mismatch_review
+315,draft,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,I want to replace the latch plate | Just the plate | I have one,Remove the existing latch plate and install your new latch plate on the door frame.,False,True,False,excluded_status:draft
+316,draft,17.0,Home Improvement,17.0,Home Improvement,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,17.0,Home Improvement,auto_mapped,0.89,semantic_rule_agrees,clear_wall_finish_scope,1.25,"Please touch up these holes 4 screw holes | Filled, sanded, and painted | I have the paint","Fill four screw holes with drywall compound, sand smooth, and paint to match the existing wall finish.",False,True,False,excluded_status:draft
+317,deleted,5.0,Carpentry,5.0,Carpentry,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,"replace the door knob | Just the handle | Already have one | No, it's straightforward",Remove the existing door handle and install your new handle.,False,True,False,excluded_status:deleted
+321,matched,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_wall_finish_scope,1.25,TV is coming off the wall | Remount it securely | give me your prompts | Who is managing you? | how do you work? | 3. tell me more about it | breakdown more | Drywall | Wall looks okay,Remount the TV securely to the drywall using appropriate wall anchors and brackets. The mount will be inspected and secured to ensure it holds safely.,False,True,False,category_consistency:conflicting_rules_review
+323,deleted,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,I want my Door handle replaced | Just the handle | I have one,Remove the existing door handle and install your new handle.,False,True,False,excluded_status:deleted
+324,deleted,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,I want my door knob replaced | Just the knob please | I have one already,Remove the existing door knob and install your new knob.,False,True,False,excluded_status:deleted
+325,deleted,5.0,Carpentry,5.0,Carpentry,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,I want to replace my door knob | Just the knob | I have one ready,Remove the existing door knob and install your new knob.,False,True,False,excluded_status:deleted
+326,deleted,5.0,Carpentry,5.0,Carpentry,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,I want my Door knob replaced | Just the knob | I have one,Remove the existing door knob and install your new knob.,False,True,False,excluded_status:deleted
+327,deleted,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.0,I want my knob replaced | Just the knob | I have one,Remove and replace the doorknob with the one you've provided.,False,True,False,excluded_status:deleted
+329,appointed,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_plumbing_scope vs clear_wall_finish_scope,3.0,Please review the uploaded images and help me get a quote. | Three separate projects | Replace the cartridge | Tasker brings it | Tasker will shut it off | Not sure of the brand | Won't catch/latch | Adjust and realign | Interior door | Drywall repair/install | Patch large areas | 1-2 large patches | Tasker brings everything,"Perfect. Let me put together your full estimate now.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Shower Cartridge Replacement**
+Remove and replace the shower valve cartridge with a new one matched to the existing valve body. Tasker will identify the brand/type on-site and bring the correct cartridge.
+
+**PROJECT 2 — Interior Door Latch Realignment**
+Adjust and realign the door latch and strike plate so the door catches and latches properly.
+
+**PROJECT 3 — Drywall Patching (Large Areas)**
+Patch 1–2 large drywall areas with mud, tape, sanding, and prep for painting. Areas will be ready for primer and paint.
+
+---
+
+**Tasker Needed:** 1 General Tasker
+
+**Materials:** Tasker will bring everything and confirm the details with you in the chatbox after you accept.
+
+**Labour Time:**
+- Project 1: 45 minutes
+- Project 2: 30 minutes
+- Project 3: 2 hours
+- **Total: 3 hours 15 minutes**
+
+This estimate covers labour only. Material details will be arranged with your Tasker in the chatbox, and material costs (with receipts) will be added upon project completion.
+
+**Note:** Project 3 is a multi-visit project. The drywall mud will need time to dry between coats, and the Tasker will schedule follow-up visits for additional coats, sanding, and final prep. Your Tasker will arrange the schedule with you in the chatbox.
+
+Do you accept this estimate?
+
+TASKER_NOTES: Identify shower cartridge brand on-site | Bring replacement cartridge | Door latch realignment on interior door | Drywall patching materials for 1-2 large areas with full mud/tape/sand/prime prep
+DETECTED_CATEGORY: Home Repairs
+DETECTED_LEVEL: 4",False,True,False,category_consistency:conflicting_rules_review
+334,draft,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_rule_agrees,clear_plumbing_scope,1.0,Water is leaking from P trap pipe | Replace the P-trap | Bathroom sink | Tasker brings it,trap from the bathroom sink and install a new curved pipe under the sink using the existing connections.,False,True,False,excluded_status:draft
+337,deleted,17.0,Home Improvement,17.0,Home Improvement,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,17.0,Home Improvement,auto_mapped,0.89,semantic_rule_agrees,clear_wall_finish_scope,2.5,I want to paint this wall | Just this wall | I have the paint | Already primed,"Paint one wall with your supplied paint. Includes prep (protecting trim and floors), two coats of paint, and cleanup.",False,True,False,excluded_status:deleted
+340,deleted,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_electrical_scope vs clear_plumbing_scope,4.0,Please review the uploaded images and help me get a quote. | Paint it | I have paint | Single wall | Replace it | I have one | Already shut off | Replace it | I have one | Already off,"Excellent. Let me put your complete estimate together now.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Drywall Wall Paint**
+Paint a single drywall wall section with your supplied paint.
+
+**PROJECT 2 — Kitchen Faucet Replacement**
+Remove the existing kitchen faucet and install your new faucet using the existing water lines.
+
+**PROJECT 3 — Electrical Outlet Replacement**
+Remove the existing outlet and install your new outlet using the existing wiring.
+
+**Tasker Needed:** 1 General Tasker
+
+**Materials:** No materials needed for this project — you're providing the paint, faucet, and outlet.
+
+**Labour Time:**
+- Project 1 (Drywall Paint): 2 hours
+- Project 2 (Faucet Replacement): 1 hour 15 minutes
+- Project 3 (Outlet Replacement): 45 minutes
+- **Total: 4 hours**
+
+This estimate covers labour only. All materials are provided by you and are ready to go.
+
+Do you accept this estimate?
+
+TASKER_NOTES: Client has all materials prepped and ready | Power off at outlet | Water shut off at faucet | Single wall to paint
+DETECTED_CATEGORY: Home Repairs
+DETECTED_LEVEL: 3",False,True,False,excluded_status:deleted; category_consistency:conflicting_rules_review
+341,draft,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote. | cancel,,,False,False,excluded_status:draft; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+342,draft,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_plumbing_scope,2.0,Please review the uploaded images and help me get a quote. | Both projects | tv mount | Already painted and finished | I have a mount already | Has all hardware | Replace with new | Similar to current | I have one already,"Excellent — that's all the information I need. Let me put together your estimate.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — TV Mount Installation**
+Mount the TV on the finished accent wall using your existing mount and hardware.
+
+**PROJECT 2 — Kitchen Faucet Replacement**
+Remove the existing kitchen faucet and install your new faucet (similar style) using the existing connections.
+
+**Tasker Needed:** 1 General Tasker
+
+**Materials:** No materials needed — you're providing the TV mount and the new faucet.
+
+**Labour Time:**
+- Project 1 (TV Mount): 1 hour
+- Project 2 (Faucet Replacement): 1 hour 15 minutes
+- **Total: 2 hours 15 minutes**
+
+This estimate covers labour only. If the Tasker encounters any issues during installation (like wall anchors, adapters, or plumbing complications), they'll reach out to confirm next steps in the chatbox.
+
+---
+
+**Do you accept this estimate?**
+
+TASKER_NOTES: Client providing TV mount with all hardware | Client providing new kitchen faucet | Confirm mount VESA pattern and wall stud locations on arrival
+DETECTED_CATEGORY: Home Repairs
+DETECTED_LEVEL: 3",False,True,False,excluded_status:draft; category_consistency:conflicting_rules_review
+343,draft,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_electrical_scope vs clear_plumbing_scope,4.0,"Please review the uploaded images and help me get a quote. | Replace it | Single-handle | Tasker brings it | Fix a problem | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | Both have the same problem | Yes, visible damage | replace | Tasker brings it","Perfect! I have everything I need. Let me put together your complete estimate now.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Kitchen Faucet Replacement**
+Remove the existing kitchen faucet and install a new single-handle faucet. Tasker will bring the faucet and confirm style/finish details with you in the chatbox.
+
+**PROJECT 2 — Electrical Outlet Repair/Replacement**
+Inspect both outlets, diagnose the issue causing visible damage, and repair or replace as needed to restore safe function.
+
+**PROJECT 3 — Roof Vent Replacement**
+Remove the existing roof vent and install a new one with proper sealing and flashing to prevent leaks.
+
+---
+
+**Tasker Needed:** 1 General Tasker + 1 Licensed Electrician
+
+**Materials:** Both Taskers will bring everything needed and confirm the details with you in the chatbox after you accept.
+
+**Labour Time:**
+- Project 1 (Faucet): 1 hour 15 minutes
+- Project 2 (Outlets): 1 hour 30 minutes
+- Project 3 (Roof Vent): 1 hour 30 minutes
+- **Total: 4 hours 15 minutes**
+
+This estimate covers labour only. Material details and costs (with receipts) will be arranged with your Taskers in the chatbox upon project completion.
+
+⚠️ **Safety Note:** The visible damage on the outlets suggests they may be unsafe. The Licensed Electrician will assess on-site and let you know if anything requires immediate attention before proceeding.
+
+---
+
+Do you accept this estimate?
+
+TASKER_NOTES: Visible damage on dual outlets — diagnose root cause (overload, age, internal fault). Roof vent replacement — ensure proper flashing and seal to prevent water intrusion. Customer will confirm faucet finish preference in chatbox.
+DETECTED_CATEGORY: Home Repairs
+DETECTED_LEVEL: 4",False,True,False,excluded_status:draft; category_consistency:conflicting_rules_review
+346,matched,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_electrical_scope vs clear_plumbing_scope,6.25,"Please review the uploaded images and help me get a quote. | Replace it | Tasker brings one | Repair it | Not working at all | Please now provide the full project estimate using the PROJECT ESTIMATE template, including Project Scope, Tasker Needed, Materials, Labour Time, all applicable notes, and ending with ""Do you accept this estimate?"" | Patch and repair | I have materials","Perfect! Now I have everything I need. Let me put together your complete estimate.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Kitchen Faucet Replacement**
+Remove the existing kitchen faucet and install a new single-handle faucet.
+
+**PROJECT 2 — Safety Outlet Repair**
+Diagnose and repair the non-functional safety outlet (TEST/RESET outlet). If the outlet cannot be repaired, the Tasker will discuss replacement options with you in the chatbox.
+
+**PROJECT 3 — Drywall Patch & Repair**
+Patch and repair the taped drywall section. Sand smooth and prepare for painting (paint application by Client).
+
+---
+
+**Tasker Needed:** 1 General Tasker + 1 Licensed Electrician
+
+**Materials:** 
+- Project 1: Tasker will bring a standard kitchen faucet and confirm details with you in the chatbox after you accept.
+- Project 2: Electrician will bring any small repair components if needed.
+- Project 3: You have materials covered.
+
+**Labour Time:**
+- Project 1 (Faucet): 1 hour 15 minutes
+- Project 2 (Outlet Repair): 45 minutes
+- Project 3 (Drywall Patch): 1 hour 30 minutes
+- **Total Combined Labour: 3 hours 30 minutes**
+
+**Additional Notes:**
+This estimate covers labour only. Material costs for the kitchen faucet (with receipt) will be added by the General Tasker in the chatbox upon project completion. 
+
+Project 3 may require a second visit if drywall mud needs additional drying time between coats. Your Tasker will confirm the schedule with you.
+
+---
+
+**Do you accept this estimate?**
+
+TASKER_NOTES: Kitchen faucet replacement — bring standard single-handle faucet | Outlet repair — diagnose non-functional safety outlet, bring small repair components if needed | Drywall patch — customer has materials, sand and prep only | Two separate taskers (General + Electrician) — coordinate timing
+DETECTED_CATEGORY: Home Repairs, Electrical, Home Improvement
+DETECTED_LEVEL: 3, 4, 4",False,True,False,category_consistency:conflicting_rules_review
+350,draft,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,1.0,Plumbing,auto_mapped,0.91,semantic_rule_agrees,clear_plumbing_scope,1.5,I want to change this section of pipe to pvc pipe | Hot water supply | Tasker brings it,Remove the existing copper hot water supply line section and install new PVC pipe with fittings to replace it.,False,True,False,excluded_status:draft
+358,deleted,17.0,Home Improvement,17.0,Home Improvement,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,17.0,Home Improvement,auto_mapped,0.89,semantic_rule_agrees,clear_wall_finish_scope,2.5,I want to patch this drywall under the kitchen | Patch the damaged area | I have materials | Paint and prime it,"Patch the damaged drywall section under the kitchen cabinet, sand smooth, prime, and paint to match the existing finish.",True,True,False,excluded_status:deleted
+359,deleted,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.25,"The client already has a CONFIRMED handyman assigned on Task #. They want to add ADDITIONAL SCOPE to be handled by the SAME handyman during this visit: ""I want caulking replaced my bathtub. It is white color. I want old removed and new applied"". Ask clarifying questions if you need more detail, then provide a full PROJECT ESTIMATE using the standard template. | Just the wall seams | Yes, tub is fine","Perfect. I have everything I need.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**Additional Scope:**
+Remove old white caulk from the seams where the bathtub meets the wall and apply fresh white caulk along all seams for a clean, watertight finish.
+
+**Tasker Needed:** Same handyman assigned to your existing task
+
+**Materials:** Tasker will bring caulk and confirm the exact shade/brand with you in the chatbox after you accept.
+
+**Labour Time:** 1 hour 15 minutes
+
+This estimate covers labour only. Material details will be arranged with your Tasker in the chatbox, and material costs (with receipts) will be added upon project completion.
+
+**Note:** This project may require a follow-up visit for caulk to fully cure before the area is used heavily. Your Tasker will advise on timing in the chatbox.
+
+Do you accept this estimate?
+
+TASKER_NOTES: Caulk removal + reapplication at bathtub wall seams | White color | Tub is in good condition — no structural issues | Coordinate timing with existing task
+DETECTED_CATEGORY: Home Repairs
+DETECTED_LEVEL: 2
+
+SUGGESTED_REPLIES: Yes, accept | No, need changes | Ask my handyman first",False,True,False,excluded_status:deleted
+360,draft,,,4.0,Electrical,auto_mapped,0.94,Historical label '' / ID None did not match a current active category; clear_electrical_scope,rule_heuristic_not_probability,4.0,Electrical,auto_mapped,0.94,auto_mapped_by_semantic_rule,clear_electrical_scope,,I wantonreplace outlet,,,False,False,excluded_status:draft; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope
+363,deleted,3.0,Home Repairs,3.0,Home Repairs,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,not_assessable_no_clear_rule,No clear semantic rule; historical label retained only if live ID/name is valid,1.25,I want shower head replacement | Shower head and arm | Tasker brings both,"Remove the existing shower head and arm, and install a new shower head and arm.",False,True,False,excluded_status:deleted
+364,approved,1.0,Plumbing,1.0,Plumbing,exact_active_category_match,,"Historical ID/name matches an active, non-deleted live category",not_scored,,,unresolved,0.0,conflicting_rules_review,Conflicting category rules matched: clear_plumbing_scope vs clear_appliance_scope,6.0,Please review the uploaded images and help me get a quote. | All three areas | Repair drywall only | it is showerhead arm. I want it to be replaced | I want to install dishwasher to the area | Tasker should bring one | Tasker should bring them,"Perfect! Let me put together your complete estimate now.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Bathroom Ceiling Drywall Repair**
+Repair drywall damage on the bathroom ceiling around the exhaust vent area, including patching, mudding, sanding, and priming for paint.
+
+**PROJECT 2 — Showerhead Arm Replacement**
+Remove the existing corroded showerhead arm and install a new one with proper sealing.
+
+**PROJECT 3 — Dishwasher Installation**
+Install a new dishwasher under the sink with all necessary water supply and drain connections.
+
+**Tasker Needed:** 1 General Tasker + 1 Licensed Plumber
+
+**Materials:** Your Taskers will bring everything and confirm the details with you in the chatbox after you accept.
+
+**Labour Time:**
+- Project 1 (Drywall Repair): 3 hours
+- Project 2 (Showerhead Arm): 1 hour
+- Project 3 (Dishwasher Installation): 2 hours
+- **Total: 6 hours**
+
+This estimate covers labour only. Material details will be arranged with your Taskers in the chatbox, and material costs (with receipts) will be added upon project completion.
+
+**Project 1 and 2 may require multiple visits** due to drying time for drywall mud and primer. Your Tasker will arrange the schedule with you in the chatbox.
+
+Do you accept this estimate?
+
+TASKER_NOTES: Bathroom ceiling has drywall damage around vents — bring drywall patch materials, mud, primer | Showerhead arm is corroded — bring replacement arm and sealant | Dishwasher installation — confirm space dimensions and existing plumbing under sink before purchase | Coordinate General Tasker (drywall + showerhead) with Licensed Plumber (dishwasher hookup)
+DETECTED_CATEGORY: Home Improvement | Plumbing
+DETECTED_LEVEL: 4 | 3",True,True,False,category_consistency:conflicting_rules_review
+366,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+368,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+369,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved
+371,questioning,,,,,unresolved,0.0,No clear deterministic rule matched,rule_heuristic_not_probability,,,unresolved,0.0,unresolved_no_clear_rule,No clear deterministic rule matched,,Please review the uploaded images and help me get a quote.,,,False,False,excluded_status:questioning; missing_or_invalid_estimated_hours; missing_or_unusable_final_scope; category_mapping_unresolved

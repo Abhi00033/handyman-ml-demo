@@ -1,0 +1,109 @@
+﻿appointment_id,appointment_status,appointment_category_id,appointment_category_name,quote_session_id,quote_status,quote_category_id,quote_category_name,quote_detected_category,estimated_hours,estimated_price,estimated_total,appointment_created_at,category_consistency
+39,completed,1,Plumbing,120,confirmed,1,Plumbing,Plumbing,1.50,,,2026-06-10 11:22:55,matching
+40,confirmed,1,Plumbing,122,appointed,1,Plumbing,Plumbing,1.30,,,2026-06-10 15:13:40,matching
+41,pending_schedule,1,Plumbing,124,appointed,1,Plumbing,Plumbing,1.50,,,2026-06-12 10:46:08,matching
+42,cannot_complete,1,Plumbing,129,confirmed,1,Plumbing,Plumbing,1.50,,,2026-06-15 08:50:53,matching
+43,completed,3,Home Repairs,136,confirmed,3,Home Repairs,Home Repairs,1.00,,,2026-06-16 04:40:08,matching
+44,cancelled,1,Plumbing,137,matched,1,Plumbing,Plumbing,2.00,,,2026-06-17 17:37:25,matching
+45,in_progress,1,Plumbing,144,confirmed,1,Plumbing,Plumbing,1.50,75.00,135.26,2026-06-20 11:01:12,matching
+46,cannot_complete,1,Plumbing,153,confirmed,1,Plumbing,Plumbing,1.50,,,2026-06-25 10:35:45,matching
+47,completed,7,HVAC,166,confirmed,7,HVAC,HVAC,1.30,62.50,102.20,2026-06-30 18:39:36,matching
+48,completed,1,Plumbing,170,confirmed,1,Plumbing,Plumbing,1.30,62.50,98.00,2026-07-07 12:34:29,matching
+49,incoming,1,Plumbing,171,appointed,1,Plumbing,Plumbing,1.50,75.00,115.50,2026-07-07 13:52:40,matching
+50,confirmed,1,Plumbing,172,confirmed,1,Plumbing,Plumbing,1.00,50.00,80.50,2026-07-07 13:56:50,matching
+51,completed,2,Home Improving,174,confirmed,2,Home Improving,Home Improving,4.50,225.00,325.50,2026-07-07 23:42:58,matching
+52,in_progress,1,Plumbing,176,confirmed,1,Plumbing,Plumbing,1.00,50.00,80.50,2026-07-08 06:56:36,matching
+53,confirmed,1,Plumbing,177,confirmed,1,Plumbing,Plumbing,1.00,50.00,80.50,2026-07-08 07:12:54,matching
+54,confirmed,1,Plumbing,178,confirmed,1,Plumbing,Plumbing,1.00,50.00,80.50,2026-07-08 07:20:44,matching
+55,confirmed,1,Plumbing,179,confirmed,1,Plumbing,Plumbing,1.30,62.50,98.00,2026-07-08 07:24:12,matching
+56,completed,1,Plumbing,180,confirmed,1,Plumbing,Plumbing,1.30,62.50,98.00,2026-07-08 10:54:28,matching
+57,completed,1,Plumbing,182,confirmed,1,Plumbing,Plumbing,1.30,62.50,98.00,2026-07-08 12:34:03,matching
+58,incoming,2,Home Improving,193,appointed,2,Home Improving,Home Improving,1.50,75.00,115.50,2026-07-09 08:03:01,matching
+59,confirmed,3,Home Repairs,198,confirmed,3,Home Repairs,Home Repairs,1.00,50.00,80.50,2026-07-10 23:25:20,matching
+60,pending,1,Plumbing,205,matched,1,Plumbing,Plumbing,1.00,50.00,80.50,2026-07-14 07:10:04,matching
+61,confirmed,2,Home Improving,219,confirmed,2,Home Improving,Home Improving,2.50,125.00,185.50,2026-07-17 18:42:15,matching
+62,completed,1,Plumbing,223,confirmed,1,Plumbing,Plumbing,1.00,50.00,80.50,2026-07-20 15:09:47,matching
+63,completed,3,Home Repairs,225,confirmed,3,Home Repairs,Home Repairs,1.30,62.50,98.00,2026-07-20 17:49:38,matching
+64,confirmed,2,Home Improving,226,confirmed,2,Home Improving,Home Improving,4.00,200.00,290.50,2026-07-20 18:23:16,matching
+65,confirmed,2,Home Improving,229,confirmed,2,Home Improving,Home Improving,4.00,200.00,290.50,2026-07-20 19:12:12,matching
+66,incoming,2,Home Improving,230,appointed,2,Home Improving,Home Improving,3.00,150.00,220.50,2026-07-20 19:20:22,matching
+67,incoming,2,Home Improving,231,appointed,2,Home Improving,Home Improving,6.00,300.00,430.50,2026-07-20 19:23:36,matching
+68,completed,3,Home Repairs,235,confirmed,3,Home Repairs,Home Repairs,1.50,75.00,115.50,2026-07-23 17:56:58,matching
+69,incoming,5,Carpentry,237,appointed,5,Carpentry,Carpentry,2.50,125.00,185.50,2026-07-24 08:23:28,matching
+70,cancelled,17,Home Improvement,240,confirmed,17,Home Improvement,Home Service,1.50,75.00,115.50,2026-07-30 06:03:23,matching
+71,in_progress,17,Home Improvement,241,confirmed,17,Home Improvement,Home Service,1.25,62.50,98.00,2026-07-30 06:20:47,matching
+72,confirmed,17,Home Improvement,240,confirmed,17,Home Improvement,Home Service,1.50,75.00,115.50,2026-07-30 06:50:33,matching
+73,cancelled,17,Home Improvement,252,deleted,17,Home Improvement,Home Service,1.25,68.75,106.75,2026-08-07 07:43:43,matching
+74,confirmed,3,Home Repairs,254,confirmed,3,Home Repairs,Home Repairs,1.00,60.00,94.50,2026-08-09 05:08:16,matching
+75,confirmed,17,Home Improvement,257,confirmed,17,Home Improvement,Home Service,1.00,65.00,101.50,2026-08-13 17:16:40,matching
+76,cancelled,3,Home Repairs,258,draft,3,Home Repairs,Home Repairs,1.25,75.00,115.50,2026-08-13 18:46:49,matching
+77,completed,3,Home Repairs,259,confirmed,3,Home Repairs,Home Repairs,1.25,75.00,115.50,2026-08-13 18:52:32,matching
+78,pending,3,Home Repairs,206,matched,3,Home Repairs,Home Repairs,1.50,90.00,136.50,2026-08-18 08:48:16,matching
+79,confirmed,1,Plumbing,264,confirmed,1,Plumbing,Plumbing,1.25,75.00,115.50,2026-08-19 09:22:37,matching
+80,confirmed,1,Plumbing,256,confirmed,1,Plumbing,Plumbing,1.00,53.50,85.40,2026-08-19 09:36:17,matching
+81,confirmed,1,Plumbing,255,confirmed,1,Plumbing,Plumbing,1.00,53.50,85.40,2026-08-19 09:50:45,matching
+82,confirmed,1,Plumbing,221,confirmed,1,Plumbing,Plumbing,1.25,75.00,115.50,2026-08-19 10:17:59,matching
+83,confirmed,17,Home Improvement,270,confirmed,17,Home Improvement,Home Service,1.00,65.00,101.50,2026-08-21 17:44:59,matching
+84,confirmed,4,Electrical,271,confirmed,4,Electrical,Electrical,1.00,103.00,154.70,2026-08-21 18:03:37,matching
+85,eta_sent,3,Home Repairs,272,confirmed,3,Home Repairs,Home Repairs,1.25,75.00,115.50,2026-08-21 18:58:59,matching
+86,cancelled,3,Home Repairs,278,matched,3,Home Repairs,Home Repairs,1.25,75.00,119.70,2026-08-27 17:28:29,matching
+87,confirmed,3,Home Repairs,280,confirmed,3,Home Repairs,Home Repairs,1.00,60.00,98.70,2026-08-27 18:33:18,matching
+88,completed,2,Home Improving,284,confirmed,2,Home Improving,Home Improving,3.50,210.00,308.70,2026-09-03 05:35:33,matching
+89,completed,3,Home Repairs,285,confirmed,3,Home Repairs,Home Repairs,1.00,60.00,98.70,2026-09-03 07:29:21,matching
+90,completed,1,Plumbing,287,confirmed,1,Plumbing,Plumbing,1.25,71.25,114.45,2026-09-04 07:47:10,matching
+91,completed,6,Appliance Services,288,confirmed,6,Appliance Services,Appliance Services,3.00,168.00,249.90,2026-09-04 08:39:17,matching
+92,confirmed,1,Plumbing,289,confirmed,1,Plumbing,Plumbing,1.50,85.50,134.40,2026-09-04 10:57:48,matching
+93,completed,1,Plumbing,290,confirmed,1,Plumbing,Plumbing,1.25,75.00,119.70,2026-09-04 11:13:48,matching
+94,completed,5,Carpentry,292,confirmed,5,Carpentry,Carpentry,2.50,140.00,196.00,2026-09-09 06:54:57,matching
+95,pending,1,Plumbing,293,matched,1,Plumbing,Plumbing,3.00,171.00,239.40,2026-09-10 06:03:13,matching
+96,in_progress,5,Carpentry,294,confirmed,5,Carpentry,Carpentry,2.50,140.00,196.00,2026-09-10 06:15:03,matching
+97,pending,5,Carpentry,295,draft,5,Carpentry,Carpentry,2.25,126.00,176.40,2026-09-10 06:19:30,matching
+98,pending,5,Carpentry,296,quoted,5,Carpentry,Carpentry,2.50,140.00,196.00,2026-09-10 06:25:05,matching
+99,completed,2,Home Improving,298,confirmed,2,Home Improving,Home Improving,2.00,120.00,168.00,2026-09-10 08:08:03,matching
+100,otp_verified,2,Home Improving,299,confirmed,2,Home Improving,Home Improving,3.50,210.00,294.00,2026-09-11 12:18:47,matching
+101,confirmed,5,Carpentry,300,confirmed,5,Carpentry,Carpentry,1.50,84.00,117.60,2026-09-15 12:15:53,matching
+102,completed,3,Home Repairs,303,confirmed,3,Home Repairs,Home Repairs,1.50,67.50,94.50,2026-09-17 16:59:51,matching
+103,cannot_complete,3,Home Repairs,306,draft,3,Home Repairs,Home Repairs,,45.00,63.00,2026-09-17 19:06:18,matching
+104,in_progress,3,Home Repairs,310,confirmed,3,Home Repairs,Home Repairs,1.00,45.00,63.00,2026-09-22 17:45:09,matching
+105,cancelled,17,Home Improvement,311,draft,17,Home Improvement,Home Improvement,2.50,137.50,192.50,2026-09-22 18:49:00,matching
+106,cannot_complete,3,Home Repairs,312,draft,3,Home Repairs,Home Repairs,1.00,45.00,63.00,2026-09-22 19:00:46,matching
+107,confirmed,17,Home Improvement,313,confirmed,17,Home Improvement,Home Improvement,2.50,137.50,192.50,2026-09-22 19:09:06,matching
+108,cannot_complete,5,Carpentry,295,draft,5,Carpentry,Carpentry,2.25,126.00,176.40,2026-09-24 05:59:13,matching
+109,cannot_complete,2,Home Improving,265,draft,2,Home Improving,Home Improving,4.00,240.00,346.50,2026-09-24 06:38:45,matching
+110,cannot_complete,3,Home Repairs,315,draft,3,Home Repairs,Home Repairs,1.00,45.00,63.00,2026-09-24 16:26:48,matching
+111,cannot_complete,17,Home Improvement,316,draft,17,Home Improvement,Home Improvement,1.25,68.75,96.25,2026-09-24 16:45:28,matching
+112,confirmed,5,Carpentry,318,confirmed,5,Carpentry,Carpentry,1.00,41.00,57.40,2026-09-24 17:20:00,matching
+113,confirmed,3,Home Repairs,319,confirmed,3,Home Repairs,Home Repairs,1.00,45.00,63.00,2026-09-24 17:27:50,matching
+114,confirmed,3,Home Repairs,320,confirmed,3,Home Repairs,Home Repairs,1.00,45.00,63.00,2026-09-24 17:37:21,matching
+115,cancelled,3,Home Repairs,327,deleted,3,Home Repairs,Home Repairs,1.00,45.00,63.00,2026-09-28 17:42:42,matching
+116,completed,3,Home Repairs,328,confirmed,3,Home Repairs,Home Repairs,1.00,45.00,63.00,2026-09-28 18:07:01,matching
+117,pending_schedule,3,Home Repairs,329,appointed,3,Home Repairs,Home Repairs,3.00,135.00,189.00,2026-09-29 03:36:32,matching
+118,confirmed,17,Home Improvement,330,confirmed,17,Home Improvement,Home Improvement,3.50,192.50,269.50,2026-09-29 03:43:50,matching
+119,cancelled,17,Home Improvement,331,matched,17,Home Improvement,Home Improvement,4.50,247.50,346.50,2026-10-01 17:42:25,matching
+120,eta_sent,3,Home Repairs,332,confirmed,3,Home Repairs,Home Repairs,1.25,56.25,78.75,2026-10-01 18:09:12,matching
+121,in_progress,1,Plumbing,333,confirmed,1,Plumbing,Plumbing,1.00,59.00,82.60,2026-10-02 10:14:31,matching
+122,pending,1,Plumbing,334,draft,1,Plumbing,Plumbing,1.00,59.00,82.60,2026-10-02 10:43:14,matching
+123,cannot_complete,1,Plumbing,334,draft,1,Plumbing,Plumbing,1.00,59.00,82.60,2026-10-02 11:27:16,matching
+124,eta_sent,1,Plumbing,336,confirmed,1,Plumbing,Plumbing,1.00,59.00,82.60,2026-10-03 06:01:42,matching
+125,cancelled,17,Home Improvement,337,deleted,17,Home Improvement,Home Improvement,2.50,137.50,192.50,2026-10-03 17:46:04,matching
+126,completed,17,Home Improvement,338,confirmed,17,Home Improvement,Home Improvement,2.50,137.50,192.50,2026-10-03 17:59:16,matching
+127,cancelled,3,Home Repairs,340,deleted,3,Home Repairs,Home Repairs,4.00,180.00,252.00,2026-10-04 02:28:18,matching
+128,confirmed,17,Home Improvement,339,confirmed,17,Home Improvement,Home Improvement,3.50,192.50,269.50,2026-10-06 03:01:26,matching
+129,cannot_complete,1,Plumbing,344,confirmed,1,Plumbing,Plumbing,1.25,73.75,103.25,2026-10-07 17:42:17,matching
+130,payment_completed,17,Home Improvement,345,confirmed,17,Home Improvement,Home Improvement,2.50,137.50,192.50,2026-10-07 18:41:09,matching
+131,payment_completed,1,Plumbing,349,confirmed,1,Plumbing,Plumbing,1.25,73.75,103.25,2026-10-09 10:43:10,matching
+132,cannot_complete,1,Plumbing,350,draft,1,Plumbing,Plumbing,1.50,78.75,110.25,2026-10-09 13:23:12,matching
+133,cancelled,1,Plumbing,352,matched,1,Plumbing,Plumbing,4.00,210.00,294.00,2026-10-10 08:44:14,matching
+134,completed,1,Plumbing,353,confirmed,1,Plumbing,Plumbing,1.00,59.00,82.60,2026-10-10 09:59:08,matching
+135,expired,1,Plumbing,354,confirmed,1,Plumbing,Plumbing,1.50,78.75,110.25,2026-10-10 10:56:49,matching
+136,payment_completed,1,Plumbing,356,confirmed,1,Plumbing,Plumbing,1.50,78.75,110.25,2026-10-10 11:16:04,matching
+137,payment_completed,1,Plumbing,357,confirmed,1,Plumbing,Plumbing,1.50,78.75,110.25,2026-10-10 13:07:03,matching
+138,cancelled,17,Home Improvement,358,deleted,17,Home Improvement,Home Improvement,2.50,137.50,192.50,2026-10-10 17:08:58,matching
+139,cancelled,17,Home Improvement,358,deleted,17,Home Improvement,Home Improvement,2.50,137.50,192.50,2026-10-10 17:33:05,matching
+140,payment_completed,4,Electrical,361,confirmed,4,Electrical,Electrical,1.00,103.00,144.20,2026-10-10 17:53:45,matching
+141,pending_schedule,3,Home Repairs,362,appointed,3,Home Repairs,Home Repairs,1.00,45.00,63.00,2026-10-11 01:15:00,matching
+142,cancelled,3,Home Repairs,363,deleted,3,Home Repairs,Home Repairs,1.25,56.25,78.75,2026-10-11 01:19:45,matching
+143,completed,1,Plumbing,370,confirmed,1,Plumbing,Plumbing,1.00,48.50,67.90,2026-10-12 07:30:59,matching
+144,completed,1,Plumbing,374,confirmed,1,Plumbing,Plumbing,1.25,60.63,84.88,2026-10-13 10:39:14,matching
+145,confirmed,1,Plumbing,373,confirmed,1,Plumbing,Plumbing,1.50,72.75,101.85,2026-10-13 12:09:13,matching
+146,completed,1,Plumbing,375,confirmed,1,Plumbing,Plumbing,1.00,48.50,67.90,2026-10-13 12:12:18,matching

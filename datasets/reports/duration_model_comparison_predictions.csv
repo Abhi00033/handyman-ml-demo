@@ -1,0 +1,35 @@
+session_id,category_id,detected_category,estimated_hours,job_text,category_median,category_p75,category_train_count,category_median_prediction,category_p75_prediction,text_category_prediction
+81,17.0,Home Improvement,2.5,inch tv on the large white wall at eye level when seated and hide the cables behind the drywall for a clean look,3.5,4.0,25,3.5,4.0,3.669641949577443
+91,19.0,Mounting,1.5,inch tv on the center of the wall at 3 feet above the ground including carrying the tv within the same room and installing the tv mount,1.3,1.5,7,1.3,1.5,2.107706296181097
+108,1.0,Plumbing,1.5,replace the leaking section of copper pipe under the kitchen cabinet including necessary fittings and connections to the existing water supply lines,1.3,1.5,53,1.3,1.5,1.4676695492739003
+110,1.0,Plumbing,1.3,repair the cracked pipe using a pipe repair clamp or patch to stop the leak,1.3,1.5,53,1.3,1.5,1.4402857178717368
+153,1.0,Plumbing,1.5,free connection,1.3,1.5,53,1.3,1.5,1.5389869130559772
+180,1.0,Plumbing,1.3,remove the damaged section of drain line from the water heater approximately 2 inches and install a new section of matching pipe with proper connections,1.3,1.5,53,1.3,1.5,1.5965462176601906
+201,3.0,Home Repairs,1.3,remove the existing edge trim from your dining table and install the new trim you ve provided,1.125,1.2625,24,1.125,1.2625,1.443659418408295
+204,1.0,Plumbing,1.0,diagnose the leak at the water connection replace the water line hose and reconnect to stop the active leak,1.3,1.5,53,1.3,1.5,1.5083090396490584
+206,3.0,Home Repairs,1.5,repair burn marks on the kitchen countertop using,1.125,1.2625,24,1.125,1.2625,1.4569037039255184
+223,1.0,Plumbing,1.0,repair the water line connection on the washing machine tasker will assess the leak tighten or replace the connector as needed and test the connection to ensure it holds,1.3,1.5,53,1.3,1.5,1.6388643389911617
+231,17.0,Home Improvement,6.0,repaint the exterior wall surface will be cleaned any loose or peeling paint removed and two coats of exterior paint applied for a finished look,3.5,4.0,25,3.5,4.0,3.8757608843143485
+247,3.0,Home Repairs,1.0,reattach and secure the loose baseboard section to the wall using appropriate fastening methods,1.125,1.2625,24,1.125,1.2625,1.4815150407260154
+255,1.0,Plumbing,1.0,repair the leaking connection on your water heater by resealing or replacing the coupling as needed to stop the leak,1.3,1.5,53,1.3,1.5,1.631543426073084
+257,19.0,Mounting,1.0,remount the wifi modem to the ceiling using the existing bracket and your hardware,1.3,1.5,7,1.3,1.5,1.918951826874931
+263,17.0,Home Improvement,1.25,up,3.5,4.0,25,3.5,4.0,3.7134418089671706
+264,1.0,Plumbing,1.25,remove the cracked water supply pipe and install a new replacement pipe using existing connections,1.3,1.5,53,1.3,1.5,1.462121132737675
+269,17.0,Home Improvement,2.5,mounted dressing rooms sign patch any holes or damage left behind and paint the patched area to match the existing ceiling,3.5,4.0,25,3.5,4.0,3.507275200743684
+270,19.0,Mounting,1.0,tighten and remount the modem securely to the ceiling using the existing bracket,1.3,1.5,7,1.3,1.5,1.9025813292190565
+287,1.0,Plumbing,1.25,replace the leaking pipe connection at the water heater with a new section of pipe,1.3,1.5,53,1.3,1.5,1.4946225735828373
+289,1.0,Plumbing,1.5,site determine whether a repair patch or full pipe replacement is needed and complete the work water shut off valve will be used to isolate the line during repair,1.3,1.5,53,1.3,1.5,1.69360330093728
+294,5.0,Carpentry,2.5,measure the tabletop perimeter source wood trim to match or complement the existing finish and install trim around the edge of the table with secure fastening and clean finishing,2.5,3.5,9,2.5,3.5,3.965711386246245
+300,5.0,Carpentry,1.5,install wood trim edging around the perimeter of the table to cover the exposed edge and create a finished border,2.5,3.5,9,2.5,3.5,4.0832747336351884
+303,3.0,Home Repairs,1.5,up,1.125,1.2625,24,1.125,1.2625,1.6454851586525294
+313,17.0,Home Improvement,2.5,patch the drywall hole with joint compound sand smooth and paint the repaired area to blend with the existing wall,3.5,4.0,25,3.5,4.0,3.5031791279031514
+319,3.0,Home Repairs,1.0,remove the existing strike plate and install a new standard strike plate on the door frame,1.125,1.2625,24,1.125,1.2625,1.2670294806291411
+320,3.0,Home Repairs,1.0,mounted bracket the tasker will assess the fasteners on site and handle removal safely,1.125,1.2625,24,1.125,1.2625,1.7448011105485395
+331,17.0,Home Improvement,4.5,sand the finished drywall wall and apply two coats of paint using your existing paint,3.5,4.0,25,3.5,4.0,3.6469922473605605
+335,1.0,Plumbing,1.0,trap curved pipe under the sink and install a new one the tasker will confirm the size and fit with you in the chatbox before purchasing,1.3,1.5,53,1.3,1.5,1.7404182445444936
+344,1.0,Plumbing,1.25,handle faucet in a similar style,1.3,1.5,53,1.3,1.5,1.3672865765991022
+351,1.0,Plumbing,1.0,repair or replace the leaking water supply line connection at your water heater the tasker will assess whether the connection can be tightened or if it needs to be replaced and complete the repair to stop the leak,1.3,1.5,53,1.3,1.5,1.6857418504936732
+353,1.0,Plumbing,1.0,repair the leaking connection at the pipe joint by tightening or replacing the fitting and sealing as needed to stop the leak,1.3,1.5,53,1.3,1.5,1.566604825245348
+354,1.0,Plumbing,1.5,replace the cracked section of the main water supply line near the water heater the tasker will assess the crack cut out the damaged section and install a new pipe fitting with proper connections,1.3,1.5,53,1.3,1.5,1.6584460320869208
+355,1.0,Plumbing,1.5,replace the cracked section of the main water supply line near the water heater the tasker will assess the crack cut out the damaged section and install a new pipe fitting with proper connections,1.3,1.5,53,1.3,1.5,1.6584460320869208
+370,1.0,Plumbing,1.0,remove the existing p trap curved pipe under the bathroom sink and install a new one to stop the leak,1.3,1.5,53,1.3,1.5,1.379546722970176

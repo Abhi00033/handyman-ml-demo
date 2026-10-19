@@ -1,0 +1,8 @@
+category_id,category,test_sample_count,train_sample_count,median_hours,p75_hours,median_estimate_mae_hours,p75_estimate_mae_hours,p75_coverage_percent
+1,plumbing,16,57,1.3,1.5,0.171875,0.296875,100.0
+17,home improvement,1,7,3.5,4.25,1.0,1.75,100.0
+17,home service,5,18,1.5,1.5,0.29,0.29,100.0
+2,home improving,4,20,3.25,4.0,0.625,0.875,100.0
+3,home repairs,5,32,1.125,1.3,0.225,0.21000000000000002,60.0
+4,electrical,4,6,2.25,8.25,1.125,7.125,100.0
+5,carpentry,3,8,2.5,4.625,0.5,1.9583333333333333,100.0

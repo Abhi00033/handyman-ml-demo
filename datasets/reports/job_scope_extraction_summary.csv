@@ -1,0 +1,9 @@
+﻿metric,value
+sessions_read,282
+sessions_with_messages,282
+sessions_with_initial_request,282
+sessions_with_final_scope,227
+sessions_with_downloaded_images,175
+sessions_without_category,55
+sessions_without_estimated_hours,55
+conversation_pairs_created,1194

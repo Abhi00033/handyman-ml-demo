@@ -1,0 +1,17 @@
+﻿metric,value
+pairs_checked,916
+pairs_with_basic_content_checks_passed,910
+pairs_with_content_issues,6
+ambiguous_pairs_requiring_review,57
+sequence_pairs_not_verified,859
+pairs_with_multiple_questions_in_message,57
+pairs_with_unknown_confidence,0
+pairs_requiring_pairing_review,916
+pairs_eligible_for_manual_review,910
+pairs_passing_content_and_review_checks,0
+issue_ambiguous_question_answer_pairing,57
+issue_multiple_questions_from_same_message,57
+issue_question_too_short,1
+issue_question_unusually_long,5
+issue_sequence_pairing_not_verified,859
+issue_unclassified_question_type,80

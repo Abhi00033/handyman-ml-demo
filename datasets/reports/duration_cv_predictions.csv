@@ -1,0 +1,165 @@
+session_id,category_id,detected_category,estimated_hours,job_text,fold,category_median,category_p75,category_train_count,category_median_prediction,category_p75_prediction,text_category_prediction
+80,1.0,Plumbing,1.5,unknown job,1,1.25,1.5,53,1.25,1.5,1.5997365471220164
+82,1.0,Plumbing,1.5,unknown job,1,1.25,1.5,53,1.25,1.5,1.5997365471220164
+86,19.0,Mounting,1.5,unknown job,1,1.0,1.35,8,1.0,1.35,2.12294139723745
+89,4.0,Electrical,1.5,unknown job,1,1.0,3.625,8,1.0,3.625,2.940925702964747
+91,19.0,Mounting,1.5,inch tv on the center of the wall at 3 feet above the ground including carrying the tv within the same room and installing the tv mount,1,1.0,1.35,8,1.0,1.35,2.0235389527692718
+93,1.0,Plumbing,1.5,unknown job,1,1.25,1.5,53,1.25,1.5,1.5997365471220164
+94,1.0,Plumbing,1.0,unknown job,1,1.25,1.5,53,1.25,1.5,1.5997365471220164
+100,1.0,Plumbing,1.3,unknown job,1,1.25,1.5,53,1.25,1.5,1.5997365471220164
+108,1.0,Plumbing,1.5,replace the leaking section of copper pipe under the kitchen cabinet including necessary fittings and connections to the existing water supply lines,1,1.25,1.5,53,1.25,1.5,1.3890469486275632
+124,1.0,Plumbing,1.5,free installation,1,1.25,1.5,53,1.25,1.5,1.5997365471220164
+137,1.0,Plumbing,2.0,replace the damaged section of copper pipe with new piping and fittings to stop the leak,1,1.25,1.5,53,1.25,1.5,1.487295918561347
+168,7.0,HVAC,1.0,site,1,1.15,1.225,2,1.15,1.225,2.414671355002335
+176,1.0,Plumbing,1.0,diagnose and repair the slow seep at the water supply line joint connection tasker will assess whether the joint can be tightened or resealed or if the connection needs to be replaced,1,1.25,1.5,53,1.25,1.5,1.5513025184488465
+206,3.0,Home Repairs,1.5,repair burn marks on the kitchen countertop using,1,1.125,1.2625,24,1.125,1.2625,1.421913105097967
+224,3.0,Home Repairs,1.3,remove old caulking between shower floor tiles and walls clean the joints and apply new caulk around the entire perimeter,1,1.125,1.2625,24,1.125,1.2625,2.280534561161841
+228,17.0,Home Improvement,3.5,prep and paint the exterior wall 30 sq ft includes surface cleaning scraping loose paint and applying exterior paint,1,3.5,4.0,26,3.5,4.0,4.183400032379341
+251,3.0,Home Repairs,2.5,remove the existing damaged tabletop and install a new replacement surface approximately 48 72 sourced by the tasker the base will remain in place,1,1.125,1.2625,24,1.125,1.2625,1.515221420843027
+254,3.0,Home Repairs,1.0,reattach loose or separating baseboard to the wall using existing,1,1.125,1.2625,24,1.125,1.2625,1.4084111593507649
+255,1.0,Plumbing,1.0,repair the leaking connection on your water heater by resealing or replacing the coupling as needed to stop the leak,1,1.25,1.5,53,1.25,1.5,1.4997069965512613
+261,17.0,Home Improvement,1.5,patch small crack or ding in drywall around the switch plate and paint the area to blend with the existing wall finish,1,3.5,4.0,26,3.5,4.0,3.4598666453830185
+264,1.0,Plumbing,1.25,remove the cracked water supply pipe and install a new replacement pipe using existing connections,1,1.25,1.5,53,1.25,1.5,1.3598554272357535
+287,1.0,Plumbing,1.25,replace the leaking pipe connection at the water heater with a new section of pipe,1,1.25,1.5,53,1.25,1.5,1.431596593512345
+297,17.0,Home Improvement,2.5,paint the entire garage door frame panels and all surfaces white door is ready to paint with no prep work needed,1,3.5,4.0,26,3.5,4.0,4.183764495712893
+298,17.0,Home Improvement,2.0,paint both sides of the door white door is in good condition and ready to paint client is supplying the paint,1,3.5,4.0,26,3.5,4.0,3.593945007177809
+302,3.0,Home Repairs,1.0,remove existing cabinet hinges and install new standard cabinet hinges,1,1.125,1.2625,24,1.125,1.2625,1.3760415517517213
+305,5.0,Carpentry,1.5,install trim or edge banding around the perimeter of a laminate table the tasker will bring material options to match your table s finish and style,1,2.5,3.5,10,2.5,3.5,4.013700252501425
+330,17.0,Home Improvement,3.5,sand the completed drywall patch smooth and paint the 5x4 ft wall section to match the existing wall finish,1,3.5,4.0,26,3.5,4.0,3.731141536271264
+352,1.0,Plumbing,4.0,remove the old electric water heater and install a new one with all necessary connections water supply lines drain and electrical hookup,1,1.25,1.5,53,1.25,1.5,1.7295134518332382
+357,1.0,Plumbing,1.5,assess the leak at the water heater connection point if repairable loose fitting or failed seal tighten or reseal the connection if the water heater itself is damaged and requires replacement the tasker will provide a separate assessment and quote for that work,1,1.25,1.5,53,1.25,1.5,1.5613540616461128
+367,3.0,Home Repairs,1.0,remove the existing transition strip and install a new one to match the flooring transition between the vinyl plank and carpet,1,1.125,1.2625,24,1.125,1.2625,1.3863608948051382
+370,1.0,Plumbing,1.0,remove the existing p trap curved pipe under the bathroom sink and install a new one to stop the leak,1,1.25,1.5,53,1.25,1.5,1.2704818086746466
+373,1.0,Plumbing,1.5,locate the cracked section of visible pipe cut out the damaged section and install new pipe with proper fittings to restore water flow,1,1.25,1.5,53,1.25,1.5,1.4482107399801598
+375,1.0,Plumbing,1.0,replace the cracked p trap curved pipe under the sink with a new one,1,1.25,1.5,53,1.25,1.5,1.47158091065246
+87,19.0,Mounting,1.3,inch tv into position and mount it centered on the wall using the client s existing tv mount wires will remain visible,2,1.5,1.5,7,1.5,1.5,1.9390507570186808
+95,19.0,Mounting,1.0,length mirror and install your new mirror in the same location,2,1.5,1.5,7,1.5,1.5,2.006830948052515
+103,1.0,Plumbing,1.5,replace the damaged section of copper pipe under the sink and restore proper water supply connections,2,1.3,1.5,55,1.3,1.5,1.4984607959024712
+105,1.0,Plumbing,1.5,replace the leaking section of copper pipe under the kitchen cabinet including cutting out the damaged section and installing new pipe with proper fittings and soldering,2,1.3,1.5,55,1.3,1.5,1.6299051028875002
+113,1.0,Plumbing,1.5,trap and any damaged fittings in that area,2,1.3,1.5,55,1.3,1.5,1.6626496827549622
+115,1.0,Plumbing,1.5,replace the short damaged section of copper pipe at the connection point under the water heater,2,1.3,1.5,55,1.3,1.5,1.4488257955028205
+129,1.0,Plumbing,1.5,replace the leaking copper pipe section under the cabinet including any necessary fittings and connections to ensure a watertight seal,2,1.3,1.5,55,1.3,1.5,1.5777500407980511
+153,1.0,Plumbing,1.5,free connection,2,1.3,1.5,55,1.3,1.5,1.4911335983327707
+156,4.0,Electrical,1.5,style light fixture and install the new similar fixture using the existing electrical connection and mounting hardware,2,1.0,5.75,7,1.0,5.75,2.676227121597833
+158,5.0,Carpentry,8.0,powerwash the balcony deck surface to remove dirt debris and buildup then apply a clear sealant to protect the wood,2,2.5,2.5,9,2.5,2.5,4.16696226399632
+174,17.0,Home Improvement,4.5,sized hole in the drywall using joint compound and sanding then paint the entire wall with primer and finish coat to blend seamlessly,2,3.5,4.0,25,3.5,4.0,3.480470850063595
+178,1.0,Plumbing,1.0,apply a patch or sealant to the cracked section of the exposed pipe to stop the slow drip this is a temporary repair solution,2,1.3,1.5,55,1.3,1.5,1.4188433349416167
+187,5.0,Carpentry,3.5,install decorative border trim around the perimeter of a 5 10 wooden table matching the existing wood finish and style,2,2.5,2.5,9,2.5,2.5,3.5480852313264855
+195,1.0,Plumbing,1.0,trap under the water connection and install a new one,2,1.3,1.5,55,1.3,1.5,1.4691192567204965
+221,1.0,Plumbing,1.25,remove and replace the water heater valve fitting with a new one the tasker will source an appropriate replacement based on the connection type and bring it to your home,2,1.3,1.5,55,1.3,1.5,1.6911014344695603
+222,17.0,Home Improvement,4.0,repair approximately 1 1 ft drywall damage patch and mud sand smooth and paint to match the existing ceiling,2,3.5,4.0,25,3.5,4.0,3.3863684001052143
+239,1.0,Plumbing,1.0,remove the cracked pipe under the kitchen sink and install the replacement pipe you ve provided reconnect water lines and test for leaks,2,1.3,1.5,55,1.3,1.5,1.3940654469450333
+244,4.0,Electrical,1.0,remove the existing ceiling light fixture and install your new fixture of the same type using the existing wiring and mounting,2,1.0,5.75,7,1.0,5.75,2.532886290351144
+246,1.0,Plumbing,1.25,shut off the main water supply remove the damaged water supply pipe in the basement and install your replacement pipe with secure connections,2,1.3,1.5,55,1.3,1.5,1.497389975786013
+249,19.0,Mounting,1.0,remove the modem from its current wall location and remount it to the ceiling using your existing bracket reconnect all cables,2,1.5,1.5,7,1.5,1.5,1.8999163627961941
+256,1.0,Plumbing,1.0,trap as needed,2,1.3,1.5,55,1.3,1.5,1.63776383171625
+263,17.0,Home Improvement,1.25,up,2,3.5,4.0,25,3.5,4.0,3.3749300742318784
+272,3.0,Home Repairs,1.25,reattach loose baseboard sections in the damaged area and caulk gaps between the baseboard and wall as needed for a finished appearance,2,1.0,1.3,25,1.0,1.3,1.552706326068444
+290,1.0,Plumbing,1.25,diagnose and repair the leaking pipe connection at the base of the gas water heater the tasker will assess whether the connection needs tightening or replacement and install a new fitting if needed,2,1.3,1.5,55,1.3,1.5,1.542604114014809
+293,1.0,Plumbing,3.0,remove the existing leaking hot water tank and install a new one including all connections and testing,2,1.3,1.5,55,1.3,1.5,1.5581855914196328
+301,3.0,Home Repairs,1.0,replace hinges on 2 cabinet doors and adjust door alignment for proper closing and fit,2,1.0,1.3,25,1.0,1.3,1.46285840552907
+303,3.0,Home Repairs,1.5,up,2,1.0,1.3,25,1.0,1.3,1.5803885985887802
+319,3.0,Home Repairs,1.0,remove the existing strike plate and install a new standard strike plate on the door frame,2,1.0,1.3,25,1.0,1.3,1.2585514081289335
+332,3.0,Home Repairs,1.25,remove old caulk from the bathtub perimeter and apply fresh caulk around all seams,2,1.0,1.3,25,1.0,1.3,1.7507262018111738
+338,17.0,Home Improvement,2.5,paint one wall with your chosen color prep work taping and drop cloth is already in place so the tasker will focus on application and cleanup,2,3.5,4.0,25,3.5,4.0,3.4508426721335677
+345,17.0,Home Improvement,2.5,patch and sand the damaged back panel inside the cabinet prime and paint to match your existing finish using your paint code,2,3.5,4.0,25,3.5,4.0,3.3950572982704283
+347,17.0,Home Improvement,16.0,paint all bedroom walls with your supplied paint this includes surface prep cleaning and minor patching as needed primer application if required and finish coats for a complete professional look,2,3.5,4.0,25,3.5,4.0,3.4295005726603285
+353,1.0,Plumbing,1.0,repair the leaking connection at the pipe joint by tightening or replacing the fitting and sealing as needed to stop the leak,2,1.3,1.5,55,1.3,1.5,1.4129177880664012
+99,1.0,Plumbing,1.0,trap and install a new replacement,3,1.3,1.5,56,1.3,1.5,1.5384557447270526
+110,1.0,Plumbing,1.3,repair the cracked pipe using a pipe repair clamp or patch to stop the leak,3,1.3,1.5,56,1.3,1.5,1.367702845927793
+114,1.0,Plumbing,1.5,replace the damaged section of copper pipe that is leaking including any necessary fittings and connections to stop the leak,3,1.3,1.5,56,1.3,1.5,1.6003055627837188
+120,1.0,Plumbing,1.5,replace the leaking copper pipe joint in the utility area,3,1.3,1.5,56,1.3,1.5,1.4561691970619928
+139,1.0,Plumbing,1.3,replace the leaking pipe section under the water heater with a new pipe of matching size and type,3,1.3,1.5,56,1.3,1.5,1.4862519664566145
+151,3.0,Home Repairs,1.0,style handles similar to the current ones,3,1.25,1.3,21,1.25,1.3,1.4445877198216834
+160,4.0,Electrical,10.0,amp main electrical panel with a new 200 amp panel this includes disconnecting the old panel installing the new one transferring breakers and ensuring all connections meet code,3,1.25,1.5,6,1.25,1.5,3.518447190824879
+172,1.0,Plumbing,1.0,remove the leaking pipe section at the water heater connection and install the replacement pipe you ve provided,3,1.3,1.5,56,1.3,1.5,1.4138712340509267
+177,1.0,Plumbing,1.0,trap curved pipe under the sink and install a new one using the existing connections,3,1.3,1.5,56,1.3,1.5,1.3450433107535693
+201,3.0,Home Repairs,1.3,remove the existing edge trim from your dining table and install the new trim you ve provided,3,1.25,1.3,21,1.25,1.3,1.5297169154280053
+219,17.0,Home Improvement,2.5,repair a 1x1 drywall spot on the ceiling with mud sanding and finishing paint the patched area to match the existing ceiling finish,3,3.5,4.0,26,3.5,4.0,3.4146558851719675
+223,1.0,Plumbing,1.0,repair the water line connection on the washing machine tasker will assess the leak tighten or replace the connector as needed and test the connection to ensure it holds,3,1.3,1.5,56,1.3,1.5,1.6106789909062273
+225,3.0,Home Repairs,1.3,remove old caulk from shower wall and floor joints clean the area and apply fresh caulk along all joints for a finished look,3,1.25,1.3,21,1.25,1.3,2.1978030787911544
+235,3.0,Home Repairs,1.5,foot wire shelf with appropriate mounting hardware,3,1.25,1.3,21,1.25,1.3,1.5856965744903988
+237,5.0,Carpentry,2.5,person table and install new laminate material this includes surface prep adhesive application trimming and finishing edges for a clean result,3,2.5,3.5,9,2.5,3.5,4.681845916336719
+247,3.0,Home Repairs,1.0,reattach and secure the loose baseboard section to the wall using appropriate fastening methods,3,1.25,1.3,21,1.25,1.3,1.566702898118125
+248,17.0,Home Improvement,2.5,paint one interior wall with the paint you ve provided this includes surface preparation priming if needed and two coats of paint for even coverage,3,3.5,4.0,26,3.5,4.0,3.9675249649402193
+269,17.0,Home Improvement,2.5,mounted dressing rooms sign patch any holes or damage left behind and paint the patched area to match the existing ceiling,3,3.5,4.0,26,3.5,4.0,3.5627309703764585
+271,4.0,Electrical,1.0,install ceiling fixture using existing electrical connections tasker will mount the fixture and connect it to the wiring already in place,3,1.25,1.5,6,1.25,1.5,2.5708305281338673
+274,3.0,Home Repairs,1.0,clean and recaulk the shower floor perimeter the existing caulk will be cleaned and fresh caulk applied along the floor where it meets the tile,3,1.25,1.3,21,1.25,1.3,2.0825958803535416
+276,5.0,Carpentry,2.0,install wooden trim around the perimeter edges of the tabletop and secure with appropriate fasteners and finishing,3,2.5,3.5,9,2.5,3.5,3.960232719891553
+284,17.0,Home Improvement,3.5,sand the wall smooth to prepare the surface then paint with your supplied paint,3,3.5,4.0,26,3.5,4.0,3.7894792803807453
+289,1.0,Plumbing,1.5,site determine whether a repair patch or full pipe replacement is needed and complete the work water shut off valve will be used to isolate the line during repair,3,1.3,1.5,56,1.3,1.5,1.7201777083695355
+299,17.0,Home Improvement,3.5,paint the interior of the medicine cabinet walls and shelves with fresh paint remove old caulking from the bathtub perimeter and apply new caulk for a clean seal,3,3.5,4.0,26,3.5,4.0,3.845282167259339
+310,3.0,Home Repairs,1.0,remove the existing cabinet hinge and install a new hinge to ensure the door closes properly and aligns correctly,3,1.25,1.3,21,1.25,1.3,1.4931006856170175
+349,1.0,Plumbing,1.25,remove and replace the leaking pipe section under the kitchen sink the tasker will install new piping using the existing connections and test for leaks before completion,3,1.3,1.5,56,1.3,1.5,1.759645717454187
+354,1.0,Plumbing,1.5,replace the cracked section of the main water supply line near the water heater the tasker will assess the crack cut out the damaged section and install a new pipe fitting with proper connections,3,1.3,1.5,56,1.3,1.5,1.616754809440902
+355,1.0,Plumbing,1.5,replace the cracked section of the main water supply line near the water heater the tasker will assess the crack cut out the damaged section and install a new pipe fitting with proper connections,3,1.3,1.5,56,1.3,1.5,1.616754809440902
+361,4.0,Electrical,1.0,remove the existing standard outlet and install a new standard duplex outlet in its place,3,1.25,1.5,6,1.25,1.5,2.3915567912520674
+362,3.0,Home Repairs,1.0,remove the broken transition board and install a new one matching the current style,3,1.25,1.3,21,1.25,1.3,1.5664513708495913
+372,3.0,Home Repairs,1.0,in person inspection and quality assessment of existing bathroom caulking tasker will evaluate seal integrity bead application gaps and overall workmanship a detailed assessment will be provided and any repairs or full replacement can be quoted separately if needed,3,1.25,1.3,21,1.25,1.3,2.1955910728800667
+374,1.0,Plumbing,1.25,replace the leaking water supply pipe with a new one the tasker will assess the connection type on site and bring the appropriate replacement pipe and fittings,3,1.3,1.5,56,1.3,1.5,1.6281074180276356
+376,1.0,Plumbing,1.0,tighten or reseal the leaking joint on the hot water line if tightening doesn t stop the leak the tasker will replace the connection fitting to stop the flow,3,1.3,1.5,56,1.3,1.5,1.5958554890026977
+85,19.0,Mounting,1.5,inch tv on the wall using a tv mount bracket cables will run visibly along the wall,4,1.3,1.5,7,1.3,1.5,1.87510418936923
+101,1.0,Plumbing,1.0,replace the leaking water supply line connection under the bathroom vanity,4,1.3,1.5,59,1.3,1.5,1.4520392182000532
+116,1.0,Plumbing,1.5,replace the leaking copper pipe connector section highlighted in red with new copper piping and fittings to stop the leak,4,1.3,1.5,59,1.3,1.5,1.5122798342215082
+122,1.0,Plumbing,1.3,replace the leaking pipe section under the bathroom fixture including the curved connection and any necessary fittings to ensure a watertight seal,4,1.3,1.5,59,1.3,1.5,1.5030645050715572
+135,3.0,Home Repairs,1.3,style handle similar to the current chrome finish,4,1.125,1.3,22,1.125,1.3,1.3902284852468503
+136,3.0,Home Repairs,1.0,remove the existing bedroom door handle and install a new handle set similar to the current style,4,1.125,1.3,22,1.125,1.3,1.2602462579451983
+140,1.0,Plumbing,1.5,replace the damaged copper pipe section at the connection point shown in your photos,4,1.3,1.5,59,1.3,1.5,1.4394221166786152
+157,5.0,Carpentry,3.5,drill knob holes and cut hinge mortises on two white panel door slabs then install both slabs into the existing double doorway frame including mounting hinges and installing hardware,4,2.5,3.5,9,2.5,3.5,4.209323942531031
+161,4.0,Electrical,10.0,amp electrical panel and install the new 200 amp panel all circuits will be disconnected from the old panel and reconnected to the new one,4,1.0,1.5,8,1.0,1.5,2.844548182600252
+169,7.0,HVAC,1.0,working thermostat and install your new smart thermostat,4,1.15,1.225,2,1.15,1.225,2.155902350685773
+170,1.0,Plumbing,1.3,site determine if a small repair or full section replacement is needed and complete the fix,4,1.3,1.5,59,1.3,1.5,1.6058649469071962
+179,1.0,Plumbing,1.3,repair the cracked pipe under the kitchen sink by replacing the damaged section with new pvc piping and fittings,4,1.3,1.5,59,1.3,1.5,1.5066848858251927
+199,3.0,Home Repairs,1.3,wall shower alcove and apply fresh caulk throughout for a clean sealed finish,4,1.125,1.3,22,1.125,1.3,1.6473146145726498
+205,1.0,Plumbing,1.0,repair the leaking water line connection under the appliance by replacing the water line with a new one,4,1.3,1.5,59,1.3,1.5,1.5053490229732907
+210,17.0,Home Improvement,16.0,remove old grout from your 3 5 ft shower floor tile clean the joints thoroughly and apply fresh grout the tile will be sealed after grouting cures,4,3.25,3.5,24,3.25,3.5,3.227798605054631
+229,17.0,Home Improvement,4.0,paint exterior brick wall covering the red brick with new exterior paint surface will be cleaned and prepped before painting,4,3.25,3.5,24,3.25,3.5,3.34019234074514
+231,17.0,Home Improvement,6.0,repaint the exterior wall surface will be cleaned any loose or peeling paint removed and two coats of exterior paint applied for a finished look,4,3.25,3.5,24,3.25,3.5,3.326960183506931
+232,17.0,Home Improvement,2.5,paint the exterior wall red over the existing red paint,4,3.25,3.5,24,3.25,3.5,3.092297576655396
+234,3.0,Home Repairs,1.25,remove old caulk from around the entire bathtub perimeter and apply fresh caulk along all seams where the tub meets the walls and floor,4,1.125,1.3,22,1.125,1.3,1.8695067453092236
+257,19.0,Mounting,1.0,remount the wifi modem to the ceiling using the existing bracket and your hardware,4,1.3,1.5,7,1.3,1.5,1.8134651384316844
+270,19.0,Mounting,1.0,tighten and remount the modem securely to the ceiling using the existing bracket,4,1.3,1.5,7,1.3,1.5,1.8028883617715634
+273,1.0,Plumbing,1.0,remove the leaking pipe connection under your kitchen sink and install the replacement pipe you ve provided,4,1.3,1.5,59,1.3,1.5,1.3386681764351254
+281,17.0,Home Improvement,4.5,provided brackets run power and hdmi cables through the wall behind each tv for a clean finished look,4,3.25,3.5,24,3.25,3.5,3.0517332005428504
+296,5.0,Carpentry,2.5,install wood trim or edge banding around the perimeter of the table to match the existing wood finish,4,2.5,3.5,9,2.5,3.5,3.8274548171663128
+313,17.0,Home Improvement,2.5,patch the drywall hole with joint compound sand smooth and paint the repaired area to blend with the existing wall,4,3.25,3.5,24,3.25,3.5,3.116707311698685
+320,3.0,Home Repairs,1.0,mounted bracket the tasker will assess the fasteners on site and handle removal safely,4,1.125,1.3,22,1.125,1.3,1.7559468367249416
+322,17.0,Home Improvement,4.0,sand the tabletop surface to remove wear and dullness then apply stain and protective sealant finish to restore the wood s appearance and durability,4,3.25,3.5,24,3.25,3.5,3.3908537405698675
+328,3.0,Home Repairs,1.0,remove the existing door knob and install your new matching knob,4,1.125,1.3,22,1.125,1.3,1.460996982423205
+333,1.0,Plumbing,1.0,trap and install a new one with all necessary connections sealed and tested,4,1.3,1.5,59,1.3,1.5,1.6819150868413795
+335,1.0,Plumbing,1.0,trap curved pipe under the sink and install a new one the tasker will confirm the size and fit with you in the chatbox before purchasing,4,1.3,1.5,59,1.3,1.5,1.6850152554913387
+344,1.0,Plumbing,1.25,handle faucet in a similar style,4,1.3,1.5,59,1.3,1.5,1.3303945890488569
+348,3.0,Home Repairs,1.25,caulk the seam between the subway tile backsplash and countertop plus along both cabinet edges where the tiles meet the sides the tasker will clean prep apply caulk and finish for a clean sealed result,4,1.125,1.3,22,1.125,1.3,1.862569031238693
+365,3.0,Home Repairs,1.0,remove the existing rubber threshold at the garage basement entrance and install a new transition strip to match the current style,4,1.125,1.3,22,1.125,1.3,1.3561040887474618
+81,17.0,Home Improvement,2.5,inch tv on the large white wall at eye level when seated and hide the cables behind the drywall for a clean look,5,3.5,4.0,23,3.5,4.0,3.61833092985761
+102,1.0,Plumbing,1.3,replace the leaking pipe connection under the kitchen sink with a new fitting,5,1.3,1.5,57,1.3,1.5,1.442496243216719
+144,1.0,Plumbing,1.5,replace the damaged section of copper water supply line under the kitchen sink including necessary fittings and connections to restore proper water flow,5,1.3,1.5,57,1.3,1.5,1.5168926854874154
+154,1.0,Plumbing,1.0,soldering the joint as needed,5,1.3,1.5,57,1.3,1.5,1.7030294461816204
+166,7.0,HVAC,1.3,working programmable thermostat and repair or replace internal components as needed,5,1.0,1.0,2,1.0,1.0,2.1945158206216333
+171,1.0,Plumbing,1.5,site and confirm,5,1.3,1.5,57,1.3,1.5,1.4954659607655811
+180,1.0,Plumbing,1.3,remove the damaged section of drain line from the water heater approximately 2 inches and install a new section of matching pipe with proper connections,5,1.3,1.5,57,1.3,1.5,1.5914272663640951
+181,4.0,Electrical,1.0,style pendant light the tasker will turn off power at the breaker disconnect the old fixture and connect the new one,5,1.5,5.75,7,1.5,5.75,2.981406817989062
+182,1.0,Plumbing,1.3,replace the leaking water supply line connection near the water heater with a new section of pipe,5,1.3,1.5,57,1.3,1.5,1.4830791000098578
+204,1.0,Plumbing,1.0,diagnose the leak at the water connection replace the water line hose and reconnect to stop the active leak,5,1.3,1.5,57,1.3,1.5,1.4255491902640318
+209,1.0,Plumbing,1.0,repair the leaking pipe joint by replacing the connection fitting and resealing to stop the drip,5,1.3,1.5,57,1.3,1.5,1.414627007054634
+216,17.0,Home Improvement,3.5,patch the drywall hole sand smooth and paint the patched area to blend with the existing wall finish,5,3.5,4.0,23,3.5,4.0,3.3698250386163497
+218,17.0,Home Improvement,3.5,by 1 foot drywall hole on one side finish with joint compound sand smooth and paint the patched area to match the surrounding wall,5,3.5,4.0,23,3.5,4.0,3.450923904140737
+226,17.0,Home Improvement,4.0,paint the exterior brick wall with two coats of exterior paint the tasker will assess the wall condition prep as needed cleaning wire brushing loose paint and apply paint,5,3.5,4.0,23,3.5,4.0,3.7665629779316667
+227,17.0,Home Improvement,2.5,grade paint for a smooth durable finish,5,3.5,4.0,23,3.5,4.0,3.7059737393390746
+230,17.0,Home Improvement,3.0,paint exterior brick wall 7 8 over existing peeling paint surface will be cleaned and prepared before painting,5,3.5,4.0,23,3.5,4.0,3.849153865190573
+240,19.0,Mounting,1.5,remove the tv and existing wall mount from the current wall then reinstall both on the new open wall power cable will be reconnected at the new location,5,1.15,1.5,8,1.15,1.5,2.0912229468710537
+242,4.0,Electrical,1.0,remove the existing recessed light fixture and install the new recessed light fixture you ve provided the tasker will handle turning off the power safely before beginning work,5,1.5,5.75,7,1.5,5.75,2.651501351197566
+243,1.0,Plumbing,1.0,trap curved pipe under the kitchen sink with a new one and reconnect the drain line,5,1.3,1.5,57,1.3,1.5,1.4878287532939747
+250,19.0,Mounting,1.0,remount the modem to the ceiling using the existing bracket and hardware in its original location,5,1.15,1.5,8,1.15,1.5,1.6140208897684412
+277,3.0,Home Repairs,1.25,remove old caulking from around the bathtub edges and apply fresh new caulk to seal all seams,5,1.0,1.3,28,1.0,1.3,1.7757537328912136
+278,3.0,Home Repairs,1.25,remove existing caulk from around the bathtub and apply fresh clear caulk to create a clean watertight seal,5,1.0,1.3,28,1.0,1.3,1.6343579161000843
+286,1.0,Plumbing,3.0,remove the existing water heater and install a new one this includes disconnecting the old unit disposing of it and reconnecting all water supply and gas electrical lines to the new unit,5,1.3,1.5,57,1.3,1.5,2.003261180071922
+294,5.0,Carpentry,2.5,measure the tabletop perimeter source wood trim to match or complement the existing finish and install trim around the edge of the table with secure fastening and clean finishing,5,2.5,3.5,7,2.5,3.5,2.6045122448927804
+300,5.0,Carpentry,1.5,install wood trim edging around the perimeter of the table to cover the exposed edge and create a finished border,5,2.5,3.5,7,2.5,3.5,2.6494152881898843
+308,5.0,Carpentry,32.0,treated wood boards across the entire deck 200 300 sq ft the tasker will inspect the underlying structure joists and framing during removal and flag any repairs needed before installing new boards,5,2.5,3.5,7,2.5,3.5,2.931072580928595
+318,5.0,Carpentry,1.0,remove the existing door handle and install a new standard handle similar to the current one,5,2.5,3.5,7,2.5,3.5,2.5037705369211363
+331,17.0,Home Improvement,4.5,sand the finished drywall wall and apply two coats of paint using your existing paint,5,3.5,4.0,23,3.5,4.0,3.6712392289388394
+336,1.0,Plumbing,1.0,trap and install a new curved pipe under the sink with all connections sealed and tested,5,1.3,1.5,57,1.3,1.5,1.6177912238843217
+339,17.0,Home Improvement,3.5,prepare and paint one interior wall this includes surface prep cleaning patching any minor imperfections priming if needed and applying paint,5,3.5,4.0,23,3.5,4.0,4.018466168341996
+351,1.0,Plumbing,1.0,repair or replace the leaking water supply line connection at your water heater the tasker will assess whether the connection can be tightened or if it needs to be replaced and complete the repair to stop the leak,5,1.3,1.5,57,1.3,1.5,1.5271868390036767
+356,1.0,Plumbing,1.5,replace the cracked water pipe under the sink with a new pipe section the tasker will remove the damaged pipe measure and cut the new pipe to fit and reconnect all fittings securely,5,1.3,1.5,57,1.3,1.5,1.574030618255063

@@ -1,0 +1,10 @@
+﻿category_id,detected_category,sample_count,average_hours,median_hours,minimum_hours,maximum_hours,standard_deviation_hours,p10_hours,p25_hours,p75_hours,p90_hours,recommended_hours,conservative_hours,variation,data_quality_note
+1.0,Plumbing,82,1.5926829268292682,1.3,1.0,19.0,2.06611584581961,1.0,1.0,1.5,1.5,1.3,1.5,1.297254972107259,Preliminary estimate; verify labels
+3.0,Home Repairs,48,1.3958333333333333,1.125,1.0,6.25,0.9057049290137028,1.0,1.0,1.3,1.6500000000000021,1.125,1.3,0.6488632327262349,Preliminary estimate; verify labels
+17.0,Home Service,28,1.5589285714285714,1.4,1.0,4.5,0.8012783272196732,1.0,1.0,1.5,2.6500000000000004,1.4,1.5,0.5139929704960103,Preliminary estimate; verify labels
+2.0,Home Improving,28,3.7232142857142856,3.5,1.25,16.0,2.6416704221093927,1.85,2.5,4.0,4.65,3.5,4.0,0.7095133987440095,Preliminary estimate; verify labels
+5.0,Carpentry,12,5.3125,2.5,1.0,32.0,8.587203084717505,1.55,2.1875,3.5,7.550000000000002,2.5,3.5,1.6164146982997656,Preliminary estimate; verify labels
+4.0,Electrical,11,2.936363636363636,1.3,1.0,10.0,3.54041600021035,1.0,1.0,2.25,10.0,1.3,2.25,1.2057144273162184,Preliminary estimate; verify labels
+17.0,Home Improvement,10,4.275,3.0,1.25,16.0,4.22369309175434,2.375,2.5,3.875,5.649999999999996,3.0,3.875,0.9879983840361029,Preliminary estimate; verify labels
+7.0,HVAC,3,1.0999999999999999,1.0,1.0,1.3,0.17320508075688765,1.0,1.0,1.15,1.24,1.0,1.15,0.15745916432444335,Very limited sample
+6.0,Appliance Services,1,3.0,3.0,3.0,3.0,,3.0,3.0,3.0,3.0,3.0,3.0,,Very limited sample

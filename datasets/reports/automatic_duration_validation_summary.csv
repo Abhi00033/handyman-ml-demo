@@ -1,0 +1,2 @@
+dataset_sessions,train_sessions,test_sessions,category_groups_in_train,global_train_median_hours,global_train_p75_hours,median_baseline_mae_hours,p75_baseline_mae_hours,p75_coverage_percent,test_rows_using_global_fallback,test_rows,target_definition,split_method
+164,131,33,7,1.3,2.25,0.43333333333333335,0.44696969696969696,87.87878787878788,0,33,"historical_estimated_hours (quoted hours), not actual hands-on duration",random holdout; test_size=0.2; random_state=42

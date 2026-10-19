@@ -1,0 +1,2 @@
+eligible_records,training_records,test_records_before_minimum_sample_filter,test_records_evaluated,category_groups_evaluated,median_estimate_mae_hours,p75_estimate_mae_hours,p75_coverage_percent
+190,152,38,38,7,0.39013157894736844,1.2335526315789473,94.73684210526315

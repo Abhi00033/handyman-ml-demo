@@ -1,0 +1,5 @@
+﻿dataset,records,verified_for_training
+input_candidates,854,0
+unverified_qa_candidates,834,0
+qa_manual_review,18,0
+qa_excluded_from_job_scope,2,0

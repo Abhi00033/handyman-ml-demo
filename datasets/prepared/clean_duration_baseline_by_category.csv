@@ -1,0 +1,10 @@
+category_id,category,sample_count,average_hours,median_hours,p75_hours,p90_hours,minimum_hours,maximum_hours,data_quality,estimate_source,training_record_count
+1,plumbing,73,1.5863013698630137,1.3,1.5,1.5,1.0,19.0,preliminary_category_baseline,historical_quoted_hours,190
+17,home improvement,8,4.875,3.5,4.125,7.9499999999999975,2.5,16.0,preliminary_category_baseline,historical_quoted_hours,190
+17,home service,23,1.5282608695652173,1.3,1.5,2.3000000000000007,1.0,4.5,preliminary_category_baseline,historical_quoted_hours,190
+2,home improving,24,3.6354166666666665,3.25,4.0,4.35,1.25,16.0,preliminary_category_baseline,historical_quoted_hours,190
+3,home repairs,37,1.2027027027027026,1.25,1.3,1.5,1.0,2.5,preliminary_category_baseline,historical_quoted_hours,190
+4,electrical,10,3.1,1.25,2.625,10.0,1.0,10.0,preliminary_category_baseline,historical_quoted_hours,190
+5,carpentry,11,5.590909090909091,2.5,3.5,8.0,1.0,32.0,preliminary_category_baseline,historical_quoted_hours,190
+6,appliance services,1,3.0,3.0,3.0,3.0,3.0,3.0,low_data_manual_review,historical_quoted_hours,190
+7,hvac,3,1.0999999999999999,1.0,1.15,1.24,1.0,1.3,low_data_manual_review,historical_quoted_hours,190

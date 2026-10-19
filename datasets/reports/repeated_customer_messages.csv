@@ -1,0 +1,24 @@
+﻿message_normalized,session_count,session_ids,categories
+pipe is leaking,47,"80, 82, 97, 98, 99, 100, 102, 103, 104, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115, 116, 117, 119, 120, 123, 124, 125, 128, 130, 137, 138, 139, 140, 142, 143, 153, 170, 171, 172, 180, 182, 195, 197, 238, 239, 243, 256, 264",Plumbing
+please review the uploaded images and help me get a quote.,38,"109, 127, 164, 184, 196, 203, 206, 207, 208, 209, 211, 219, 221, 224, 242, 245, 254, 261, 262, 266, 267, 268, 271, 307, 329, 340, 341, 342, 343, 346, 347, 364, 365, 366, 367, 368, 369, 371","Electrical, Home Improvement, Home Improving, Home Repairs, Home Service, Plumbing"
+water is leaking from pipe,9,"349, 352, 353, 354, 355, 356, 370, 375, 376",Plumbing
+add border to this table,8,"147, 276, 291, 292, 295, 296, 300, 305","Carpentry, Home Service"
+water is leaking,6,"286, 287, 288, 289, 290, 293","Appliance Services, Plumbing"
+water is leaking from p trap pipe,4,"333, 334, 335, 336",Plumbing
+i want my door knob replaced,3,"324, 326, 328","Carpentry, Home Repairs"
+paint this wall,3,"226, 229, 230",Home Improving
+i want to replace my door handle,3,"132, 133, 151",Home Repairs
+i want to replace my bedroom door handle,3,"134, 135, 136",Home Repairs
+i have to repair,2,"166, 169",HVAC
+change skin of table,2,"304, 322",Home Improvement
+i,2,"202, 263",Home Improving
+fix this pipe leak,2,"141, 145",
+fix the pipe leak,2,"144, 273",Plumbing
+paint,2,"231, 232",Home Improving
+i wantonreplace outlet,2,"360, 361",Electrical
+i want to replace my light fixture,2,"155, 244",Electrical
+i want to powerwash my balcony,2,"158, 165","Carpentry, Home Service"
+i want to powerwash this balcony,2,"162, 163",Home Service
+pipe leak fix,2,"149, 152",
+replace the door knob,2,"317, 318",Carpentry
+water is leaking from the pipe,2,"373, 374",Plumbing

@@ -1,0 +1,304 @@
+session_id,historical_category_name,proposed_category_name,mapping_status,category_consistency_status,category_consistency_reason,final_quote_scope,estimated_hours
+88,Electrical,Electrical,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_electrical_scope,"* inch TV at the center of the wall using the Client's existing mount, hide all cables behind the wall, and install a new electrical outlet behind the TV location. *👷",3.0
+90,Home Service,,unresolved,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_wall_finish_scope,* inch TV on the drywall wall at 3 feet above the ground using the Client's existing TV mount. *,1.0
+92,Home Service,,unresolved,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_electrical_scope vs clear_wall_finish_scope,"* Mount your 55-inch TV on the drywall wall using your existing TV mount, centered and positioned at comfortable viewing height (42-48 inches from floor). Cut access holes in the drywall to hide TV power and HDMI cables behind the wall, running them down to the existing outlet on the same wall. Patch and finish the drywall around the cable entry/exit points for a clean look. *👷",3.0
+109,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+121,Plumbing,Plumbing,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_plumbing_scope vs clear_electrical_scope,Replace the leaking curved pipe section at the hot water outlet of your water heater with new piping and fittings.,1.3
+126,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+127,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+132,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+133,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+134,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+146,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+147,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+148,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+150,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+159,Home Service,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,grade equipment.,1.3
+162,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+163,Home Service,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,"Powerwash the balcony decking to remove dirt, grime, and buildup.",1.5
+164,Home Service,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,"Powerwash the balcony decking to remove weathering, debris, and buildup, restoring the surface to clean condition.",1.3
+165,Home Service,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,"Powerwash the balcony deck to remove dirt, grime, and algae growth. Tasker will bring equipment and handle the full cleaning.",1.5
+167,Home Improving,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,Reglaze the bathtub with a professional refinishing coating to restore the finish and appearance.,4.0
+173,Home Improving,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,Reglaze the bathtub with a protective refinishing coating to restore the surface and protect against future wear.,3.0
+175,Plumbing,Plumbing,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_plumbing_scope vs clear_wall_finish_scope,"Investigate the source of the leak coming from the shower above into the basement ceiling. Repair the leak at its source. Remove and replace damaged drywall in the basement ceiling, apply joint compound, sand, and paint to finish.",19.0
+183,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+184,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+185,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+186,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+188,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+189,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+190,Home Service,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,"Move a disassembled table (10 pieces, light to moderate weight) from one room to another on the same floor. Transport all pieces safely and position them in the new location.",1.0
+191,Home Service,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,Transport 5 table parts from one room to another and position them in the new location.,1.0
+192,Home Service,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,Install decorative metal trim border around the perimeter of a 5' × 0' surface.,1.5
+193,Home Improving,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,Install metal trim border around all four edges of the black panel.,1.5
+194,Home Service,,unresolved,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_carpentry_scope vs clear_wall_finish_scope,"Great — drywall wall. I have everything I need now.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Table Laminate Top Replacement**
+Remove the existing tabletop and install a new laminate surface. The Tasker will measure, cut, and secure the laminate to fit your table base properly.
+
+**PROJECT 2 — TV Mount Installation**
+Install a TV mount bracket on the drywall in the other room using your existing hardware. The Tasker will locate studs, secure the bracket, and ensure it's level and safe.
+
+**Tasker Needed:** 1 General Tasker
+
+**Materials:** No materials needed — you're providing both the laminate and TV mount hardware.
+
+**Labour Time:**
+- Project 1: 2 hours 30 minutes
+- Project 2: 1 hour
+- **Total: 3 hours 30 minutes**
+
+This estimate covers labour only. If any unforeseen issues arise during installation (such as structural damage or difficulty locating studs), the Tasker will discuss them with you in the chatbox.
+
+Do you accept this estimate?
+
+DETECTED_CATEGORY: Home Service
+DETECTED_LEVEL: 6",3.0
+196,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+198,Home Repairs,Home Repairs,exact_active_category_match,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Plumbing (ID 1): clear_plumbing_scope",Remove the existing bathtub diverter spout and install a new one. The Tasker will turn off the water as needed during the work.,1.0
+200,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+202,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+203,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+207,Home Repairs,Home Repairs,exact_active_category_match,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Plumbing (ID 1): clear_plumbing_scope","Secure and tighten a loose hot water supply line (a few feet in length) in the basement/utility area. The Tasker will inspect the line, identify the cause of the looseness, and secure it properly using appropriate brackets or fasteners.",1.0
+211,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+214,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+215,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+220,Home Repairs,Home Repairs,exact_active_category_match,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Plumbing (ID 1): clear_plumbing_scope",Remove existing caulk from the shower floor perimeter (where tile meets walls and around the drain) and apply fresh caulk to seal all edges.,1.5
+241,Home Service,,unresolved,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_electrical_scope,"Remove the TV from the current wall mount, relocate the mount to the new wall, and reinstall the TV securely. Power cable will be routed to the existing outlet on the new wall.",1.25
+245,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+252,Home Service,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,Remove the existing glass panel from the table top and install a new glass panel of matching size and thickness.,1.25
+253,Home Repairs,Home Repairs,exact_active_category_match,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Home Improvement (ID 17): clear_wall_finish_scope","Repair the existing baseboard by addressing loose, cracked, and damaged sections over a small area (few feet). This includes securing loose pieces, filling cracks or dents, sanding smooth, and finishing to match the existing baseboard.",1.5
+259,Home Repairs,Home Repairs,exact_active_category_match,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Home Improvement (ID 17): clear_wall_finish_scope","Remove two screws from the wall, patch the holes with spackling compound, sand smooth, and paint the patched areas to blend with the existing wall finish.",1.25
+266,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+267,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+268,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+275,Home Service,,unresolved,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_wall_finish_scope,Remount the modem to the ceiling using the existing bracket and your hardware.,1.0
+280,Home Repairs,Home Repairs,exact_active_category_match,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Plumbing (ID 1): clear_plumbing_scope",Apply new caulk around the base of the toilet to seal the gap between the toilet and floor.,1.0
+282,Home Repairs,Home Repairs,exact_active_category_match,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Plumbing (ID 1): clear_plumbing_scope",Reattach the dishwasher to the countertop using the existing brackets and hardware. Verify water supply and drain connections are secure.,1.0
+285,Home Repairs,Home Repairs,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_wall_finish_scope,Install your TV on the drywall wall using your existing mount bracket. Tasker will securely fasten the mount to the wall studs and hang the TV.,1.0
+288,Appliance Services,Appliance Services,exact_active_category_match,semantic_mismatch_review,"Live historical category is Appliance Services (ID 6), but text rules suggest Plumbing (ID 1): clear_plumbing_scope","Remove the existing water heater tank and install a new one. The Tasker will source the replacement unit, handle all connections, and dispose of the old tank.",3.0
+292,Carpentry,Carpentry,exact_active_category_match,semantic_mismatch_review,"Live historical category is Carpentry (ID 5), but text rules suggest Home Improvement (ID 17): clear_wall_finish_scope",Install wooden trim around the perimeter of the tabletop and secure it with wood glue and finishing nails. Sand and finish the edges as needed for a polished look.,2.5
+304,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+314,Home Repairs,Home Repairs,exact_active_category_match,semantic_mismatch_review,"Live historical category is Home Repairs (ID 3), but text rules suggest Mounting (ID 19): clear_mounting_scope","Remove the TV from the existing wall mount, relocate the mount 10 inches higher on the wall, and reinstall the TV securely in its new position.",1.0
+321,Home Repairs,Home Repairs,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_wall_finish_scope,Remount the TV securely to the drywall using appropriate wall anchors and brackets. The mount will be inspected and secured to ensure it holds safely.,1.25
+329,Home Repairs,Home Repairs,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_plumbing_scope vs clear_wall_finish_scope,"Perfect. Let me put together your full estimate now.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Shower Cartridge Replacement**
+Remove and replace the shower valve cartridge with a new one matched to the existing valve body. Tasker will identify the brand/type on-site and bring the correct cartridge.
+
+**PROJECT 2 — Interior Door Latch Realignment**
+Adjust and realign the door latch and strike plate so the door catches and latches properly.
+
+**PROJECT 3 — Drywall Patching (Large Areas)**
+Patch 1–2 large drywall areas with mud, tape, sanding, and prep for painting. Areas will be ready for primer and paint.
+
+---
+
+**Tasker Needed:** 1 General Tasker
+
+**Materials:** Tasker will bring everything and confirm the details with you in the chatbox after you accept.
+
+**Labour Time:**
+- Project 1: 45 minutes
+- Project 2: 30 minutes
+- Project 3: 2 hours
+- **Total: 3 hours 15 minutes**
+
+This estimate covers labour only. Material details will be arranged with your Tasker in the chatbox, and material costs (with receipts) will be added upon project completion.
+
+**Note:** Project 3 is a multi-visit project. The drywall mud will need time to dry between coats, and the Tasker will schedule follow-up visits for additional coats, sanding, and final prep. Your Tasker will arrange the schedule with you in the chatbox.
+
+Do you accept this estimate?
+
+TASKER_NOTES: Identify shower cartridge brand on-site | Bring replacement cartridge | Door latch realignment on interior door | Drywall patching materials for 1-2 large areas with full mud/tape/sand/prime prep
+DETECTED_CATEGORY: Home Repairs
+DETECTED_LEVEL: 4",3.0
+340,Home Repairs,Home Repairs,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_plumbing_scope vs clear_electrical_scope vs clear_wall_finish_scope,"Excellent. Let me put your complete estimate together now.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Drywall Wall Paint**
+Paint a single drywall wall section with your supplied paint.
+
+**PROJECT 2 — Kitchen Faucet Replacement**
+Remove the existing kitchen faucet and install your new faucet using the existing water lines.
+
+**PROJECT 3 — Electrical Outlet Replacement**
+Remove the existing outlet and install your new outlet using the existing wiring.
+
+**Tasker Needed:** 1 General Tasker
+
+**Materials:** No materials needed for this project — you're providing the paint, faucet, and outlet.
+
+**Labour Time:**
+- Project 1 (Drywall Paint): 2 hours
+- Project 2 (Faucet Replacement): 1 hour 15 minutes
+- Project 3 (Outlet Replacement): 45 minutes
+- **Total: 4 hours**
+
+This estimate covers labour only. All materials are provided by you and are ready to go.
+
+Do you accept this estimate?
+
+TASKER_NOTES: Client has all materials prepped and ready | Power off at outlet | Water shut off at faucet | Single wall to paint
+DETECTED_CATEGORY: Home Repairs
+DETECTED_LEVEL: 3",4.0
+341,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+342,Home Repairs,Home Repairs,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_mounting_scope vs clear_plumbing_scope,"Excellent — that's all the information I need. Let me put together your estimate.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — TV Mount Installation**
+Mount the TV on the finished accent wall using your existing mount and hardware.
+
+**PROJECT 2 — Kitchen Faucet Replacement**
+Remove the existing kitchen faucet and install your new faucet (similar style) using the existing connections.
+
+**Tasker Needed:** 1 General Tasker
+
+**Materials:** No materials needed — you're providing the TV mount and the new faucet.
+
+**Labour Time:**
+- Project 1 (TV Mount): 1 hour
+- Project 2 (Faucet Replacement): 1 hour 15 minutes
+- **Total: 2 hours 15 minutes**
+
+This estimate covers labour only. If the Tasker encounters any issues during installation (like wall anchors, adapters, or plumbing complications), they'll reach out to confirm next steps in the chatbox.
+
+---
+
+**Do you accept this estimate?**
+
+TASKER_NOTES: Client providing TV mount with all hardware | Client providing new kitchen faucet | Confirm mount VESA pattern and wall stud locations on arrival
+DETECTED_CATEGORY: Home Repairs
+DETECTED_LEVEL: 3",2.0
+343,Home Repairs,Home Repairs,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_plumbing_scope vs clear_electrical_scope,"Perfect! I have everything I need. Let me put together your complete estimate now.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Kitchen Faucet Replacement**
+Remove the existing kitchen faucet and install a new single-handle faucet. Tasker will bring the faucet and confirm style/finish details with you in the chatbox.
+
+**PROJECT 2 — Electrical Outlet Repair/Replacement**
+Inspect both outlets, diagnose the issue causing visible damage, and repair or replace as needed to restore safe function.
+
+**PROJECT 3 — Roof Vent Replacement**
+Remove the existing roof vent and install a new one with proper sealing and flashing to prevent leaks.
+
+---
+
+**Tasker Needed:** 1 General Tasker + 1 Licensed Electrician
+
+**Materials:** Both Taskers will bring everything needed and confirm the details with you in the chatbox after you accept.
+
+**Labour Time:**
+- Project 1 (Faucet): 1 hour 15 minutes
+- Project 2 (Outlets): 1 hour 30 minutes
+- Project 3 (Roof Vent): 1 hour 30 minutes
+- **Total: 4 hours 15 minutes**
+
+This estimate covers labour only. Material details and costs (with receipts) will be arranged with your Taskers in the chatbox upon project completion.
+
+⚠️ **Safety Note:** The visible damage on the outlets suggests they may be unsafe. The Licensed Electrician will assess on-site and let you know if anything requires immediate attention before proceeding.
+
+---
+
+Do you accept this estimate?
+
+TASKER_NOTES: Visible damage on dual outlets — diagnose root cause (overload, age, internal fault). Roof vent replacement — ensure proper flashing and seal to prevent water intrusion. Customer will confirm faucet finish preference in chatbox.
+DETECTED_CATEGORY: Home Repairs
+DETECTED_LEVEL: 4",4.0
+346,Home Repairs,Home Repairs,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_plumbing_scope vs clear_electrical_scope vs clear_wall_finish_scope,"Perfect! Now I have everything I need. Let me put together your complete estimate.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Kitchen Faucet Replacement**
+Remove the existing kitchen faucet and install a new single-handle faucet.
+
+**PROJECT 2 — Safety Outlet Repair**
+Diagnose and repair the non-functional safety outlet (TEST/RESET outlet). If the outlet cannot be repaired, the Tasker will discuss replacement options with you in the chatbox.
+
+**PROJECT 3 — Drywall Patch & Repair**
+Patch and repair the taped drywall section. Sand smooth and prepare for painting (paint application by Client).
+
+---
+
+**Tasker Needed:** 1 General Tasker + 1 Licensed Electrician
+
+**Materials:** 
+- Project 1: Tasker will bring a standard kitchen faucet and confirm details with you in the chatbox after you accept.
+- Project 2: Electrician will bring any small repair components if needed.
+- Project 3: You have materials covered.
+
+**Labour Time:**
+- Project 1 (Faucet): 1 hour 15 minutes
+- Project 2 (Outlet Repair): 45 minutes
+- Project 3 (Drywall Patch): 1 hour 30 minutes
+- **Total Combined Labour: 3 hours 30 minutes**
+
+**Additional Notes:**
+This estimate covers labour only. Material costs for the kitchen faucet (with receipt) will be added by the General Tasker in the chatbox upon project completion. 
+
+Project 3 may require a second visit if drywall mud needs additional drying time between coats. Your Tasker will confirm the schedule with you.
+
+---
+
+**Do you accept this estimate?**
+
+TASKER_NOTES: Kitchen faucet replacement — bring standard single-handle faucet | Outlet repair — diagnose non-functional safety outlet, bring small repair components if needed | Drywall patch — customer has materials, sand and prep only | Two separate taskers (General + Electrician) — coordinate timing
+DETECTED_CATEGORY: Home Repairs, Electrical, Home Improvement
+DETECTED_LEVEL: 3, 4, 4",6.25
+364,Plumbing,Plumbing,exact_active_category_match,conflicting_rules_review,Conflicting category rules matched: clear_plumbing_scope vs clear_appliance_scope vs clear_wall_finish_scope,"Perfect! Let me put together your complete estimate now.
+
+---
+
+**PROJECT ESTIMATE — STAR HANDYMAN LABOUR ONLY COST**
+
+**PROJECT 1 — Bathroom Ceiling Drywall Repair**
+Repair drywall damage on the bathroom ceiling around the exhaust vent area, including patching, mudding, sanding, and priming for paint.
+
+**PROJECT 2 — Showerhead Arm Replacement**
+Remove the existing corroded showerhead arm and install a new one with proper sealing.
+
+**PROJECT 3 — Dishwasher Installation**
+Install a new dishwasher under the sink with all necessary water supply and drain connections.
+
+**Tasker Needed:** 1 General Tasker + 1 Licensed Plumber
+
+**Materials:** Your Taskers will bring everything and confirm the details with you in the chatbox after you accept.
+
+**Labour Time:**
+- Project 1 (Drywall Repair): 3 hours
+- Project 2 (Showerhead Arm): 1 hour
+- Project 3 (Dishwasher Installation): 2 hours
+- **Total: 6 hours**
+
+This estimate covers labour only. Material details will be arranged with your Taskers in the chatbox, and material costs (with receipts) will be added upon project completion.
+
+**Project 1 and 2 may require multiple visits** due to drying time for drywall mud and primer. Your Tasker will arrange the schedule with you in the chatbox.
+
+Do you accept this estimate?
+
+TASKER_NOTES: Bathroom ceiling has drywall damage around vents — bring drywall patch materials, mud, primer | Showerhead arm is corroded — bring replacement arm and sealant | Dishwasher installation — confirm space dimensions and existing plumbing under sink before purchase | Coordinate General Tasker (drywall + showerhead) with Licensed Plumber (dishwasher hookup)
+DETECTED_CATEGORY: Home Improvement | Plumbing
+DETECTED_LEVEL: 4 | 3",6.0
+366,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+368,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+369,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,
+371,,,unresolved,unresolved_no_clear_rule,No clear deterministic rule matched,,

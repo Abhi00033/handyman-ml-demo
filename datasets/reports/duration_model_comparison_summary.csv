@@ -1,0 +1,4 @@
+model,train_records,test_records,train_unique_text_groups,test_unique_text_groups,mae_hours,median_absolute_error_hours,max_absolute_error_hours,target_definition,split_method
+category_median,130,34,124,32,0.4441176470588235,0.30000000000000004,2.5,"historical estimated_hours (quoted hours), not actual hands-on duration",group holdout by normalized job text; test_size=0.2; random_state=42
+category_p75,130,34,124,32,0.5794117647058824,0.38125,2.75,"historical estimated_hours (quoted hours), not actual hands-on duration",group holdout by normalized job text; test_size=0.2; random_state=42
+text_plus_category_ridge,130,34,124,32,0.666714718471288,0.5374569324472032,2.5832747336351884,"historical estimated_hours (quoted hours), not actual hands-on duration",group holdout by normalized job text; test_size=0.2; random_state=42

@@ -1,0 +1,10 @@
+﻿metric,value
+sessions_returned_by_query,282
+sessions_with_parseable_messages,282
+sessions_empty_or_unparsed,0
+candidate_pairs_after_non_answer_filter,854
+candidates_flagged_for_review,20
+non_answer_records_separated,40
+sequence_pairs_not_verified,834
+candidates_requiring_manual_review,20
+verified_for_training,0
