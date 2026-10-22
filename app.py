@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from io import BytesIO
 from pathlib import Path
 import base64
@@ -10,6 +11,8 @@ import urllib.request
 import csv
 import json
 import re
+import streamlit.components.v1 as components
+import streamlit as st
 from typing import Any
 
 import streamlit as st
@@ -862,13 +865,16 @@ def retrieve_context_for_request(text: str) -> list[dict[str, Any]]:
         return []
 
 
+
 def greeting_message() -> str:
-    hour_now = datetime.now().hour
+    hour_now = datetime.now(ZoneInfo("Asia/Kolkata")).hour
+
     salutation = (
         "Good morning" if 5 <= hour_now < 12
         else "Good afternoon" if 12 <= hour_now < 17
         else "Good evening"
     )
+
     return (
         f"{salutation}, and welcome to Star Handyman! 👋\n\n"
         "I’m Leo, your service assistant. I can help you describe a repair, installation, "
