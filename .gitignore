@@ -1,6 +1,12 @@
+
 .env
 .env.*
 !.env.example
+
+# Ignore database connection code
+db.py
+
+# Python environment and cache
 venv/
 .venv/
 __pycache__/
