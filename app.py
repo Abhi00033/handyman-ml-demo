@@ -25,6 +25,19 @@ from scripts.data.historical_retrieval import retrieve_historical_cases
 
 st.set_page_config(page_title="Star Handyman | Leo", page_icon="🛠️", layout="centered")
 
+# --- ADD THIS HIDE HEADER CODE HERE ---
+hide_streamlit_style = """
+    <style>
+    /* Hides the top header toolbar (Share, GitHub, three-dots menu, etc.) */
+    header {visibility: hidden;}
+    
+    /* Optional: Hides the "Made with Streamlit" footer at the bottom */
+    footer {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+# ---------------------------------------
+
 st.markdown("""
 <style>
 .block-container {max-width: 820px; padding-top: 1rem; padding-bottom: 2rem;}
